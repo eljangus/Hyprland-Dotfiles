@@ -113,5 +113,5 @@ style = "bold yellow"
 [kubernetes]
 symbol = "󱃾 "
 format = ' [$symbol$context( \($namespace\))]($style)'
-style = "cyan bold"
+style = "bold cyan"
 disabled = false
