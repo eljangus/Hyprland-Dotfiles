@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Tokyo-Night/wall.sh
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Rose-Pine/wall.sh
