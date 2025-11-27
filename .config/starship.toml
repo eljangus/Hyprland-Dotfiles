@@ -26,19 +26,9 @@ home_symbol = "~"
 truncation_symbol = "…/"
 
 [directory.substitutions]
-"Documents" = "󰈙"
-"Downloads" = ""
-"Music" = "󰝚"
-"Pictures" = ""
-"Videos" = ""
-"Desktop" = "󰇄"
-"Projects" = ""
-"Code" = ""
-".config" = ""
-"node_modules" = ""
 
 [git_branch]
-symbol = ""
+symbol = " "
 format = " [$branch(:$remote_branch) $symbol]($style)"
 style = "bold purple"
 
@@ -68,32 +58,32 @@ am = "AM"
 am_or_rebase = "AM/REBASE"
 
 [nodejs]
-symbol = "󰎙"
+symbol = "󰎙 "
 format = " [$symbol$version]($style)"
 style = "bold green"
 
 [python]
-symbol = ""
+symbol = " "
 format = ' [$symbol$version(\($virtualenv\))]($style)'
 style = "bold yellow"
 
 [rust]
-symbol = ""
+symbol = " "
 format = " [$symbol$version]($style)"
 style = "bold red"
 
 [golang]
-symbol = ""
+symbol = "󰟓 "
 format = " [$symbol$version]($style)"
 style = "bold cyan"
 
 [docker_context]
-symbol = ""
+symbol = " "
 format = " [$symbol$context]($style)"
 style = "bold blue"
 
 [package]
-symbol = "󰏗"
+symbol = "󰏗 "
 format = " [$symbol$version]($style)"
 style = "208"
 
@@ -111,17 +101,17 @@ style = "bold yellow"
 [memory_usage]
 disabled = true
 threshold = 75
-symbol = "󰍛"
+symbol = "󰍛 "
 format = " $symbol[$ram( | $swap)]($style)"
 style = "bold dimmed white"
 
 [aws]
-symbol = ""
+symbol = " "
 format = ' [$symbol$profile(\($region\))]($style)'
 style = "bold yellow"
 
 [kubernetes]
-symbol = "󱃾"
+symbol = "󱃾 "
 format = ' [$symbol$context( \($namespace\))]($style)'
 style = "cyan bold"
 disabled = false
