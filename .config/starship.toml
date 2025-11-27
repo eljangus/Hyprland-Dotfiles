@@ -1,50 +1,127 @@
-"$schema" = 'https://starship.rs/config-schema.json'
-
 format = """
-$username\
-$hostname\
-$directory\
-$git_branch\
-$git_state\
-$git_status\
-$cmd_duration\
-$line_break\
-$python\
-$character"""
+[╭─ ](bold blue)$directory$git_branch$git_status$git_state
+[╰─ ](bold blue)$character"""
 
-[directory]
-style = "blue"
+# Timeout für Befehle
+command_timeout = 1000
 
 [character]
-success_symbol = "[❯](purple)"
-error_symbol = "[❯](red)"
-vimcmd_symbol = "[❮](green)"
+success_symbol = "[➜](bold green)"
+error_symbol = "[✗](bold red)"
+vimcmd_symbol = "[←](bold green)"
+
+[username]
+disabled = true
+
+[hostname]
+disabled = true
+
+[directory]
+truncation_length = 4
+truncate_to_repo = true
+format = "[$path]($style)[$read_only]($read_only_style)"
+style = "bold cyan"
+read_only = "🔒"
+home_symbol = "~"
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙"
+"Downloads" = ""
+"Music" = "󰝚"
+"Pictures" = ""
+"Videos" = ""
+"Desktop" = "󰇄"
+"Projects" = ""
+"Code" = ""
+".config" = ""
+"node_modules" = ""
 
 [git_branch]
-format = "[$branch]($style)"
-style = "bright-black"
+symbol = ""
+format = " [$branch(:$remote_branch) $symbol]($style)"
+style = "bold purple"
 
 [git_status]
-format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](218) ($ahead_behind$stashed)]($style)"
-style = "cyan"
-conflicted = "​"
-untracked = "​"
-modified = "​"
-staged = "​"
-renamed = "​"
-deleted = "​"
-stashed = "≡"
+format = "([$all_status$ahead_behind]($style))"
+style = "bold yellow"
+conflicted = "⚔"
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+untracked = "◌${count}"
+stashed = "󰏖"
+modified = "●${count}"
+staged = "✚${count}"
+renamed = "➜${count}"
+deleted = "✖${count}"
 
 [git_state]
 format = '\([$state( $progress_current/$progress_total)]($style)\) '
 style = "bright-black"
+rebase = "REBASING"
+merge = "MERGING"
+revert = "REVERTING"
+cherry_pick = "CHERRY-PICKING"
+bisect = "BISECTING"
+am = "AM"
+am_or_rebase = "AM/REBASE"
 
-[cmd_duration]
-format = "[$duration]($style) "
-style = "yellow"
+[nodejs]
+symbol = "󰎙"
+format = " [$symbol$version]($style)"
+style = "bold green"
 
 [python]
-format = "[$virtualenv]($style) "
-style = "bright-black"
-detect_extensions = []
-detect_files = []
+symbol = ""
+format = ' [$symbol$version(\($virtualenv\))]($style)'
+style = "bold yellow"
+
+[rust]
+symbol = ""
+format = " [$symbol$version]($style)"
+style = "bold red"
+
+[golang]
+symbol = ""
+format = " [$symbol$version]($style)"
+style = "bold cyan"
+
+[docker_context]
+symbol = ""
+format = " [$symbol$context]($style)"
+style = "bold blue"
+
+[package]
+symbol = "󰏗"
+format = " [$symbol$version]($style)"
+style = "208"
+
+[time]
+disabled = false
+format = " [$time]($style)"
+style = "bold white"
+time_format = "%T"
+
+[cmd_duration]
+min_time = 500
+format = " 󰔛[$duration]($style)"
+style = "bold yellow"
+
+[memory_usage]
+disabled = true
+threshold = 75
+symbol = "󰍛"
+format = " $symbol[$ram( | $swap)]($style)"
+style = "bold dimmed white"
+
+[aws]
+symbol = ""
+format = ' [$symbol$profile(\($region\))]($style)'
+style = "bold yellow"
+
+[kubernetes]
+symbol = "󱃾"
+format = ' [$symbol$context( \($namespace\))]($style)'
+style = "cyan bold"
+disabled = false
