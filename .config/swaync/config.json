@@ -1,0 +1,59 @@
+{
+    "$schema": "/etc/xdg/swaync/configSchema.json",
+    "ignore-gtk-theme" : true,
+    "cssPriority" : "user",
+    "positionX": "left",
+    "positionY": "top",
+    "fit-to-screen": false,
+    "control-center-margin-top": 22,
+    "control-center-margin-bottom": 22,
+    "control-center-margin-left": 22,
+    "control-center-margin-right": 22,
+    "notification-2fa-action": true,
+    "timeout": 10,
+    "timeout-low": 5,
+    "timeout-critical": 0,
+    "notification-window-width": 400,
+    "notification-window-height": -1,
+    "notification-grouping": true,
+    "notification-window-preferred-output": "DP-3",
+    "image-visibility": "when-available",
+    "transition-time": 0,
+    "hide-on-action": false,
+    "text-empty": "Keine Benachrichtigungen",
+    "control-center-width": 580,
+    "control-center-height": 1100,
+    "widgets": [
+      "mpris",
+      "title",
+      "dnd",
+      "notifications"
+    ],
+    "widget-config": {
+      "notifications": {
+        "vexpand": false
+      },
+    "title": {
+      "text": "Benachrichtigungen",
+      "button-text": "",
+      "clear-all-button": true
+    },
+    "dnd": {
+      "text": "Bitte Nicht Stören"
+    },
+    "mpris": {
+     "autohide": false,
+     "show-album-art": "always",
+     "loop-carousel": true
+    },
+    "buttons-grid": {
+    "actions" : [
+{
+     "active": true,
+     "command": "notify-send 'hey'",
+     "label": "󰤥"
+} 
+    ]
+    }
+    }
+}

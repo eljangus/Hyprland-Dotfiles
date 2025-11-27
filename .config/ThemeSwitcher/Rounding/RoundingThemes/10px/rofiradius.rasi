@@ -1,0 +1,4 @@
+* {
+borderradius: 10px;
+borderradiuselement: 10px;
+}

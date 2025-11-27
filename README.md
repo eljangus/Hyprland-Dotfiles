@@ -1,0 +1,6 @@
+# Hyprland-Dotfiles
+Clone this repository into your home folder - you should then have ~/Hyprland-Dotfiles. Then, install GNU Stow. Once installed, navigate to your ~/Hyprland-Dotfiles directory and run "stow ." to create symlinks for all files within the directory. The .stow-local-ignore file ensures that neither InstallationScripts nor kwalletrc are symlinked.
+
+You can then use the installation scripts to manage icon themes according to my preferred setup. First, create a ~/.config/IconThemes directory and install all available icon themes there. The scripts will then symlink them to ~/.local/share/icons (My script is, at the time of writing this, only designed to support a couple of Papirus colorschemes). The image script will remove .png and .jpg file extensions for a cleaner appearance in Rofi, while the script for shell files will apply chmod +x to ensure all scripts in their predetermined locations are executable. And lastly the misc script is just for some quality-of-life changes, for example it copies the kwalletrc file from the .config folder to ~/.config , so that kwallet will be disabled - that would be my preference.
+
+pkglist.txt are just general packages I personally use, you will also find the necessary packages for my rice within there.
