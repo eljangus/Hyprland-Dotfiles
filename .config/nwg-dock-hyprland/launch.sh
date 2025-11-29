@@ -1,3 +1,3 @@
 #! /bin/bash
 
-nwg-dock-hyprland -l overlay -mb 10 -lp 'start' -w 10 -c 'rofi -show drun' -i 48 -iw '-98' -o DP-3 -d -hd 20 -ico "/home/$USER/.config/nwg-dock-hyprland/logo2.png"
+nwg-dock-hyprland -l overlay -mb 10 -lp 'start' -w 10 -c 'rofi -show drun' -i 48 -iw '-98' -o DP-3 -x -hd 20 -ico "/home/$USER/.config/nwg-dock-hyprland/logo2.png"
