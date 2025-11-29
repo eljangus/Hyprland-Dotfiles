@@ -2,13 +2,11 @@
 
 window {
   background: @background;
-	border-radius: 20px;
-	border-color: @border;
-	box-shadow: none;
-	text-shadow: none;
-	border-style: none;
-    border-width: 0;
-    outline: none;  
+  border-radius: 20px;
+  box-shadow: none;
+  text-shadow: none;
+  border: 2px solid @border;
+  outline: none;  
 }
 * {
   background: none;
