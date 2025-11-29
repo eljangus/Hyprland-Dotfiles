@@ -31,6 +31,7 @@ gamescope
 gimp
 git
 gnome-boxes
+gnome-clocks
 gnome-themes-extra
 grub
 gst-libav
@@ -66,6 +67,7 @@ noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
 nvidia-open
+nwg-dock-hyprland
 nwg-look
 obs-studio
 openrgb-git
@@ -111,7 +113,6 @@ xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-user-dirs
 yay
-yay-debug
 yazi
 zenity
 zram-generator
