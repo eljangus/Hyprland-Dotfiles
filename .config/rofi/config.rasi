@@ -1,0 +1,19 @@
+configuration{
+ font: "JetBrainsMono Nerd Font Propo 19";
+ modi: "drun,run";
+ fixed-num-lines: false;
+ show-icons: true;
+ icon-theme: "Icons";
+ eh: 1;
+ dpi: 100;
+ drun-display-format: "{name}";
+ display-drun: "";
+ display-run: "";
+ display-filebrowser: "󱧷";
+ location: 0;
+ hover-select: true;
+ me-select-entry: '';
+ me-accept-entry: "MousePrimary";
+}
+
+@theme "~/.config/rofi/theme.rasi"

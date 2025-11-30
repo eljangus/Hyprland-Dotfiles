@@ -1,0 +1,15 @@
+configuration{
+ font: "JetBrainsMono Nerd Font Propo 70";
+ modi: "dmenu";
+ fixed-num-lines: true;
+ show-icons: false;
+ icon-theme: "Icons";
+ eh: 1;
+ dpi: 100;
+ hover-select: true;
+ me-select-entry: '';
+ me-accept-entry: "MousePrimary";
+ location: 0;
+}
+
+@theme "~/.config/RofiScripts/powermenu/PT.rasi"

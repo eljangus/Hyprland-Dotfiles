@@ -1,0 +1,235 @@
+@import "../colors/swayncradius.css";
+@import "../colors/waybarcolors.css";
+
+* {
+  font-family: "JetBrainsMono Nerd Font Propo";
+  font-size: 22px;
+  text-shadow: none;
+  color: @text;
+  box-shadow: 0px 0px 0px 0px transparent;
+  border: none;
+  outline: none;
+}
+
+.notification {
+  background-color: @background;
+  padding: 20px;
+  outline: var(--outline);
+  border: none;
+  color: @text;
+  font-size: 10px;
+}
+.notification button {
+   background-color: alpha(@text, 0.8);
+}
+.notification button:hover {
+   background-color: alpha(@text, 1);
+}
+.image {
+  border-radius: 0px;
+  margin-right: 20px;
+}
+.close-button {
+  background-color: alpha(@text, 0.8);
+  border-radius: var(--border-radius);
+}
+.close-button:hover {
+  background-color: alpha(@text, 1);
+  color: @backgroundD;
+}
+.close-button image {
+  color: @backgroundD;
+}
+.notification-content {
+  background-color: transparent;
+  padding: 0px;
+  color: @text;
+}
+.notification-default-action:hover {
+  background-color: transparent;
+  color: @textselect;  
+}
+.notification:hover {
+  background-color: @background;
+  color: @textselect;
+}
+.notification-group button {
+  background-color: alpha(@text, 0.8);
+  border-radius: var(--border-radius);
+}
+.notification-group button:hover {
+  background-color: alpha(@text, 1);
+}
+.notification button label,
+.notification button label:hover,
+.notification-group button label,
+.notification-group button label:hover,
+.notification-group button image {
+  color: @backgroundD;
+}
+.control-center {
+  border-radius: var(--border-radius);
+  color: @text;
+  background-color: @background;
+  outline: var(--outline); 
+}
+.widget-title {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  color: @text;
+}
+.widget-title>button {
+  background-color: transparent;
+  border: none;
+}
+.widget-title>button label {
+  background-color: @backgroundD;
+  color: @text;
+  border-radius: 10px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  margin-right: -15px;
+}
+.widget-title>button label:hover {
+  color: @selection;
+}
+.control-center-list-placeholder {
+  color: @text;
+}
+.widget-dnd {
+  margin: 15px;
+  margin-top: 5px;
+  background-color: transparent;
+  color: @text;
+  border-radius: 20px;
+}
+.widget-dnd label {
+  color: @text;
+}
+.widget-dnd>switch {
+  background: @backgroundD;
+  border-radius: 20px;
+}
+.widget-dnd>switch:checked {
+  background: @textselect;
+ }
+.widget-dnd>switch slider {
+  background-color: @text;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: -1px;
+  border-radius: 20px;
+}
+.widget-dnd>switch:checked slider {
+  background-color: alpha(@backgroundD, 5);
+}
+scrollbar {
+  background: transparent; 
+  color: @text;
+  border: none;
+  outline: none;
+  padding: 3px;
+  margin: 0px;
+  border-radius: 20px;
+  min-width: 0;
+  min-height: 0;
+  opacity: 1;
+  transition: background-color 200ms ease, opacity 200ms ease;
+}
+scrollbar slider {
+  background: @text;
+  border-radius: 20px;
+  margin: 0px;
+  padding: 3px;
+  outline: none;
+  border: none;
+  min-width: 0;
+  min-height: 0;
+  opacity: 0.7;
+  transition: background-color 200ms ease, opacity 200ms ease;
+}
+scrollbar trough {
+  margin: 0px;
+  padding: 0px;
+  transition: background-color 200ms ease, opacity 200ms ease;
+}
+scrollbar:hover {
+  background: transparent;
+  color: @text;
+  border: none;
+  outline: none;
+  padding: 3px;
+  margin: 0px;
+  border-radius: 20px;
+  min-width: 0;
+  min-height: 0;
+  opacity: 1;
+}
+scrollbar slider:hover {
+  background: @text;
+  border-radius: 20px;
+  margin: 0px;
+  padding: 3px;
+  border: none;
+  outline: none;
+  min-width: 0;
+  min-height: 0;
+  opacity: 0.7;
+}
+scrollbar trough:hover {
+  margin: 0px;
+  padding: 0px;
+}
+.notification-group {
+  border-radius: var(--border-radius);
+  background-color: transparent;
+  border: none;
+  color: @text;
+  padding: 0px;
+}
+.mpris-overlay {
+  background-color: @backgroundD;
+}
+.widget-mpris {
+  border-radius: var(--border-radius);
+  color: @text;
+  background: transparent;
+}
+.widget-mpris button { 
+  background-color: alpha(@border, 0.2);
+  transition: all 0.3s ease;
+}
+.widget-mpris button:hover {
+  background-color: alpha(@border, 0.5);
+}
+.widget-mpris>box>button {
+  background-color: transparent;
+  border-radius: var(--border-radius);
+  border: 2px solid transparent;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.widget-mpris>box>button:hover {
+  border: 2px solid transparent;
+  background-color: @backgroundD;
+} 
+.widget-mpris-player {
+  border-radius: var(--border-radius);
+  background: transparent; 
+  border: none;
+} 
+.widget-mpris-title {
+  color: @text;
+}
+.widget-mpris-subtitle {
+  color: @text;
+}
