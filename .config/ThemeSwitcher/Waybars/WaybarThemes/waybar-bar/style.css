@@ -91,7 +91,7 @@ window#waybar {
  padding-left: 1px;
  padding-right: 1px;
  border-radius: 20px;
- background-color: rgba( 0,0,0,0 );
+ background-color: transparent;
  border: 0px solid @border;
  transition: all 0.3s ease;
 }
@@ -99,19 +99,19 @@ window#waybar {
  box-shadow: none;
  text-shadow: none;
  min-width: 0px;
- margin-top: 0px;
- margin-bottom: 0px;
- margin-left: 8px;
- margin-right: 8px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 2px;
+ margin-right: 2px;
  border: 0px;
- background: transparent;
+ background: alpha(@backgroundD, 0.3);
  border-radius: 20px;
  padding-top: 0px;
  padding-bottom: 0px;
- padding-left: 0px;
- padding-right: 0px;
- color: @buttonselect;
- transition: all 0.2s ease;
+ padding-left: 10px;
+ padding-right: 10px;
+ color: @selection;
+ transition: all 0.3s ease;
 }
 #workspaces:hover {
  margin: 0px;
@@ -121,42 +121,42 @@ window#waybar {
 #workspaces button {
  box-shadow: none;
  text-shadow: none; 
- margin-top: 0px;
- margin-bottom: 0px;
- margin-left: 8px;
- margin-right: 8px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 2px;
+ margin-right: 2px;
  border: 0px;
  min-width: 0px;
  padding-top: 0px;
  padding-bottom: 0px;
- padding-left: 0px;
- padding-right: 0px;
- background-color: transparent;
+ padding-left: 10px;
+ padding-right: 10px;
+ background-color: alpha(@backgroundD, 0.3);
  border-radius: 20px;
  color: alpha(@text, 1);
- transition: all 1s ease;
+ transition: all 0.3s ease;
 }
 #workspaces button.empty {
  color: alpha(@text, 0.3);
 }
 #workspaces button.empty:hover {
- color: alpha(@buttonselect, 0.5);
+ color: alpha(@selection, 0.5);
 }
 #workspaces button.active:hover {
- color: @selection;
+ color: @background;
 }
 #workspaces button.active{
- margin-top: 0px;
- margin-bottom: 0px;
- margin-left: 8px;
- margin-right: 8px;
- background-color: transparent;
- color: @selection;
- padding-right: 0px;
- padding-left: 0px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 2px;
+ margin-right: 2px;
+ background-color: @buttonselect;
+ color: @background;
+ padding-right: 30px;
+ padding-left: 30px;
  border: 0px;
  border-radius: 20px;
- transition: all 0.5s ease;
+ transition: all 0.3s ease;
 }
 #network {
  border-radius: 20px;
