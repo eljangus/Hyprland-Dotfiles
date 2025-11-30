@@ -95,8 +95,8 @@ window#waybar {
  margin: 0px;
  padding-left: 0px;
  padding-right: 0px;
- padding-top: 8px;
- padding-bottom: 8px;
+ padding-top: 2px;
+ padding-bottom: 2px;
  border-radius: 20px;
  background-color: rgba( 0,0,0,0 );
  border: 0px solid @border;
@@ -108,17 +108,17 @@ window#waybar {
  min-width: 0px;
  margin-top: 5px;
  margin-bottom: 5px;
- margin-left: 14px;
- margin-right: 14px;
+ margin-left: 0px;
+ margin-right: 0px;
  border: 0px;
  background: transparent;
  border-radius: 20px;
- padding-top: 5px;
- padding-bottom: 5px;
+ padding-top: 0px;
+ padding-bottom: 0px;
  padding-left: 0px;
  padding-right: 0px;
- color: @selection;
- transition: all 0.3s ease;
+ color: @buttonselect;
+ transition: all 0.2s ease;
 }
 #workspaces:hover {
  margin: 0px;
@@ -130,42 +130,40 @@ window#waybar {
  text-shadow: none; 
  margin-top: 5px;
  margin-bottom: 5px;
- margin-left: 14px;
- margin-right: 14px;
+ margin-left: 0px;
+ margin-right: 0px;
  border: 0px;
  min-width: 0px;
- padding-top: 5px;
- padding-bottom: 5px;
+ padding-top: 0px;
+ padding-bottom: 0px;
  padding-left: 0px;
  padding-right: 0px;
- background-color: transparent;;
+ background-color: transparent;
  border-radius: 20px;
  color: alpha(@text, 1);
- transition: all 0.3s ease;
+ transition: all 1s ease;
 }
 #workspaces button.empty {
  color: alpha(@text, 0.3);
 }
 #workspaces button.empty:hover {
- color: alpha(@selection, 0.5);
+ color: alpha(@buttonselect, 0.5);
 }
 #workspaces button.active:hover {
- color: @background;
+ color: @selection;
 }
 #workspaces button.active{
  margin-top: 5px;
  margin-bottom: 5px;
- margin-left: 14px;
- margin-right: 14px;
- background-color: @buttonselect;
- color: @background;
+ margin-left: 0px;
+ margin-right: 0px;
+ background-color: transparent;
+ color: @selection;
  padding-right: 0px;
  padding-left: 0px;
- padding-top: 20px;
- padding-bottom: 20px;
  border: 0px;
  border-radius: 20px;
- transition: all 0.3s ease;
+ transition: all 0.5s ease;
 }
 #network {
  border-radius: 20px;
