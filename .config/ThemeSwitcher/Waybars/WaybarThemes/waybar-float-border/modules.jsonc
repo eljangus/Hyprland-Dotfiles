@@ -52,7 +52,20 @@
 "clock": {
   "timezone": "Europe/Berlin",
   "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-  "format" : "󰸗 {:L%a %d.%m.%y  %H:%M}"
+  "format" : "󰸗 {:L%a %d.%m.%y  %H:%M}",
+    "calendar": {
+    "mode"          : "year",
+"mode-mon-col"  : 3,
+"weeks-pos"     : "right",
+"on-scroll"     : 1,
+"format": {
+"months":     "<span><b>{}</b></span>",
+"days":       "<span><b>{}</b></span>",
+"weeks":      "<span><b>W{}</b></span>",
+"weekdays":   "<span><b>{}</b></span>",
+"today":      "<span><b><u>{}</u></b></span>"
+  }
+        }, 
         }, 
 "network": {
   "tooltip": true,
