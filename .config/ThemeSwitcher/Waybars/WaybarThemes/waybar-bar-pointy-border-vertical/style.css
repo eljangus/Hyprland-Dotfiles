@@ -95,8 +95,8 @@ window#waybar {
  margin: 0px;
  padding-left: 0px;
  padding-right: 0px;
- padding-top: 2px;
- padding-bottom: 2px;
+ padding-top: 8px;
+ padding-bottom: 8px;
  border-radius: 20px;
  background-color: rgba( 0,0,0,0 );
  border: 0px solid @border;
@@ -111,7 +111,7 @@ window#waybar {
  margin-left: 14px;
  margin-right: 14px;
  border: 0px;
- background: alpha(@backgroundD, 0.3);
+ background: transparent;
  border-radius: 0px;
  padding-top: 5px;
  padding-bottom: 5px;
@@ -138,7 +138,7 @@ window#waybar {
  padding-bottom: 5px;
  padding-left: 0px;
  padding-right: 0px;
- background-color: alpha(@backgroundD, 0.3);;
+ background-color: transparent;;
  border-radius: 0px;
  color: alpha(@text, 1);
  transition: all 0.3s ease;
