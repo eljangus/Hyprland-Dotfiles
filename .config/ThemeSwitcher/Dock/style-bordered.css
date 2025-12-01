@@ -96,12 +96,12 @@ tooltip {
  background-color: @background;
  padding: 5px; 
  color: @text;
- border-radius: 10px;
+ border-radius: 20px;
  border: 0px solid @border;
 }
 tooltip label {
  padding: 5px;
- border-radius: 10px;
+ border-radius: 20px;
  font-weight: bold;
  color: @text;
  text-shadow: none;
