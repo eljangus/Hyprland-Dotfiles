@@ -110,11 +110,11 @@ menu, menu {
  background-color: @background;
  color: @text;
  border: 0px solid @border;
- border-radius: 20px;
+ border-radius: 10px;
 }
 menu menuitem {
  background-color: transparent;
- border-radius: 20px;
+ border-radius: 10px;
  margin-left: 5px;
  margin-right: 5px;
  margin-top: 2px;
