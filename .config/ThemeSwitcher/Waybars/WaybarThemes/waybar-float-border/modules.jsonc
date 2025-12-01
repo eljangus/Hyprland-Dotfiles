@@ -65,7 +65,7 @@
 "weekdays":   "<span><b>{}</b></span>",
 "today":      "<span><b><u>{}</u></b></span>"
   }
-        }, 
+},
         }, 
 "network": {
   "tooltip": true,

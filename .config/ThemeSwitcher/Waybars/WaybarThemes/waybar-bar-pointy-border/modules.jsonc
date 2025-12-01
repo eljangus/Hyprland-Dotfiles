@@ -67,7 +67,6 @@
   }
         }, 
       },
-        }, 
 "network": {
   "tooltip": true,
   "format": "{icon}",

@@ -11,9 +11,9 @@ case "$chosen" in
    "Angedockt (Umrandung)") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/docked-border/docked-border.sh & ~/.config/nwg-dock-hyprland/launch.sh ;;
    "Eckig") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-pointy/barpointy.sh & ~/.config/nwg-dock-hyprland/launch.sh ;;
    "Eckig (Umrandung)") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-pointy-border/bar-borderpointy.sh & ~/.config/nwg-dock-hyprland/launch.sh ;;
-   "Balken | Vertikal") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-vertical/bar-vertical.sh & ~/.config/nwg-dock-hyprland/launch-vert-right.sh ;;
-   "Balken (Umrandung) | Vertikal") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-border-vertical/bar-border-vertical.sh & ~/.config/nwg-dock-hyprland/launch-vert-right.sh ;;
-   "Eckig | Vertikal") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-pointy-vertical/bar-pointy-vertical.sh & ~/.config/nwg-dock-hyprland/launch-vert-right.sh ;;
-   "Eckig (Umrandung) | Vertikal") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-pointy-border-vertical/bar-borderpointy-vertical.sh & ~/.config/nwg-dock-hyprland/launch-vert-right.sh ;;
+   "Balken | Vertikal") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-vertical/bar-vertical.sh & ~/.config/nwg-dock-hyprland/launch.sh ;;
+   "Balken (Umrandung) | Vertikal") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-border-vertical/bar-border-vertical.sh & ~/.config/nwg-dock-hyprland/launch.sh ;;
+   "Eckig | Vertikal") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-pointy-vertical/bar-pointy-vertical.sh & ~/.config/nwg-dock-hyprland/launch.sh ;;
+   "Eckig (Umrandung) | Vertikal") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-pointy-border-vertical/bar-borderpointy-vertical.sh & ~/.config/nwg-dock-hyprland/launch.sh ;;
    *) exit 1 ;;
 esac

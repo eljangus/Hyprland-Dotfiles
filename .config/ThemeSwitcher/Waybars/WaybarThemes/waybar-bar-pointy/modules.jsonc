@@ -66,7 +66,6 @@
 "today":      "<span><b><u>{}</u></b></span>"
   }
         }, 
-      },
         }, 
 "network": {
   "tooltip": true,
