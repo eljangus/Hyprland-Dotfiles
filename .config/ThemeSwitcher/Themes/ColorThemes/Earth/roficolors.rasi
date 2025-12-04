@@ -9,9 +9,9 @@
     accent4: #458588;
     selection: #fcc44055;
     selectionborder: #fcc440;
-    myhigh: bold #fcc440;
-    high: #fcc440;
+    myhigh: bold #f3980b;
+    high: #f3980b;
     searchcolor: #b5a9a199;
-    powermenuselect: #fcc440;
+    powermenuselect: #f3980b;
     nul: #00000000;
 }
