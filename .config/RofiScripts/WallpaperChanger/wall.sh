@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Earth/wall.sh
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Dark/wall.sh

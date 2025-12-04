@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Nord/Walls/BG/Weihnachten
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Rose-Pine/Walls/BG/Dämmerung

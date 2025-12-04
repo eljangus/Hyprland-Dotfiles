@@ -49,7 +49,7 @@ entry {
   text-color: var(textcolor);
   border: 0;
   border-color: var(border);
-  padding: 12;
+  padding: 12 15 12 15;
   border-radius: var(borderradiuselement);
   background-color: var(backgroundD);
 }

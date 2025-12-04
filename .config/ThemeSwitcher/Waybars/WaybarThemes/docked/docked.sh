@@ -6,6 +6,6 @@ hyprctl reload
 ln -sf ~/.config/ThemeSwitcher/Waybars/WaybarThemes/docked/config.jsonc ~/.config/waybar/config.jsonc
 ln -sf ~/.config/ThemeSwitcher/Waybars/WaybarThemes/docked/style.css ~/.config/waybar/style.css
 ln -sf ~/.config/ThemeSwitcher/Waybars/WaybarThemes/docked/modules.jsonc ~/.config/waybar/modules.jsonc
-ln -sf ~/.config/ThemeSwitcher/Dock/style.css ~/.config/nwg-dock-hyprland/style.css
+ln -sf ~/.config/ThemeSwitcher/Dock/style-pointy.css ~/.config/nwg-dock-hyprland/style.css
 killall waybar
 waybar
