@@ -137,20 +137,24 @@ element-text{
 }
 
 element selected.normal {
- background-color: transparent;
- text-color: var(selectionborder);
+ background-color: var(selectionborder);
+ text-color: var(background);
  border: 0;
  border-color: var(selectionborder);
 }
 
 element selected.urgent {
- background-color: transparent;
- text-color: var(selectionborder);
+ background-color: var(selectionborder);
+ text-color: var(background);
+ border: 0;
+ border-color: var(selectionborder);
 }
 
 element selected.active {
- background-color: transparent;
- text-color: var(selectionborder);
+ background-color: var(selectionborder);
+ text-color: var(background);
+ border: 0;
+ border-color: var(selectionborder);
 }
 
 element-icon{
@@ -177,6 +181,6 @@ button{
 }
 
 button selected.normal {
- background-color: var(backgroundD);
- text-color: var(high);
+ background-color: var(selectionborder);
+ text-color: var(background);
 }

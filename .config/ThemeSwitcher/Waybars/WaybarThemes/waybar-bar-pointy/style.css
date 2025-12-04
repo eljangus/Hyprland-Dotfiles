@@ -61,14 +61,16 @@ window#waybar {
  color: @text;
  border-radius: 0px;
  border: 0px solid @border;
+ padding: 5px;
 }
 #tray menu menuitem {
  background-color: transparent;
  color: @text;
 }
 #tray menu menuitem:hover {
- background-color: transparent;
- color: @textselect;
+ background-color: @selection;
+ border-radius: 0px;
+ color: @background;
 }
 #traywer {
  background-color: transparent;

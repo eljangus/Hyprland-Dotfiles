@@ -141,20 +141,24 @@ element-text{
 }
 
 element selected.normal {
- background-color: var(selection);
- text-color: var(selectionborder);
+ background-color: var(selectionborder);
+ text-color: var(background);
  border: 0;
  border-color: var(selectionborder);
 }
 
 element selected.urgent {
- background-color: var(selection);
- text-color: var(selectionborder);
+ background-color: var(selectionborder);
+ text-color: var(background);
+ border: 0;
+ border-color: var(selectionborder);
 }
 
 element selected.active {
- background-color: var(selection);
- text-color: var(selectionborder);
+ background-color: var(selectionborder);
+ text-color: var(background);
+ border: 0;
+ border-color: var(selectionborder);
 }
 
 element-icon{

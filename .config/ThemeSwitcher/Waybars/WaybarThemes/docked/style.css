@@ -61,14 +61,16 @@ window#waybar {
  color: @text;
  border: 0px solid @border;
  border-radius: 0px;
+ padding: 5px;
 }
 #tray menu menuitem {
  background-color: transparent;
  color: @text;
 }
 #tray menu menuitem:hover {
- background-color: transparent;
- color: @textselect;
+ background-color: @selection;
+ border-radius: 0px;
+ color: @background;
 }
 #traywer {
  background-color: transparent;
@@ -105,7 +107,7 @@ window#waybar {
  margin-right: 2px;
  border: 0px;
  background: transparent;
- border-radius: 10px;
+ border-radius: 2px;
  padding-top: 0px;
  padding-bottom: 0px;
  padding-left: 10px;
@@ -131,7 +133,7 @@ window#waybar {
  padding-left: 10px;
  padding-right: 10px;
  background-color: transparent;
- border-radius: 10px;
+ border-radius: 2px;
  color: alpha(@text, 1);
  transition: all 0.3s ease;
 }
@@ -154,7 +156,7 @@ window#waybar {
  padding-right: 30px;
  padding-left: 30px;
  border: 0px;
- border-radius: 10px;
+ border-radius: 2px;
  transition: all 0.3s ease;
 }
 #network {
