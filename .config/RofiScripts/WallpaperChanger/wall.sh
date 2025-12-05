@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Rot/wall.sh
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Nord/wall.sh
