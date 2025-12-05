@@ -2,6 +2,7 @@
 alsa-plugins
 amd-ucode
 ani-cli
+asciiquarium
 base
 base-devel
 blueman
@@ -12,7 +13,6 @@ cava
 cbonsai
 cliphist
 cmake
-code
 cowsay
 cpio
 dconf-editor
@@ -20,6 +20,7 @@ decibels
 discord
 efibootmgr
 fastfetch
+figlet
 file-roller
 firefox
 firewalld
@@ -32,6 +33,7 @@ gimp
 git
 gnome-boxes
 gnome-clocks
+gnome-text-editor
 gnome-themes-extra
 grub
 gst-libav
@@ -49,11 +51,11 @@ imv
 kamera
 kdeconnect
 kitty
-krita
 libva-nvidia-driver
 linux
 linux-firmware
 linuxconsole
+lolcat
 man-db
 mangohud
 mesa-utils
@@ -85,6 +87,7 @@ qt5-wayland
 qt5ct
 qt6-wayland
 qt6ct
+reflector
 rofi
 rofi-calc
 sddm

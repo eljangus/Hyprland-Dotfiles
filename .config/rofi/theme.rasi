@@ -181,6 +181,6 @@ button{
 }
 
 button selected.normal {
- background-color: var(selectionborder);
- text-color: var(background);
+ background-color: var(backgroundD);
+ text-color: var(high);
 }
