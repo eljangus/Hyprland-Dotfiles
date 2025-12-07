@@ -323,4 +323,17 @@ tooltip label {
  color: @text;
  text-shadow: none;
 }
-
+#idle_inhibitor {
+ background-color: rgba( 0,0,0,0 );
+ font-size: 23px;
+ padding-left: 8px;
+ padding-right: 8px;
+ border-radius: 20px;
+ color: @text;
+ border: 0px solid @border; 
+ transition: 0.3s all ease;
+}
+#idle_inhibitor:hover {
+ color: @textselect;
+ border-radius: 20px;
+}

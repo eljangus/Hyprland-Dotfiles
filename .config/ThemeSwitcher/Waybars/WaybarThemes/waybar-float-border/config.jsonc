@@ -19,6 +19,7 @@
 ],
  "modules-right": [
   "group/volume",
+  "idle_inhibitor",
   "network",
   "bluetooth",
   "group/traywer",

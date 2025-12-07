@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Poetisch/wallrandom.sh
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Tokyo-Night/wallrandom.sh

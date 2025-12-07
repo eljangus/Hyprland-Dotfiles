@@ -136,6 +136,15 @@
   "pulseaudio/slider",
             ],
 }, 
+"idle_inhibitor": {
+ "format": "{icon}",
+ "format-icons": {
+ "activated": "",
+ "deactivated": ""
+ },
+ "tooltip-format-activated": "Arbeitsmodus aktiviert",
+ "tooltip-format-deactivated": "Arbeitsmodus deaktiviert",
+},
 "mpris": {
   "interval" : 1,
   "tooltip-format" : "{artist}",

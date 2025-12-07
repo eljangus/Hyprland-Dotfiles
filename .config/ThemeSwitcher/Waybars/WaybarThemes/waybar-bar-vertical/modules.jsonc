@@ -137,6 +137,15 @@
   "pulseaudio/slider",
             ],
 }, 
+"idle_inhibitor": {
+ "format": "{icon}",
+ "format-icons": {
+ "activated": "",
+ "deactivated": ""
+ },
+ "tooltip-format-activated": "Arbeitsmodus aktiviert",
+ "tooltip-format-deactivated": "Arbeitsmodus deaktiviert",
+},
 "mpris": {
   "rotate": 90,
   "interval" : 1,
