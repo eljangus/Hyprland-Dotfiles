@@ -1,0 +1,105 @@
+@import "~/.config/colors/roficolors.rasi"
+@import "~/.config/colors/rofiradius.rasi"
+
+window {
+  width: 655px;
+  padding: 0;
+  border: 2;
+  border-color: var(border);
+  border-radius: var(borderradius);
+  transparency: "real";
+  background-color: #00000000;
+  x-offset: -10px;
+  y-offset: 10px;
+}
+error-message {
+  enabled: false;
+}
+
+listview {
+  lines: 4;
+  layout: horizontal;
+  margin: 0 0 0 0;
+  padding: 30;
+  columns: 1;
+  background-color: var(background);
+  scrollbar: false;
+  cycle: false;
+  border: 0;
+  border-radius: var(borderradius);
+  border-color: var(border);
+}
+
+mainbox {
+  background-color: #00000000;
+  spacing: 0; 
+  padding: 0;
+  border-radius: var(borderradius);
+  children: [ listview ];
+}
+
+element{
+ padding: 5 40 5 40;
+ margin: 2 0 2 0;
+ border-radius: var(borderradiuselement);
+ border: 0;
+}
+
+element normal.normal{
+ background-color: var(nul);
+ text-color: var(textcolor);
+}
+
+element normal.active{
+ background-color: var(nul);
+ text-color: var(textcolor);
+}
+
+element normal.urgent{
+ background-color: var(nul);
+ text-color: var(textcolor);
+}
+
+element alternate.active{
+ background-color: var(nul);
+ text-color: var(textcolor);
+}
+
+element alternate.normal{
+ background-color: var(nul);
+ text-color: var(textcolor);
+}
+
+element alternate.urgent{
+ background-color: var(nul);
+ text-color: var(textcolor);
+}
+
+element-text{
+ background-color: #00000000;
+ text-color: inherit;
+ padding: 0;
+ vertical-align: 0.5;
+ highlight: var(myhigh);
+}
+
+element selected.normal {
+ background-color: transparent;
+ text-color: var(selectionborder);
+ border: 0;
+ border-color: var(selectionborder);
+}
+
+element selected.urgent {
+ background-color: transparent;
+ text-color: var(selectionborder);
+ border: 0;
+ border-color: var(selectionborder);
+}
+
+element selected.active {
+ background-color: transparent;
+ text-color: var(selectionborder);
+ border: 0;
+ border-color: var(selectionborder);
+}

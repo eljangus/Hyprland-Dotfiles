@@ -1,0 +1,101 @@
+// ~/.config/fastfetch/config.jsonc
+// See https://github.com/fastfetch-cli/fastfetch/wiki/Configuration for more details
+// See *.jsonc in https://github.com/fastfetch-cli/fastfetch/tree/dev/presets/examples for more examples
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "~/.config/fastfetch/arch",
+    "color": {
+      "1": "blue"
+    },
+    "type": "file",
+    "padding": {
+      "top": 3
+    }
+  },
+  "display": {
+    "separator": "    "
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
+    },
+    "break",
+    {
+      "type": "os",
+      "format": "{2}",
+      "key": "  ",
+      "keyColor": "blue"
+    },
+    {
+      "type": "kernel",
+      "key": "  ",
+      "keyColor": "white"
+    },
+    {
+      "type": "packages",
+      "key": "  󰮯",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "wm",
+      "format": "{1}",
+      "key": "  󰨇",
+      "keyColor": "blue"
+    },
+    {
+      "type": "terminal",
+      "format": "{1}",
+      "key": "  ",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "shell",
+      "format": "{1}",
+      "key": "  ",
+      "keyColor": "yellow"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫"
+    },
+    "break",
+    {
+      "type": "host",
+      "key": "  ",
+      "format": "{2}",
+      "keyColor": "bright_blue"
+    },
+    {
+      "type": "cpu",
+      "format": "{1}",
+      "key": "  ",
+      "keyColor": "bright_green"
+    },
+    {
+      "type": "gpu",
+      "format": "{2}",
+      "key": "  󱤓",
+      "keyColor": "red"
+    },
+    {
+      "type": "memory",
+      "format": "{1} - {2}",
+      "key": "  󰍛",
+      "keyColor": "bright_yellow"
+    },
+    {
+      "type": "disk",
+      "format": "{1} - {2}",
+      "key": "  ",
+      "keyColor": "bright_cyan"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
+    }
+  ]
+}

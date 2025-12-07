@@ -1,0 +1,9 @@
+@define-color border #8C1007;
+@define-color background rgba(41, 4, 2, 0.8);
+@define-color backgroundD rgba(30, 3, 1, 0.33);
+@define-color text #FFF0C4;
+@define-color selection #FF8C60;
+@define-color textselect #FF8C60;
+@define-color buttonselect #FF6B6B;
+@define-color buttonselecttext rgba(41, 4, 2, 0.8);
+@define-color button rgba(47, 42, 39, 0);

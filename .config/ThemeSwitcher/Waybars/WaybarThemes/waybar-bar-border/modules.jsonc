@@ -1,0 +1,153 @@
+{
+"custom/System": {
+  "tooltip": false,
+  "format" : "",
+  "on-click": "~/.config/RofiScripts/Launcher/Launcher.sh"
+               },
+"custom/powermenu": {
+  "tooltip": false,
+  "format" : "",
+  "on-click": "~/.config/RofiScripts/powermenu/powermenu.sh"
+                    },
+"custom/notifications": {
+	"tooltip": false,
+	"format" : "",
+	"on-click": "swaync-client -t",
+	"on-click-right": "swaync-client -R; swaync-client -rs",
+	                     }, 
+"hyprland/workspaces": {
+ "disable-scroll": true,
+  "all-outputs": false,
+  "format": "{name}",
+  "format-icons": {
+  "default": "󰜌",
+  "active": "󰜋",
+                  },
+"persistent-workspaces" : {
+  "1" : [],
+  "2" : [],
+  "3" : [],
+  "4" : [],
+  "5" : [],
+                           },
+                      },  
+"tray": {
+  "spacing": 10,
+        },       
+"group/traywer": {
+ "orientation": "horizontal",
+ "drawer": {
+  "transition-left-to-right": false,
+  "click-to-reveal": true,
+ },
+ "modules": [
+"custom/trayicon",	
+ "tray",
+ ],
+},
+"custom/trayicon": {
+	 "format": "",
+   "tooltip": false,
+},
+"clock": {
+  "timezone": "Europe/Berlin",
+  "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+  "format" : "󰸗 {:L%a %d.%m.%y  %H:%M}",
+  "calendar": {
+    "mode"          : "year",
+"mode-mon-col"  : 3,
+"weeks-pos"     : "right",
+"on-scroll"     : 1,
+"format": {
+"months":     "<span><b>{}</b></span>",
+"days":       "<span><b>{}</b></span>",
+"weeks":      "<span><b>W{}</b></span>",
+"weekdays":   "<span><b>{}</b></span>",
+"today":      "<span><b><u>{}</u></b></span>"
+  }
+        }, 
+      },
+"network": {
+  "tooltip": true,
+  "format": "{icon}",
+  "format-wifi" : "{icon}",
+  "format-icons": {
+  "default": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨",]
+                  },
+  "format-ethernet": "󰤨",
+  "format-disconnected": "󰤫",
+  "format-disabled": "󰤮",
+  "tooltip-format-wifi": "󰤥 {essid} ({signalStrength}%)",
+  "tooltip-format-ethernet": " {ifname}",
+  "tooltip-format-disconnected": "󰤦 Verbindung getrennt!",
+  "tooltip-format-disabled": "󰤦 Verbindung ausgeschalten!",
+  "on-click": "~/.config/waybar/scripts/netzwerk.sh",
+  "on-click-right": "hyprctl dispatch exec '[float; size 879 879] kitty nmtui'",
+          },
+"bluetooth": {
+  "format-on": "󰂯",
+  "format-off": "󰂲",
+  "format-connected": "󰂯",
+  "format-disabled": "󰂲",
+  "tooltip-format": "{controller_alias}\n{num_connections} Verbunden",
+  "tooltip-format-connected": "{controller_alias}\n{num_connections} Verbunden\n\n{device_alias}",
+  "tooltip-format-enumerate-connected": "{device_alias}",
+  "tooltip-format-enumerate-connected-battery": "{device_alias}\t󰥄 {device_battery_percentage}%",
+  "on-click": "~/.config/waybar/scripts/bluetooth.sh",
+  "on-click-right": "hyprctl dispatch exec '[float; size 879 879] blueman-manager'",
+},
+"custom/theme": {
+  "tooltip": false,
+  "format" : "",
+  "on-click" : "~/.config/ThemeSwitcher/Themes/Theme.sh",
+  "on-click-right" : "~/.config/ThemeSwitcher/Rounding/Rounding.sh",
+  "on-click-middle": "~/.config/ThemeSwitcher/Animations/Animations.sh"
+                },
+"custom/bar": {
+  "tooltip": false,
+  "format" : "",
+  "on-click" : "/home/elias/.config/ThemeSwitcher/Waybars/Waybar.sh",
+              },
+"pulseaudio": {
+  "tooltip": false,
+  "scroll-step": 5,
+  "format": "{icon}",
+  "format-muted": "󰟎",
+"format-icons": {
+  "default": ["󰋋"]
+                },
+  "on-click": "pamixer -t",                        
+  "on-click-right": "hyprctl dispatch exec '[float; size 879 879] pavucontrol'",        
+              }, 
+"pulseaudio/slider": {
+  "tooltip": false,
+  "min": 0,
+  "max": 100,
+  "orientation" : "horizontal",
+                     },
+"group/volume": {
+ "orientation": "horizontal",
+ "drawer" : {
+  "transition-left-to-right": false,
+  "click-to-reveal": false,
+ },
+ "modules": [
+  "pulseaudio",
+  "pulseaudio/slider",
+            ],
+}, 
+"mpris": {
+  "interval" : 1,
+  "tooltip-format" : "{artist}",
+  "max-length": 80,
+  "tooltip": true,
+  "format" : "{player_icon} « {title} »",
+  "format-paused" : "{status_icon} « {title} »",
+"player-icons": {
+  "default" : "",
+                },
+"status-icons": { 
+  "paused": "",
+                },
+    },
+}

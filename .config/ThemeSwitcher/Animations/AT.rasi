@@ -1,0 +1,190 @@
+@import "~/.config/colors/roficolors.rasi"
+@import "~/.config/colors/rofiradius.rasi"
+
+window {
+  width: 600px;
+  padding: 0;
+  border: 2;
+  border-color: var(border);
+  border-radius: var(borderradius);
+  transparency: "real";
+  background-color: #00000000;
+}
+
+error-message {
+  enabled: true;
+  padding: 40px;
+  background-color: var(background);
+  border-color: var(border);
+  border-radius: var(borderradius);
+}
+
+textbox {
+  enabled: true;
+  padding: 12;
+  str: "Keine Ergebnisse!";
+  text-color: var(textcolor);
+  background-color: transparent;
+  border: 0px;
+  border-radius: var(borderradiuselement);
+  border-color: var(border);
+}
+
+textbox-custom {
+  enabled: true;
+  padding: 12 20 12 20;
+  margin: 0 10 0 0;
+  str: "󰥛";
+  expand: false;
+  text-color: var(textcolor);
+  background-color: var(backgroundD);
+  border: 0px;
+  border-radius: var(borderradiuselement);
+  border-color: var(border);
+}
+
+entry {
+  placeholder: "Suchen...";
+  placeholder-color: var(searchcolor);
+  text-color: var(textcolor);
+  border: 0;
+  border-color: var(border);
+  padding: 12 15 12 15;
+  border-radius: var(borderradiuselement);
+  background-color: var(backgroundD);
+}
+
+listview {
+  lines: 8;
+  margin: 0 0 0 0;
+  padding: 0 40 40 40;
+  columns: 1;
+  background-color: var(background);
+  scrollbar: false;
+  cycle: false;
+  border: 0;
+
+  border-color: var(border);
+}
+
+mainbox {
+  background-color: #00000000;
+  spacing: 0; 
+  padding: 0;
+  border-radius: var(borderradius);
+  children: [ inputbar, listview ];
+}
+
+inputbar {
+  padding: 40 40 20 40;
+  background-color: var(background);
+  children: [ textbox-custom , entry ];
+  border: 0;
+  border-color: var(border);
+}
+
+prompt{
+ enabled: true;
+ padding: 12 28 12 19;
+ margin: 0 30 0 0;
+ text-color: var(textcolor);
+ border: 2;
+ border-color: var(border);
+ border-radius: 20;
+ background-color: var(background);
+}
+
+element{
+ padding: 10 20 10 20;
+ margin: 2 0 2 0;
+ border-radius: var(borderradiuselement);
+ border: 0;
+}
+
+element normal.normal{
+ background-color: transparent;
+ text-color: var(textcolor);
+}
+
+element normal.active{
+ background-color: transparent;
+ text-color: var(textcolor);
+}
+
+element normal.urgent{
+ background-color: transparent;
+ text-color: var(textcolor);
+}
+
+element alternate.active{
+ background-color: transparent;
+ text-color: var(textcolor);
+}
+
+element alternate.normal{
+ background-color: transparent;
+ text-color: var(textcolor);
+}
+
+element alternate.urgent{
+ background-color: transparent;
+ text-color: var(textcolor);
+}
+
+element-text{
+ background-color: #00000000;
+ text-color: inherit;
+ padding: 0;
+ vertical-align: 0.5;
+ highlight: var(myhigh);
+}
+
+element selected.normal {
+ background-color: transparent;
+ text-color: var(selectionborder);
+ border: 0;
+ border-color: var(selectionborder);
+}
+
+element selected.urgent {
+ background-color: transparent;
+ text-color: var(selectionborder);
+ border: 0;
+ border-color: var(selectionborder);
+}
+
+element selected.active {
+ background-color: transparent;
+ text-color: var(selectionborder);
+ border: 0;
+ border-color: var(selectionborder);
+}
+
+element-icon{
+ size: 48;
+ background-color: transparent;
+ text-color: inherit;
+}
+
+mode-switcher{
+ padding: 0;
+ background-color: #00000000;
+  margin: 0 20 0 20;
+ children: [ button ];
+}
+
+button{
+ padding: 0 26 0 21;
+ margin: 0 10 0 10;
+ border: 2;
+ border-radius: 20;
+ border-color: var(border);
+ background-color: var(background);
+ text-color: var(textcolor);
+}
+
+
+button selected.normal {
+ background-color: var(background);
+ text-color: var(accent2);
+}
