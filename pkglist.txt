@@ -74,6 +74,7 @@ nwg-look
 obs-studio
 openrgb-git
 openrgb-plugin-effects-git
+opentabletdriver
 otf-font-awesome
 pacman-contrib
 pamixer
@@ -99,6 +100,7 @@ stress-ng
 sudo
 swaync
 swww
+ttf-cascadia-code-nerd
 ttf-firacode-nerd
 ttf-jetbrains-mono-nerd
 tumbler

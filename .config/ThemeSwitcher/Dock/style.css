@@ -12,6 +12,8 @@ window {
   background: none;
   background-color: transparent;
   color: @text;
+  font-family: "CaskaydiaCove Nerd Font";
+  font-size: 18px;
   box-shadow: none;
   text-shadow: none;
     border-style: none;

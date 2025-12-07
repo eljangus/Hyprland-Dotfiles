@@ -2,7 +2,7 @@
 @import "../colors/waybarcolors.css";
 
 * {
-  font-family: "JetBrainsMono Nerd Font Propo";
+  font-family: "CaskaydiaCove Nerd Font Propo";
   font-size: 22px;
   text-shadow: none;
   color: @text;
