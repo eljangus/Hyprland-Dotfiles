@@ -1,5 +1,5 @@
 configuration{
- font: "CaskaydiaCove Nerd Font Propo 70";
+ font: "JetBrainsMono Nerd Font Propo 70";
  modi: "dmenu";
  fixed-num-lines: true;
  show-icons: false;

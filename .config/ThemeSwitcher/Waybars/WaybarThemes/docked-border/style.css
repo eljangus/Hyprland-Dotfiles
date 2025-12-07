@@ -1,7 +1,7 @@
 @import "../colors/waybarcolors.css";       
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: CaskaydiaCove Nerd Font Propo;
+    font-family: JetBrainsMono Nerd Font Propo;
     font-size: 20px;   
     font-weight: bold;
     border: none;
