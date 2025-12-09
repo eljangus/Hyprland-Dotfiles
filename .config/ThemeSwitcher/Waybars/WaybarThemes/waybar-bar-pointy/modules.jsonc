@@ -137,8 +137,8 @@
 "idle_inhibitor": {
  "format": "{icon}",
  "format-icons": {
- "activated": "",
- "deactivated": ""
+ "activated": "",
+ "deactivated": ""
  },
  "tooltip-format-activated": "Arbeitsmodus aktiviert",
  "tooltip-format-deactivated": "Arbeitsmodus deaktiviert",
