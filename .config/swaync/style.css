@@ -80,6 +80,7 @@
   margin-bottom: 5px;
   background-color: transparent;
   color: @text;
+  font-weight: bold;
 }
 .widget-title>button {
   background-color: transparent;
@@ -108,6 +109,7 @@
   background-color: transparent;
   color: @text;
   border-radius: 20px;
+  font-weight: bold;
 }
 .widget-dnd label {
   color: @text;
