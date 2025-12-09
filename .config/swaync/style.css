@@ -86,7 +86,7 @@
   border: none;
 }
 .widget-title>button label {
-  background-color: @backgroundD;
+  background-color: alpha(@text, 0.2);
   color: @text;
   border-radius: 10px;
   padding-right: 20px;
@@ -96,7 +96,8 @@
   margin-right: -15px;
 }
 .widget-title>button label:hover {
-  color: @selection;
+  color: @text;
+  background-color: alpha(@text, 0.3);
 }
 .control-center-list-placeholder {
   color: @text;
@@ -203,15 +204,15 @@ scrollbar trough:hover {
   background: transparent;
 }
 .widget-mpris button { 
-  background-color: alpha(@border, 0.2);
+  background-color: alpha(@text, 0.2);
   transition: all 0.3s ease;
 }
 .widget-mpris button:hover {
-  background-color: alpha(@border, 0.5);
+  background-color: alpha(@text, 0.3);
 }
 .widget-mpris>box>button {
   background-color: transparent;
-  border-radius: var(--border-radius);
+  border-radius: 10px;
   border: 2px solid transparent;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -220,7 +221,7 @@ scrollbar trough:hover {
 }
 .widget-mpris>box>button:hover {
   border: 2px solid transparent;
-  background-color: @backgroundD;
+  background-color: alpha(@text, 0.3);
 } 
 .widget-mpris-player {
   border-radius: var(--border-radius);
@@ -232,4 +233,62 @@ scrollbar trough:hover {
 }
 .widget-mpris-subtitle {
   color: @text;
+}
+.widget-buttons-grid {
+    padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+    border-radius: 5px;
+    background: transparent;
+}
+.widget-buttons-grid:hover {
+    padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+    border-radius: 5px;
+    background: transparent;
+}
+.widget-buttons-grid>flowbox>flowboxchild>button {
+    margin: 0px;
+    padding-right: 41px;
+    padding-left: 41px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: alpha(@text, 0.2);
+    border-radius: 10px;
+}
+ 
+.widget-buttons-grid>flowbox>flowboxchild>button:hover {
+    background: alpha(@text, 0.3);
+    margin: 0px;
+    padding-right: 41px;
+    padding-left: 41px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.widget-volume {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: transparent;
+}
+.widget-volume slider {
+  background-color: @text;
+}
+.widget-volume label {
+  background-color: transparent;
+  color: @text;
+  font-size: 30px;
+  margin-right: 7px;
+}
+.widget-volume trough {
+ background-color: alpha(@text, 0.3);
+}
+.widget-volume trough highlight {
+ background-color: @textselect;
 }

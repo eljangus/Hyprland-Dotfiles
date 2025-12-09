@@ -25,6 +25,8 @@
     "control-center-height": 1100,
     "widgets": [
       "mpris",
+      "buttons-grid",
+      "volume",
       "title",
       "dnd",
       "notifications"
@@ -46,13 +48,49 @@
      "show-album-art": "always",
      "loop-carousel": true
     },
+    "volume": {
+     "label": "󰋎",
+     "show-per-app": false,
+     "show-per-app-icon": true,
+     "empty-list-label": "Keine Audioquellen verfügbar",
+     "animation-type": "slide_down",
+     "animation-duration": 500
+    },
     "buttons-grid": {
-    "actions" : [
-{
-     "active": true,
-     "command": "notify-send 'hey'",
-     "label": "󰤥"
-} 
+     "buttons-per-row": 5
+    },
+    "buttons-grid": {
+   "actions" : [
+        {
+          "active": false,
+          "command": "~/.config/waybar/scripts/netzwerk.sh",
+          "label": "󰤨",
+          "type": "button"
+        },
+        {
+          "active": false,
+          "command": "~/.config/waybar/scripts/bluetooth.sh",
+          "label": "󰂯",
+          "type": "button"
+        },
+        {
+          "active":false,
+          "command":"hyprshot -m region -o ~/Bilder/Screenshots/ | wl-copy",
+          "label":"󰄀",
+          "type": "button"
+        },
+        {
+          "active":false,
+          "command":"obs",
+          "label":"󰕧",
+          "type": "button"
+        },
+        {
+          "active": false,
+          "command": "~/.config/RofiScripts/powermenu/powermenu.sh",
+          "label": "",
+          "type": "toggle"
+        }
     ]
     }
     }
