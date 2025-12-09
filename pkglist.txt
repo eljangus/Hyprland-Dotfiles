@@ -100,6 +100,7 @@ stress-ng
 sudo
 swaync
 swww
+translate-shell
 ttf-cascadia-code-nerd
 ttf-firacode-nerd
 ttf-jetbrains-mono-nerd
