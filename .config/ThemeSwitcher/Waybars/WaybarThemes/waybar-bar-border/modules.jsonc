@@ -81,8 +81,7 @@
   "tooltip-format-ethernet": " {ifname}",
   "tooltip-format-disconnected": "󰤦 Verbindung getrennt!",
   "tooltip-format-disabled": "󰤦 Verbindung ausgeschalten!",
-  "on-click": "~/.config/waybar/scripts/netzwerk.sh",
-  "on-click-right": "hyprctl dispatch exec '[float; size 879 879] kitty nmtui'",
+  "on-click": "hyprctl dispatch exec '[float; size 879 879] kitty nmtui'",
           },
 "bluetooth": {
   "format-on": "󰂯",
@@ -93,8 +92,7 @@
   "tooltip-format-connected": "{controller_alias}\n{num_connections} Verbunden\n\n{device_alias}",
   "tooltip-format-enumerate-connected": "{device_alias}",
   "tooltip-format-enumerate-connected-battery": "{device_alias}\t󰥄 {device_battery_percentage}%",
-  "on-click": "~/.config/waybar/scripts/bluetooth.sh",
-  "on-click-right": "hyprctl dispatch exec '[float; size 879 879] blueman-manager'",
+  "on-click": "hyprctl dispatch exec '[float; size 879 879] blueman-manager'",
 },
 "custom/theme": {
   "tooltip": false,

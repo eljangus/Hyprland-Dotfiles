@@ -88,7 +88,7 @@
 .widget-title>button label {
   background-color: alpha(@text, 0.2);
   color: @text;
-  border-radius: 10px;
+  border-radius: var(--button-radius);
   padding-right: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -212,7 +212,7 @@ scrollbar trough:hover {
 }
 .widget-mpris>box>button {
   background-color: transparent;
-  border-radius: 10px;
+  border-radius: var(--button-radius);
   border: 2px solid transparent;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -259,7 +259,7 @@ scrollbar trough:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     background: alpha(@text, 0.2);
-    border-radius: 10px;
+    border-radius: var(--button-radius);
 }
  
 .widget-buttons-grid>flowbox>flowboxchild>button:hover {
