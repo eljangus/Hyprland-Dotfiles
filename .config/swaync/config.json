@@ -75,19 +75,19 @@
         },
         {
           "active":false,
-          "command":"hyprshot -m region -o ~/Bilder/Screenshots/ | wl-copy",
+          "command":"swaync-client -t && hyprshot -m region -o ~/Bilder/Screenshots/ | wl-copy",
           "label":"󰄀",
           "type": "button"
         },
         {
           "active":false,
-          "command":"obs",
+          "command":"swaync-client -t && obs",
           "label":"󰕧",
           "type": "button"
         },
         {
           "active": false,
-          "command": "~/.config/RofiScripts/powermenu/powermenu.sh",
+          "command": "swaync-client -t && ~/.config/RofiScripts/powermenu/powermenu.sh",
           "label": "",
           "type": "toggle"
         }
