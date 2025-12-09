@@ -82,6 +82,9 @@
   color: @text;
   font-weight: bold;
 }
+.widget-title label {
+  font-size: 25px;
+}
 .widget-title>button {
   background-color: transparent;
   border: none;
@@ -109,7 +112,6 @@
   background-color: transparent;
   color: @text;
   border-radius: 20px;
-  font-weight: bold;
 }
 .widget-dnd label {
   color: @text;
