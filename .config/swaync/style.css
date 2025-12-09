@@ -236,19 +236,19 @@ scrollbar trough:hover {
 }
 .widget-buttons-grid {
     padding: 5px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 12px;
+  margin-right: 8px;
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
     border-radius: 5px;
     background: transparent;
 }
 .widget-buttons-grid:hover {
     padding: 5px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 12px;
+  margin-right: 8px;
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
     border-radius: 5px;
     background: transparent;
 }

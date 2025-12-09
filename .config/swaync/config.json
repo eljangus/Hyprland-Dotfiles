@@ -24,16 +24,16 @@
     "control-center-width": 580,
     "control-center-height": 1100,
     "widgets": [
-      "mpris",
-      "buttons-grid",
-      "volume",
       "title",
       "dnd",
-      "notifications"
+      "notifications",
+      "mpris",
+      "volume",
+      "buttons-grid"
     ],
     "widget-config": {
       "notifications": {
-        "vexpand": false
+        "vexpand": true
       },
     "title": {
       "text": "Benachrichtigungen",
