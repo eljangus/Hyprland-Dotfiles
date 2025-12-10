@@ -105,13 +105,13 @@ window#waybar {
  margin-left: 3px;
  margin-right: 3px;
  border: 0px;
- background: alpha(@text, 0.3);
+ background: transparent;
  border-radius: 2px;
  padding-top: 0px;
  padding-bottom: 0px;
  padding-right: 12px;
  padding-left: 12px;
- color: @background;
+ color: @selection;
  transition: all 0.3s ease;
 }
 #workspaces:hover {
@@ -131,16 +131,16 @@ window#waybar {
  padding-bottom: 0px;
  padding-right: 12px;
  padding-left: 12px;
- background-color: alpha(@text, 0.3);
+ background-color: transparent;
  border-radius: 2px;
- color: @background; 
+ color: @text; 
  transition: all 0.3s ease;
 }
 #workspaces button.empty {
- color: transparent;
+ color: alpha(@text, 0.5);
 }
 #workspaces button.empty:hover {
- color: alpha(@background, 1);
+ color: alpha(@selection, 0.5);
 }
 #workspaces button.active:hover {
  color: @background;
@@ -157,19 +157,6 @@ window#waybar {
  border: 0px;
  border-radius: 2px;
  transition: all 0.3s ease;
-}
-#network {
- border-radius: 20px;
- padding-right: 8px;
- padding-left: 8px;
- background-color: rgba( 0,0,0,0 );
- color: @text;
- border: 0px solid @border;
- transition: 0.3s all ease;
-}
-#network:hover {
- border-radius: 20px;
- color: @textselect;
 }
 #network {
  border-radius: 20px;
