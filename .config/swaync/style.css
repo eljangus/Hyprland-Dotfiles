@@ -200,7 +200,7 @@ scrollbar trough:hover {
   padding: 0px;
 }
 .mpris-overlay {
-  background-color: @backgroundD;
+  background-color: alpha(@backgroundD, 1.5);
 }
 .widget-mpris {
   border-radius: var(--border-radius);
