@@ -102,61 +102,70 @@ window#waybar {
  min-width: 0px;
  margin-top: 10px;
  margin-bottom: 10px;
- margin-left: 2px;
- margin-right: 2px;
+ margin-left: 3px;
+ margin-right: 3px;
  border: 0px;
- background: transparent;
- border-radius: 10px;
+ background: alpha(@text, 0.3);
+ border-radius: 2px;
  padding-top: 0px;
  padding-bottom: 0px;
- padding-right: 8px;
- padding-left: 8px;
- color: @selection;
+ padding-right: 12px;
+ padding-left: 12px;
+ color: @background;
  transition: all 0.3s ease;
 }
 #workspaces:hover {
  margin: 0px;
- border-radius: 10px;
+ border-radius: 20px;
 }
 #workspaces button {
  box-shadow: none;
  text-shadow: none; 
  margin-top: 10px;
  margin-bottom: 10px;
- margin-left: 2px;
- margin-right: 2px;
+ margin-left: 3px;
+ margin-right: 3px;
  border: 0px;
  min-width: 0px;
  padding-top: 0px;
  padding-bottom: 0px;
- padding-right: 8px;
- padding-left: 8px;
- background-color: transparent;
- border-radius: 10px;
- color: alpha(@text, 1);
+ padding-right: 12px;
+ padding-left: 12px;
+ background-color: alpha(@text, 0.3);
+ border-radius: 2px;
+ color: @background; 
  transition: all 0.3s ease;
 }
 #workspaces button.empty {
- color: alpha(@text, 0.3);
+ color: transparent;
 }
 #workspaces button.empty:hover {
- color: alpha(@selection, 0.5);
+ color: alpha(@background, 1);
 }
 #workspaces button.active:hover {
- color: @selection;
+ color: @background;
 }
 #workspaces button.active{
  margin-top: 10px;
  margin-bottom: 10px;
- margin-left: 2px;
- margin-right: 2px;
- background-color: transparent;
- color: @selection;
+ margin-left: 3px;
+ margin-right: 3px;
+ background-color: @buttonselect;
+ color: @background;
+ padding-right: 30px;
+ padding-left: 30px;
+ border: 0px;
+ border-radius: 2px;
+ transition: all 0.3s ease;
+}
+#network {
+ border-radius: 20px;
  padding-right: 8px;
  padding-left: 8px;
- border: 0px;
- border-radius: 10px;
- transition: all 0.3s ease;
+ background-color: rgba( 0,0,0,0 );
+ color: @text;
+ border: 0px solid @border;
+ transition: 0.3s all ease;
 }
 #network:hover {
  border-radius: 20px;

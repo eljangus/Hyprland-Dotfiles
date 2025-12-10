@@ -107,63 +107,62 @@ window#waybar {
  box-shadow: none;
  text-shadow: none;
  min-width: 0px;
- margin-top: 2px;
- margin-bottom: 2px;
+ margin-top: 3px;
+ margin-bottom: 3px;
  margin-left: 13px;
  margin-right: 13px;
  border: 0px;
- background: transparent;
- border-radius: 2px;
- padding-top: 5px;
- padding-bottom: 5px;
+ background: alpha(@text, 0.3);
+ border-radius: 12px;
+ padding-top: 7px;
+ padding-bottom: 7px;
  padding-left: 0px;
  padding-right: 0px;
- color: @selection;
+ color: @background;
  transition: all 0.3s ease;
 }
 #workspaces:hover {
  margin: 0px;
- border: 0px;
  border-radius: 20px;
 }
 #workspaces button {
  box-shadow: none;
  text-shadow: none; 
- margin-top: 2px;
- margin-bottom: 2px;
+ margin-top: 3px;
+ margin-bottom: 3px;
  margin-left: 13px;
  margin-right: 13px;
  border: 0px;
  min-width: 0px;
- padding-top: 5px;
- padding-bottom: 5px;
+ padding-top: 7px;
+ padding-bottom: 7px;
  padding-left: 0px;
  padding-right: 0px;
- background-color: transparent;
- border-radius: 2px;
- color: alpha(@text, 1);
+ background-color: alpha(@text, 0.3);
+ border-radius: 12px;
+ color: @background;
  transition: all 0.3s ease;
 }
 #workspaces button.empty {
- color: alpha(@text, 0.3);
+ color: transparent;
 }
 #workspaces button.empty:hover {
- color: alpha(@selection, 0.5);
+ color: alpha(@background, 1);
 }
 #workspaces button.active:hover {
- color: @selection;
+ color: @background;
 }
 #workspaces button.active{
- margin-top: 2px;
- margin-bottom: 2px;
+ margin-top: 3px;
+ margin-bottom: 3px;
  margin-left: 13px;
  margin-right: 13px;
- background-color: transparent;
- color: @selection;
- padding-top: 5px;
- padding-bottom: 5px;
+ background-color: @buttonselect;
+ color: @background;
+ padding-top: 17px;
+ padding-bottom: 17px;
  border: 0px;
- border-radius: 2px;
+ border-radius: 12px;
  transition: all 0.3s ease;
 }
 #network {

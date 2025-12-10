@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Rose-Pine/wall.sh
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Earth/wall.sh
