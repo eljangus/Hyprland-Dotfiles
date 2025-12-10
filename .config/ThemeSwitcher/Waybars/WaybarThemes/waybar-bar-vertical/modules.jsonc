@@ -18,7 +18,7 @@
 "hyprland/workspaces": {
  "disable-scroll": true,
   "all-outputs": false,
-  "format": "{name}",
+  "format": "{icon}",
   "format-icons": {
   "default": "󰜌",
   "active": "󰜋",
@@ -138,8 +138,8 @@
 "idle_inhibitor": {
  "format": "{icon}",
  "format-icons": {
- "activated": "",
- "deactivated": ""
+ "activated": "",
+ "deactivated": "󰲓"
  },
  "tooltip-format-activated": "Arbeitsmodus aktiviert",
  "tooltip-format-deactivated": "Arbeitsmodus deaktiviert",
