@@ -1,5 +1,5 @@
 * {
-    border: #b84b21;
+    border: #b84b2100;
     background: #282828;
     backgroundD: rgba(32, 32, 32, 1);
     textcolor: #ebdbb2;

@@ -69,7 +69,7 @@ window#waybar {
 }
 #tray menu menuitem:hover {
  background-color: transparent;
- color: @buttonselect;
+ color: @selection;
 }
 #traywer {
  background-color: alpha(@backgroundD, 200);
