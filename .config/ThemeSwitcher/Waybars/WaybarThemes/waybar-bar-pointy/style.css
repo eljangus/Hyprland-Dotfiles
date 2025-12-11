@@ -116,7 +116,7 @@ window#waybar {
 }
 #workspaces:hover {
  margin: 0px;
- border-radius: 20px;
+ border-radius: 0px;
 }
 #workspaces button {
  box-shadow: none;
