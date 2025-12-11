@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Jade/wallrandom.sh
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Nightfox/wallrandom.sh
