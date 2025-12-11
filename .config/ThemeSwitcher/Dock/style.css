@@ -39,15 +39,6 @@ window {
 	box-shadow: none;
    text-shadow: none;
 }
-button, image {
-	background: transparent;
-    border-style: none;
-    border-width: 0;
-    outline: none;  
-	box-shadow: none;
-	text-shadow: none;
-	color: @text;
-}
 
 button image:hover,
 button image {
@@ -61,27 +52,24 @@ button image {
 }
 
 button {
-    border-style: none;
-    border-width: 0;
-    outline: none;  
-	padding: 4px;
+  border: 2px solid transparent;
+	padding: 10px;
 	margin-left: 4px;
 	margin-right: 4px;
 	color: @text;
-	background-color: transparent;
+	border-radius: 12px;
+	background-color: @backgroundD;
 	transition: all 0.3s ease;
-  	font-size: 20px;
   	box-shadow: none;
 	text-shadow: none;
+	
 }
 
 button:hover {
-	background-color: alpha(@selection, 0);
-	border-radius: 10px;
+	background-color: @backgroundD;
+	border-radius: 12px;
 	color: inherit;
-	border-style: none;
-    border-width: 0;
-    outline: none;  
+  border: 2px solid @selection;
 	box-shadow: none;
 	text-shadow: none;
 }
@@ -94,16 +82,18 @@ button:focus {
     outline: none;  
 	transition: all 0.3s ease;
 }
+
+
 tooltip {
  background-color: @background;
  padding: 5px; 
  color: @text;
- border-radius: 20px;
+ border-radius: 12px;
  border: 0px solid @border;
 }
 tooltip label {
  padding: 5px;
- border-radius: 20px;
+ border-radius: 12px;
  font-weight: bold;
  color: @text;
  text-shadow: none;
@@ -112,23 +102,23 @@ menu, menu {
  background-color: @backgroundD;
  color: @text;
  border: 0px solid @border;
- border-radius: 20px;
+ border-radius: 12px;
 }
 menu menuitem {
  background-color: transparent;
- border-radius: 0px;
+ border-radius: 12px;
 }
 menu menuitem:hover {
  background-color: alpha(@selection, 0.5);
- border-radius: 0px;
+ border-radius: 12px;
 }
 menu menuitem:last-child {
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 menu menuitem:first-child {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 menu menuitem label {
   color: @text;
