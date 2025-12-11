@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Gruvbox-Dark/wall.sh
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Nightfox/wall.sh
