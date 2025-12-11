@@ -1,13 +1,13 @@
 * {
     border: #B3ADA3;
-    background: #333333cc;
-    backgroundD: #2a2a2a55;
+    background: #333333;
+    backgroundD: #2a2a2a;
     textcolor: #C2C2C2;
     accent1: #cc241d;
     accent2: #98971a;
     accent3: #d79921;
     accent4: #458588;
-    selection: #B3ADA355;
+    selection: #B3ADA3;
     selectionborder: #B3ADA3;
     myhigh: bold #5e5e5e;
     high: #5e5e5e;

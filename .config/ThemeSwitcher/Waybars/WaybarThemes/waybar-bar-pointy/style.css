@@ -10,7 +10,7 @@
     text-shadow: none;
 }
 window#waybar {
- background: @background;
+ background: alpha(@background, 200);
  padding: 5px;
  background-image: none;
  box-shadow: none;
@@ -18,25 +18,25 @@ window#waybar {
  border-radius: 0px;
 }
 #custom-System {
- background-color: rgba( 0,0,0,0 );
+ background-color: alpha(@backgroundD, 200);
  font-size: 23px;
- padding-left: 8px;
- margin-left: 8px;
+ padding-left: 16px;
+ margin-left: 0px;
  padding-right: 8px;
- border-radius: 20px;
+ border-radius: 0px;
  color: @text;
  border: 0px solid @border;
  transition: 0.3s all ease;
 }
 #custom-System:hover {
- border-radius: 20px;
+ border-radius: 0px;
  color: @textselect;
 }
 #clock {
- background: rgba( 0,0,0,0 );
+ background: alpha(@backgroundD, 200);
  font-size: 20px;
  font-weight: bold;
- border-radius: 20px;
+ border-radius: 0px;
  padding-right: 8px;
  padding-left: 8px; 
  color: @text;
@@ -44,7 +44,7 @@ window#waybar {
  transition: 0.3s all ease;
 }
 #clock:hover {
- border-radius: 20px;
+ border-radius: 0px;
  color: @textselect;
 }
 #tray {
@@ -57,7 +57,7 @@ window#waybar {
  transition: 0.3s all ease;
 }
 #tray menu, menu {
- background-color: @background;
+ background-color: @backgroundD;
  color: @text;
  border-radius: 0px;
  border: 0px solid @border;
@@ -72,10 +72,10 @@ window#waybar {
  color: @buttonselect;
 }
 #traywer {
- background-color: transparent;
+ background-color: alpha(@backgroundD, 200);
  padding-left: 8px;
  padding-right: 8px;
- border-radius: 20px;
+ border-radius: 0px;
  color: @text;
  border: 0px solid @border;
  transition: 0.3s all ease;
@@ -91,8 +91,8 @@ window#waybar {
  margin: 0px;
  padding-left: 0px;
  padding-right: 0px;
- border-radius: 10px;
- background-color: rgba( 0,0,0,0 );
+ border-radius: 0px;
+ background-color: alpha(@backgroundD, 200);
  border: 0px solid @border;
  transition: all 0.3s ease;
 }
@@ -159,30 +159,30 @@ window#waybar {
  transition: all 0.3s ease;
 }
 #network {
- border-radius: 20px;
+ border-radius: 0px;
  padding-right: 8px;
  padding-left: 8px;
- background-color: rgba( 0,0,0,0 );
+ background-color: alpha(@backgroundD, 200);
  color: @text;
  border: 0px solid @border;
  transition: 0.3s all ease;
 }
 #network:hover {
- border-radius: 20px;
+ border-radius: 0px;
  color: @textselect;
 }
 #bluetooth {
- border-radius: 20px;
+ border-radius: 0px;
  font-size: 23px;
  padding-right: 8px;
  padding-left: 8px;
- background-color: rgba( 0,0,0,0 );
+ background-color: alpha(@backgroundD, 200);
  color: @text;
  border: 0px solid @border;
  transition: 0.3s all ease;
 }
 #bluetooth:hover {
- border-radius: 20px;
+ border-radius: 0px;
  color: @textselect;
 }
 #pulseaudio {
@@ -233,8 +233,8 @@ window#waybar {
  color: @textselect;
 }
 #volume {
- background: transparent;
- border-radius: 20px;
+ background-color: alpha(@backgroundD, 200);
+ border-radius: 0px;
  transition: 0.3s all ease;
 }
 #mpris {
@@ -253,18 +253,18 @@ window#waybar {
  color: @textselect;
 }
 #custom-powermenu {
- border-radius: 20px;
+ border-radius: 0px;
  padding: 10px;
- margin-right: 8px;
- padding-right: 8px;
+ margin-right: 0px;
+ padding-right: 16px;
  padding-left: 8px;
- background-color: rgba( 0,0,0,0 );
+ background-color: alpha(@backgroundD, 200);
  color: @text;
  border: 0px solid @border;
  transition: 0.3s all ease;
 }
 #custom-powermenu:hover {
- border-radius: 20px;
+ border-radius: 0px;
  color: @textselect;
 }
 #custom-theme {
@@ -296,18 +296,18 @@ window#waybar {
  color: @textselect;
 }
 #custom-notifications {
- background-color: rgba( 0,0,0,0 );
+ background-color: alpha(@backgroundD, 200);
  font-size: 23px;
  padding-left: 8px;
  padding-right: 8px;
- border-radius: 20px;
+ border-radius: 0px;
  color: @text;
  border: 0px solid @border; 
  transition: 0.3s all ease;
 }
 #custom-notifications:hover {
  color: @textselect;
- border-radius: 20px;
+ border-radius: 0px;
 }
 tooltip {
  background-color: @background;
@@ -324,16 +324,23 @@ tooltip label {
  text-shadow: none;
 }
 #idle_inhibitor {
- background-color: rgba( 0,0,0,0 );
+ background-color: alpha(@backgroundD, 200);
  font-size: 23px;
  padding-left: 8px;
  padding-right: 8px;
- border-radius: 20px;
+ border-radius: 0px;
  color: @text;
  border: 0px solid @border; 
  transition: 0.3s all ease;
 }
 #idle_inhibitor:hover {
  color: @textselect;
- border-radius: 20px;
+ border-radius: 0px;
+}
+#custom-right_div.1,
+#custom-right_div.2,
+#custom-left_div.1,
+#custom-left_div.2 {
+ font-size: 36px;
+ color: alpha(@backgroundD, 200);
 }

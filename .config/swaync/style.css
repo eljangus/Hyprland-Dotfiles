@@ -12,9 +12,9 @@
 }
 
 .notification {
-  background-color: @background;
+  background-color: @backgroundD;
   padding: 20px;
-  outline: var(--outline);
+  outline: none;
   border: none;
   color: @text;
   font-size: 10px;
@@ -50,7 +50,7 @@
   color: @textselect;  
 }
 .notification:hover {
-  background-color: @background;
+  background-color: @backgroundD;
   color: @textselect;
 }
 .notification-group button {
@@ -71,16 +71,16 @@
   border-radius: var(--border-radius);
   color: @text;
   background-color: @background;
-  outline: var(--outline); 
+  outline: none; 
 }
 .widget-title {
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
   margin-bottom: 5px;
   background-color: transparent;
   color: @text;
-  font-weight: bold;
+  border-radius: var(--button-radius);
 }
 .widget-title label {
   font-size: 25px;
@@ -107,11 +107,13 @@
   color: @text;
 }
 .widget-dnd {
-  margin: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5px;
   margin-top: 5px;
   background-color: transparent;
   color: @text;
-  border-radius: 20px;
+  border-radius: var(--button-radius);
 }
 .widget-dnd label {
   color: @text;
@@ -200,12 +202,16 @@ scrollbar trough:hover {
   padding: 0px;
 }
 .mpris-overlay {
-  background-color: alpha(@backgroundD, 1.5);
+  background-color: alpha(@backgroundD, 0.5);
 }
 .widget-mpris {
   border-radius: var(--border-radius);
   color: @text;
-  background: transparent;
+  background: @backgroundD;
+  padding: 10px;
+  margin: 20px;
+  margin-bottom: 10px;
+  border-radius: var(--button-radius);
 }
 .widget-mpris button { 
   background-color: alpha(@text, 0.2);
@@ -239,29 +245,29 @@ scrollbar trough:hover {
   color: @text;
 }
 .widget-buttons-grid {
-    padding: 5px;
-  margin-left: 12px;
-  margin-right: 8px;
-  margin-top: 5px;
+    padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
-    border-radius: 5px;
-    background: transparent;
+    border-radius: var(--button-radius);
+    background: @backgroundD;
 }
 .widget-buttons-grid:hover {
-    padding: 5px;
-  margin-left: 12px;
-  margin-right: 8px;
-  margin-top: 5px;
+    padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
-    border-radius: 5px;
-    background: transparent;
+    border-radius: var(--button-radius);
+    background: @backgroundD;
 }
 .widget-buttons-grid>flowbox>flowboxchild>button {
     margin: 0px;
-    padding-right: 41px;
-    padding-left: 41px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-right: 39px;
+    padding-left: 39px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background: alpha(@text, 0.2);
     border-radius: var(--button-radius);
 }
@@ -269,10 +275,10 @@ scrollbar trough:hover {
 .widget-buttons-grid>flowbox>flowboxchild>button:hover {
     background: alpha(@text, 0.3);
     margin: 0px;
-    padding-right: 41px;
-    padding-left: 41px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-right: 39px;
+    padding-left: 39px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .widget-volume {
   margin-left: 20px;

@@ -1,9 +1,9 @@
 @define-color border #7AA2F7;
-@define-color background rgba(26, 27, 38, 0.8);
-@define-color backgroundD rgba(31, 32, 45, 0.33);
+@define-color background rgba(26, 27, 38, 1);
+@define-color backgroundD rgba(19, 20, 31, 1);
 @define-color text #c0caf5;
 @define-color selection #7AA2F7;
 @define-color textselect #7AA2F7;
 @define-color buttonselect #E0AF68;
-@define-color buttonselecttext rgba(26, 27, 38, 0.8);
+@define-color buttonselecttext rgba(26, 27, 38, 1);
 @define-color button rgba(18, 19, 30, 0);

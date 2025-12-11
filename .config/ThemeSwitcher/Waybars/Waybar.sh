@@ -1,9 +1,9 @@
 #! /bin/sh
 
-chosen=$(printf "Balken\nBalken (Umrandung)\nSchwebend\nSchwebend (Umrandung)\nAngedockt\nAngedockt (Umrandung)\nEckig\nEckig (Umrandung)\nBalken | Vertikal\nBalken (Umrandung) | Vertikal\nEckig | Vertikal\nEckig (Umrandung) | Vertikal\n" | rofi -dmenu -i -m DP-3 -config '~/.config/ThemeSwitcher/Waybars/WB.rasi')
+chosen=$(printf "Eckig\nAbgerundet\n" | rofi -dmenu -i -m DP-3 -config '~/.config/ThemeSwitcher/Waybars/WB.rasi')
 
 case "$chosen" in
-   "Balken") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar/bar.sh & ~/.config/nwg-dock-hyprland/launch.sh ;;
+   "Abgerundet") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar/bar.sh & ~/.config/nwg-dock-hyprland/launch.sh ;;
    "Balken (Umrandung)") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-border/bar-border.sh & ~/.config/nwg-dock-hyprland/launch.sh ;;
    "Schwebend") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-float/float.sh & ~/.config/nwg-dock-hyprland/launch.sh ;;
    "Schwebend (Umrandung)") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-float-border/float-border.sh & ~/.config/nwg-dock-hyprland/launch.sh ;;

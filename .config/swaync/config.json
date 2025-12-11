@@ -13,7 +13,7 @@
     "timeout": 10,
     "timeout-low": 5,
     "timeout-critical": 0,
-    "notification-window-width": 400,
+    "notification-window-width": 500,
     "notification-window-height": -1,
     "notification-grouping": true,
     "notification-window-preferred-output": "DP-3",
@@ -22,14 +22,13 @@
     "hide-on-action": false,
     "text-empty": "Keine Benachrichtigungen",
     "control-center-width": 580,
-    "control-center-height": 1100,
+    "control-center-height": 1338,
     "widgets": [
+      "mpris",
+      "buttons-grid",
       "title",
       "dnd",
-      "notifications",
-      "mpris",
-      "volume",
-      "buttons-grid"
+      "notifications"
     ],
     "widget-config": {
       "notifications": {
@@ -37,7 +36,7 @@
       },
     "title": {
       "text": "Benachrichtigungen",
-      "button-text": "",
+      "button-text": "󰎟",
       "clear-all-button": true
     },
     "dnd": {
