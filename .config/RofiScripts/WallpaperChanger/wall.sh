@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Nightfox/wall.sh
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Jade/wall.sh

@@ -3,73 +3,72 @@
 
 window {
   width: 600px;
-  padding: 0;
+  padding: 0px;
   border: 2;
   border-color: var(border);
   border-radius: var(borderradius);
   transparency: "real";
-  background-color: #00000000;
+  background-color: transparent;
+  x-offset: 0px;
+  y-offset: 0px;
 }
-
 error-message {
   enabled: true;
-  padding: 40px;
+  padding: 20px;
   background-color: var(background);
   border-color: var(border);
   border-radius: var(borderradius);
 }
-
 textbox {
   enabled: true;
-  padding: 12;
+  padding: 15 20 15 20;
   str: "Keine Ergebnisse!";
   text-color: var(textcolor);
-  background-color: transparent;
-  border: 0px;
-  border-radius: var(borderradiuselement);
-  border-color: var(border);
+  background-color: var(backgroundD);
+  border-radius: var(buttonradius);
+  border-color: var(selectionborder);
 }
-
 textbox-custom {
   enabled: true;
-  padding: 20 10 20 30;
+  padding: 15 10 15 30;
   margin: 0 -3 0 -3;
-  str: "";
+  str: "";
   expand: false;
   text-color: var(textcolor);
   background-color: var(backgroundD);
   border: 0px;
-  border-radius: 0px;
+  border-radius: var(buttonradius);
   border-color: var(border);
 }
 
 entry {
-  placeholder: "Systemübersicht...";
+  hide-cursor-on-empty: true;
+  placeholder: " Suchen...";
   placeholder-color: var(searchcolor);
   text-color: var(textcolor);
   border: 0;
   border-color: var(border);
-  padding: 20 30 20 10;
-  border-radius: 0px;
+  padding: 15 20 15 20;
+  border-radius: var(buttonradius);
   background-color: var(backgroundD);
 }
 
 listview {
   margin: 0 0 0 0;
-  padding: 0;
+  padding: 20px 0 0 0;
   columns: 1;
+  fixed-columns: false;
   background-color: var(background);
   scrollbar: false;
   cycle: false;
   border: 0;
-
   border-color: var(border);
 }
 
 mainbox {
   background-color: var(background);
   spacing: 0; 
-  padding: 0;
+  padding: 20px;
   border-radius: var(borderradius);
   children: [ inputbar, listview ];
 }
@@ -77,15 +76,14 @@ mainbox {
 inputbar {
   padding: 0;
   background-color: var(background);
-  children: [ textbox-custom , entry ];
+  children: [ entry ];
   border: 0;
   border-color: var(border);
 }
 
 prompt{
  enabled: true;
- padding: 12 28 12 19;
- margin: 0 30 0 0;
+ padding: 0;
  text-color: var(textcolor);
  border: 2;
  border-color: var(border);
@@ -94,9 +92,10 @@ prompt{
 }
 
 element{
- padding: 15 23 15 23;
- margin: 0;
- border-radius: 0px;
+ padding: 15 20 15 20;
+ orientation: horizontal;
+ margin: 5;
+ border-radius: var(buttonradius);
  border: 0;
 }
 
@@ -138,8 +137,6 @@ element-text{
  highlight: bold underline;
 }
 
-element selected.active,
-element selected.urgent,
 element selected.normal {
  background-color: var(selection);
  text-color: var(background);
@@ -147,31 +144,44 @@ element selected.normal {
  border-color: var(selectionborder);
 }
 
+element selected.urgent {
+ background-color: transparent;
+ text-color: var(selectionborder);
+ border: 0;
+ border-color: var(selectionborder);
+}
+
+element selected.active {
+ background-color: transparent;
+ text-color: var(selectionborder);
+ border: 0;
+ border-color: var(selectionborder);
+}
+
 element-icon{
- size: 48;
+ size: 64;
  background-color: transparent;
  text-color: inherit;
 }
 
 mode-switcher{
- padding: 0;
- background-color: #00000000;
-  margin: 0 20 0 20;
+ padding: 0 0 0 0;
+ background-color: var(background);
+  margin: 0;
  children: [ button ];
 }
 
 button{
- padding: 0 26 0 21;
- margin: 0 10 0 10;
- border: 2;
- border-radius: 20;
+ padding: 20;
+ margin: -2px; 
+ border: 0;
+  border-radius: 0px;
  border-color: var(border);
- background-color: var(background);
+ background-color: var(backgroundD);
  text-color: var(textcolor);
 }
 
-
 button selected.normal {
- background-color: var(background);
- text-color: var(accent2);
+ background-color: var(backgroundD);
+ text-color: var(high);
 }
