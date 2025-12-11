@@ -116,20 +116,22 @@ menu, menu {
  border: 2px solid @border;
  border-radius: 0px;
 }
-
 menu menuitem {
  background-color: transparent;
  border-radius: 0px;
- margin-left: 5px;
- margin-right: 5px;
- margin-top: 2px;
- margin-bottom: 2px;
 }
 menu menuitem:hover {
- background-color: alpha(@buttonselect, 0.5);
+ background-color: alpha(@selection, 0.5);
  border-radius: 0px;
 }
-
+menu menuitem:last-child {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+menu menuitem:first-child {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
 menu menuitem label {
   color: @text;
 }

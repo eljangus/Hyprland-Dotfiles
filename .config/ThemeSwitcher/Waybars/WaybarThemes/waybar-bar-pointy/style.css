@@ -61,15 +61,23 @@ window#waybar {
  color: @text;
  border-radius: 0px;
  border: 0px solid @border;
- padding: 5px;
+ padding: 0px;
 }
 #tray menu menuitem {
  background-color: transparent;
  color: @text;
 }
 #tray menu menuitem:hover {
- background-color: transparent;
- color: @selection;
+ background-color: @selection;
+ color: @background;
+}
+#tray menu menuitem:last-child {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#tray menu menuitem:first-child {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 #traywer {
  background-color: alpha(@backgroundD, 200);

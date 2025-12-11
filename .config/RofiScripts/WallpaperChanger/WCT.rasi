@@ -2,15 +2,16 @@
 @import "~/.config/colors/rofiradius.rasi"
 
 window {
-  width: 1455px;
+  width: 1800px;
   padding: 0;
   border: 2;
   border-color: var(border);
   border-radius: var(borderradius);
   transparency: "real";
   background-color: #00000000;
+  x-offset: 0px;
+  y-offset: 0px;
 }
-
 error-message {
   enabled: true;
   padding: 40px;
@@ -24,46 +25,43 @@ textbox {
   str: "Keine Ergebnisse!";
   text-color: var(textcolor);
   background-color: transparent;
-  border: 0px;
-  border-radius: var(borderradiuselement);
-  border-color: var(border);
+  border: 0 0 0 0;
+  border-color: var(selectionborder);
 }
-
 textbox-custom {
   enabled: true;
-  padding: 12 20 12 20;
-  margin: 0 10 0 0;
+  padding: 20 10 20 30;
+  margin: 0 -3 0 -3;
   str: "";
   expand: false;
   text-color: var(textcolor);
   background-color: var(backgroundD);
   border: 0px;
-  border-radius: var(borderradiuselement);
+  border-radius: 0px;
   border-color: var(border);
 }
 
 entry {
-  placeholder: "Hintergrundbild ändern...";
+  placeholder: "Hintergrundbild wählen...";
   placeholder-color: var(searchcolor);
   text-color: var(textcolor);
   border: 0;
   border-color: var(border);
-  padding: 12 15 12 15;
-  border-radius: var(borderradiuselement);
+  padding: 20 30 20 10;
+  border-radius: 0px;
   background-color: var(backgroundD);
 }
 
 listview {
-  lines: 4;
-  layout: horizontal;
+  lines: 2;
   margin: 0 0 0 0;
-  padding: 0 40 40 40;
-  columns: 1;
+  padding: 0;
+  columns: 4;
+  fixed-columns: true;
   background-color: var(background);
   scrollbar: false;
   cycle: false;
   border: 0;
-
   border-color: var(border);
 }
 
@@ -72,11 +70,11 @@ mainbox {
   spacing: 0; 
   padding: 0;
   border-radius: var(borderradius);
-  children: [ inputbar, listview ];
+  children: [ inputbar, listview, mode-switcher ];
 }
 
 inputbar {
-  padding: 40 40 20 40;
+  padding: 0;
   background-color: var(background);
   children: [ textbox-custom , entry ];
   border: 0;
@@ -85,8 +83,7 @@ inputbar {
 
 prompt{
  enabled: true;
- padding: 12 28 12 19;
- margin: 0 30 0 0;
+ padding: 0;
  text-color: var(textcolor);
  border: 2;
  border-color: var(border);
@@ -95,10 +92,10 @@ prompt{
 }
 
 element{
- padding: 10 20 10 20;
+ padding: 0 10 0 10;
  orientation: vertical;
  margin: 2 0 2 0;
- border-radius: var(borderradiuselement);
+  border-radius: 0px;
  border: 0;
 }
 
@@ -137,12 +134,12 @@ element-text{
  text-color: inherit;
  padding: 0;
  horizontal-align: 0.5;
- highlight: var(myhigh);
+ highlight: bold underline;
 }
 
 element selected.normal {
  background-color: var(selection);
- text-color: var(selectionborder);
+ text-color: var(background);
  border: 0;
  border-color: var(selectionborder);
 }
@@ -162,31 +159,29 @@ element selected.active {
 }
 
 element-icon{
- size: 300;
- horizontal-align: 0.5em;
+ size: 500;
  background-color: transparent;
  text-color: inherit;
 }
 
 mode-switcher{
- padding: 0;
- background-color: #00000000;
-  margin: 0 20 0 20;
+ padding: 0 0 0 0;
+ background-color: var(background);
+  margin: 0;
  children: [ button ];
 }
 
 button{
- padding: 0 26 0 21;
- margin: 0 10 0 10;
- border: 2;
- border-radius: 20;
+ padding: 20;
+ margin: -2px; 
+ border: 0;
+  border-radius: 0px;
  border-color: var(border);
- background-color: var(background);
+ background-color: var(backgroundD);
  text-color: var(textcolor);
 }
 
-
 button selected.normal {
- background-color: var(background);
- text-color: var(accent2);
+ background-color: var(backgroundD);
+ text-color: var(high);
 }

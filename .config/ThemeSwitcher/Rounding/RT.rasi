@@ -32,32 +32,31 @@ textbox {
 
 textbox-custom {
   enabled: true;
-  padding: 12 20 12 20;
-  margin: 0 10 0 0;
+  padding: 20 10 20 30;
+  margin: 0 -3 0 -3;
   str: "󰘇";
   expand: false;
   text-color: var(textcolor);
   background-color: var(backgroundD);
   border: 0px;
-  border-radius: var(borderradiuselement);
+  border-radius: 0px;
   border-color: var(border);
 }
 
 entry {
-  placeholder: "Suchen...";
+  placeholder: "Dekorationen wählen...";
   placeholder-color: var(searchcolor);
   text-color: var(textcolor);
   border: 0;
   border-color: var(border);
-  padding: 12 15 12 15;
-  border-radius: var(borderradiuselement);
+  padding: 20 30 20 10;
+  border-radius: 0px;
   background-color: var(backgroundD);
 }
 
 listview {
-  lines: 8;
   margin: 0 0 0 0;
-  padding: 0 40 40 40;
+  padding: 0;
   columns: 1;
   background-color: var(background);
   scrollbar: false;
@@ -68,7 +67,7 @@ listview {
 }
 
 mainbox {
-  background-color: #00000000;
+  background-color: var(background);
   spacing: 0; 
   padding: 0;
   border-radius: var(borderradius);
@@ -76,7 +75,7 @@ mainbox {
 }
 
 inputbar {
-  padding: 40 40 20 40;
+  padding: 0;
   background-color: var(background);
   children: [ textbox-custom , entry ];
   border: 0;
@@ -95,9 +94,9 @@ prompt{
 }
 
 element{
- padding: 10 20 10 20;
- margin: 2 0 2 0;
- border-radius: var(borderradiuselement);
+ padding: 15 23 15 23;
+ margin: 0;
+ border-radius: 0px;
  border: 0;
 }
 
@@ -136,26 +135,14 @@ element-text{
  text-color: inherit;
  padding: 0;
  vertical-align: 0.5;
- highlight: var(myhigh);
+ highlight: bold underline;
 }
 
+element selected.active,
+element selected.urgent,
 element selected.normal {
- background-color: transparent;
- text-color: var(selectionborder);
- border: 0;
- border-color: var(selectionborder);
-}
-
-element selected.urgent {
- background-color: transparent;
- text-color: var(selectionborder);
- border: 0;
- border-color: var(selectionborder);
-}
-
-element selected.active {
- background-color: transparent;
- text-color: var(selectionborder);
+ background-color: var(selection);
+ text-color: var(background);
  border: 0;
  border-color: var(selectionborder);
 }

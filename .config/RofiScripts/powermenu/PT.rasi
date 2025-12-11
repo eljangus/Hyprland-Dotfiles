@@ -2,7 +2,7 @@
 @import "~/.config/colors/rofiradius.rasi"
 
 window {
-  width: 655px;
+  width: 935px;
   padding: 0;
   border: 2;
   border-color: var(border);
@@ -20,13 +20,13 @@ listview {
   lines: 4;
   layout: horizontal;
   margin: 0 0 0 0;
-  padding: 30;
+  padding: 0;
   columns: 1;
   background-color: var(background);
   scrollbar: false;
   cycle: false;
   border: 0;
-  border-radius: var(borderradius);
+  border-radius: 0px;
   border-color: var(border);
 }
 
@@ -39,9 +39,9 @@ mainbox {
 }
 
 element{
- padding: 5 40 5 40;
- margin: 2 0 2 0;
- border-radius: var(borderradiuselement);
+ padding: 5 60 5 60;
+ margin: 0 0 0 0;
+ border-radius: 0px;
  border: 0;
 }
 
@@ -80,12 +80,12 @@ element-text{
  text-color: inherit;
  padding: 0;
  vertical-align: 0.5;
- highlight: var(myhigh);
+ highlight: bold underline;
 }
 
 element selected.normal {
- background-color: transparent;
- text-color: var(selectionborder);
+ background-color: var(selection);
+ text-color: var(background);
  border: 0;
  border-color: var(selectionborder);
 }

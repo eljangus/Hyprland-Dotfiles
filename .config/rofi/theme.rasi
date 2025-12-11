@@ -2,15 +2,15 @@
 @import "~/.config/colors/rofiradius.rasi"
 
 window {
-  width: 700px;
+  width: 1000px;
   padding: 0;
   border: 2;
   border-color: var(border);
   border-radius: var(borderradius);
   transparency: "real";
   background-color: #00000000;
-  x-offset: 10px;
-  y-offset: 10px;
+  x-offset: 0px;
+  y-offset: 0px;
 }
 error-message {
   enabled: true;
@@ -30,14 +30,14 @@ textbox {
 }
 textbox-custom {
   enabled: true;
-  padding: 12 20 12 20;
-  margin: 0 10 0 0;
+  padding: 20 10 20 30;
+  margin: 0 -3 0 -3;
   str: "";
   expand: false;
   text-color: var(textcolor);
   background-color: var(backgroundD);
   border: 0px;
-  border-radius: var(borderradiuselement);
+  border-radius: 0px;
   border-color: var(border);
 }
 
@@ -47,16 +47,17 @@ entry {
   text-color: var(textcolor);
   border: 0;
   border-color: var(border);
-  padding: 12 15 12 15;
-  border-radius: var(borderradiuselement);
+  padding: 20 30 20 10;
+  border-radius: 0px;
   background-color: var(backgroundD);
 }
 
 listview {
-  lines: 10;
+  lines: 4;
   margin: 0 0 0 0;
-  padding: 0 40 0 40;
-  columns: 1;
+  padding: 0;
+  columns: 4;
+  fixed-columns: true;
   background-color: var(background);
   scrollbar: false;
   cycle: false;
@@ -73,7 +74,7 @@ mainbox {
 }
 
 inputbar {
-  padding: 40 40 20 40;
+  padding: 0;
   background-color: var(background);
   children: [ textbox-custom , entry ];
   border: 0;
@@ -91,9 +92,10 @@ prompt{
 }
 
 element{
- padding: 10 20 10 20;
+ padding: 30 10 30 10;
+ orientation: vertical;
  margin: 2 0 2 0;
- border-radius: var(borderradiuselement);
+  border-radius: 0px;
  border: 0;
 }
 
@@ -131,13 +133,13 @@ element-text{
  background-color: #00000000;
  text-color: inherit;
  padding: 0;
- vertical-align: 0.5;
- highlight: var(myhigh);
+ horizontal-align: 0.5;
+ highlight: bold underline;
 }
 
 element selected.normal {
- background-color: transparent;
- text-color: var(selectionborder);
+ background-color: var(selection);
+ text-color: var(background);
  border: 0;
  border-color: var(selectionborder);
 }
@@ -157,23 +159,23 @@ element selected.active {
 }
 
 element-icon{
- size: 48;
+ size: 64;
  background-color: transparent;
  text-color: inherit;
 }
 
 mode-switcher{
- padding: 20 20 40 20;
+ padding: 0 0 0 0;
  background-color: var(background);
   margin: 0;
  children: [ button ];
 }
 
 button{
- padding: 10;
- margin: 0 20 0 20; 
+ padding: 20;
+ margin: -2px; 
  border: 0;
- border-radius: var(borderradiuselement);
+  border-radius: 0px;
  border-color: var(border);
  background-color: var(backgroundD);
  text-color: var(textcolor);
