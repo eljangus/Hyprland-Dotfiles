@@ -1,7 +1,7 @@
 #! /bin/sh
 
 ~/.config/ThemeSwitcher/Animations/Horizontal/horizontal.sh
-~/.config/ThemeSwitcher/Rounding/RoundingThemes/0px/pointy.sh
+~/.config/ThemeSwitcher/Rounding/RoundingThemes/20px/round.sh
 hyprctl reload
 ln -sf ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar/config.jsonc ~/.config/waybar/config.jsonc
 ln -sf ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar/style.css ~/.config/waybar/style.css
