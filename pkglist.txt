@@ -11,6 +11,7 @@ bluez-utils
 btop
 cava
 cbonsai
+chrono-date
 cliphist
 cmake
 cowsay
@@ -35,6 +36,7 @@ gnome-boxes
 gnome-clocks
 gnome-text-editor
 gnome-themes-extra
+gobject-introspection
 grub
 gst-libav
 gst-plugins-bad
@@ -109,7 +111,6 @@ unimatrix-git
 unzip
 vim
 vulkan-tools
-waybar
 wf-recorder
 wine
 winetricks
