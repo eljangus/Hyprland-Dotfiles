@@ -1,7 +1,8 @@
 * {
     border: #587C8700;
-    background: #fbf1c7;
-    backgroundD: rgba(235, 219, 178, 1);
+    background: rgba(251, 241, 199, 1);
+    backgroundA: rgba(235, 219, 178, 1);
+    backgroundD: rgba(221, 198, 157, 1);
     textcolor: #3c3836;
     accent1: #cc241d;
     accent2: #98971a;

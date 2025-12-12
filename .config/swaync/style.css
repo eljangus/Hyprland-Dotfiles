@@ -12,7 +12,7 @@
 }
 
 .notification {
-  background-color: @backgroundD;
+  background-color: @backgroundA;
   padding: 20px;
   outline: none;
   border: none;
@@ -35,10 +35,10 @@
 }
 .close-button:hover {
   background-color: alpha(@text, 1);
-  color: @backgroundD;
+  color: @backgroundA;
 }
 .close-button image {
-  color: @backgroundD;
+  color: @backgroundA;
 }
 .notification-content {
   background-color: transparent;
@@ -50,7 +50,7 @@
   color: @textselect;  
 }
 .notification:hover {
-  background-color: @backgroundD;
+  background-color: @backgroundA;
   color: @textselect;
 }
 .notification-group button {
@@ -65,7 +65,7 @@
 .notification-group button label,
 .notification-group button label:hover,
 .notification-group button image {
-  color: @backgroundD;
+  color: @backgroundA;
 }
 .control-center {
   border-radius: var(--border-radius);
@@ -118,7 +118,7 @@
   color: @text;
 }
 .widget-dnd>switch {
-  background: @backgroundD;
+  background: @backgroundA;
   border-radius: 20px;
 }
 .widget-dnd>switch:checked {
@@ -134,7 +134,7 @@
   border-radius: 20px;
 }
 .widget-dnd>switch:checked slider {
-  background-color: alpha(@backgroundD, 5);
+  background-color: alpha(@backgroundA, 5);
 }
 scrollbar {
   background: transparent; 
@@ -201,12 +201,12 @@ scrollbar trough:hover {
   padding: 0px;
 }
 .mpris-overlay {
-  background-color: alpha(@backgroundD, 0.5);
+  background-color: alpha(@backgroundA, 0.5);
 }
 .widget-mpris {
   border-radius: var(--border-radius);
   color: @text;
-  background: @backgroundD;
+  background: @backgroundA;
   padding: 10px;
   margin: 20px;
   margin-bottom: 10px;
@@ -250,7 +250,7 @@ scrollbar trough:hover {
   margin-top: 10px;
   margin-bottom: 10px;
     border-radius: var(--button-radius);
-    background: @backgroundD;
+    background: @backgroundA;
 }
 .widget-buttons-grid:hover {
     padding: 10px;
@@ -259,7 +259,7 @@ scrollbar trough:hover {
   margin-top: 10px;
   margin-bottom: 10px;
     border-radius: var(--button-radius);
-    background: @backgroundD;
+    background: @backgroundA;
 }
 .widget-buttons-grid>flowbox>flowboxchild>button {
     margin: 0px;

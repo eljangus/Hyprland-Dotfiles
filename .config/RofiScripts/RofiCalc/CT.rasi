@@ -12,21 +12,24 @@ window {
   x-offset: 0px;
   y-offset: 0px;
 }
-error-message {
-  enabled: true;
-  padding: 20px;
-  background-color: var(background);
+message {
+  hide-cursor-on-empty: true;
+  text-color: var(textcolor);
+  border: 0;
+  margin: 0 0 0 0;
   border-color: var(border);
-  border-radius: var(borderradius);
+  padding: 30 20 0 20;
+  border-radius: 0;
+  background-color: var(background);
 }
 textbox {
-  enabled: true;
-  padding: 15 20 15 20;
-  str: "Keine Ergebnisse!";
+  hide-cursor-on-empty: true;
   text-color: var(textcolor);
-  background-color: var(backgroundD);
-  border-radius: var(buttonradius);
-  border-color: var(selectionborder);
+  border: 0;
+  border-color: var(border);
+  padding: 15 20 15 20;
+  border-radius: 0;
+  background-color: var(backgroundA);
 }
 textbox-custom {
   enabled: true;
@@ -41,22 +44,75 @@ textbox-custom {
   border-color: var(border);
 }
 
+textbox-left {
+  enabled: true;
+  padding: 0;
+  margin: 0 -2 0 0;
+  placeholder: "";
+  expand: false;
+  text-color: var(backgroundD);
+  background-color: var(backgroundA);
+  border: 0px;
+  font: "JetBrainsMono Nerd Font Propo 37";
+  border-radius: var(buttonradius);
+  border-color: var(border);
+}
+textbox-left-2 {
+  enabled: true;
+  padding: 0;
+  margin: 0 -2 0 0;
+  placeholder: "";
+  expand: false;
+  text-color: var(backgroundA);
+  background-color: transparent;
+  border: 0px;
+  font: "JetBrainsMono Nerd Font Propo 37";
+  border-radius: var(buttonradius);
+  border-color: var(border);
+}
+textbox-right {
+  enabled: true;
+  padding: 0;
+  margin: 0 0 0 -2;
+  placeholder: "";
+  expand: false;
+  text-color: var(backgroundD);
+  background-color: var(backgroundA);
+  border: 0px;
+  font: "JetBrainsMono Nerd Font Propo 37";
+  border-radius: var(buttonradius);
+  border-color: var(border);
+}
+textbox-right-2 {
+  enabled: true;
+  padding: 0;
+  margin: 0 0 0 -2;
+  placeholder: "";
+  expand: false;
+  text-color: var(backgroundA);
+  background-color: transparent;
+  border: 0px;
+  font: "JetBrainsMono Nerd Font Propo 37";
+  border-radius: var(buttonradius);
+  border-color: var(border);
+}
+
 entry {
   hide-cursor-on-empty: true;
-  placeholder: " Suchen...";
+  placeholder: "󰍘 Rechnen...";
   placeholder-color: var(searchcolor);
   text-color: var(textcolor);
   border: 0;
   border-color: var(border);
   padding: 15 20 15 20;
-  border-radius: var(buttonradius);
+  border-radius: 0;
   background-color: var(backgroundD);
 }
 
 listview {
   lines: 8;
   margin: 0 0 0 0;
-  padding: 20px 0 0 0;
+  padding: 30px 20px 20px 20px;
   columns: 1;
   fixed-columns: false;
   background-color: var(background);
@@ -69,15 +125,15 @@ listview {
 mainbox {
   background-color: var(background);
   spacing: 0; 
-  padding: 20px;
+  padding: 30px;
   border-radius: var(borderradius);
-  children: [ inputbar, listview ];
+  children: [ inputbar, message, listview ];
 }
 
 inputbar {
   padding: 0;
   background-color: var(background);
-  children: [ entry ];
+  children: [ textbox-left-2, textbox-left, entry, textbox-right, textbox-right-2 ];
   border: 0;
   border-color: var(border);
 }

@@ -2,7 +2,7 @@
 @import "~/.config/colors/rofiradius.rasi"
 
 window {
-  width: 991px;
+  width: 1011px;
   padding: 0;
   border: 2;
   border-color: var(border);
@@ -33,7 +33,7 @@ listview {
 mainbox {
   background-color: var(background);
   spacing: 0; 
-  padding: 20;
+  padding: 30;
   border-radius: var(borderradius);
   children: [ listview ];
 }

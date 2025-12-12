@@ -59,14 +59,14 @@ button {
   margin-right: 0.25rem;
   color: @text;
   border-radius: 0.125rem;
-  background-color: @backgroundD;
+  background-color: @backgroundA;
   transition: all 0.3s ease;
   box-shadow: none;
   text-shadow: none;
 }
 
 button:hover {
-  background-color: @backgroundD;
+  background-color: @backgroundA;
   border-radius: 0.125rem;
   color: inherit;
   border: 0.125rem solid @selection;
@@ -100,7 +100,7 @@ tooltip label {
 }
 
 menu, menu {
-  background-color: @backgroundD;
+  background-color: @backgroundA;
   color: @text;
   border: 0rem solid @border;
   border-radius: 0.125rem;
