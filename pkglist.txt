@@ -8,6 +8,7 @@ base-devel
 blueman
 bluez
 bluez-utils
+brightnessctl
 btop
 cava
 cbonsai
@@ -77,6 +78,7 @@ obs-studio
 openrgb-git
 openrgb-plugin-effects-git
 opentabletdriver
+otf-commit-mono-nerd
 otf-font-awesome
 pacman-contrib
 pamixer
@@ -111,6 +113,7 @@ unimatrix-git
 unzip
 vim
 vulkan-tools
+waybar
 wf-recorder
 wine
 winetricks
