@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Catppuccin-Mocha/Walls/BG/whale
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Catppuccin-Mocha/Walls/BG/Mayer
