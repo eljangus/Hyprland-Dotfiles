@@ -1,6 +1,6 @@
 #! /bin/sh
 
-chosen=$(printf "Eckig\nAbgerundet\n" | rofi -dmenu -i -m DP-3 -config '~/.config/ThemeSwitcher/Waybars/WB.rasi')
+chosen=$(printf "Eckig\n" | rofi -dmenu -i -m DP-3 -config '~/.config/ThemeSwitcher/Waybars/WB.rasi')
 
 case "$chosen" in
    "Abgerundet") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar/bar.sh & ~/.config/nwg-dock-hyprland/launch.sh ;;

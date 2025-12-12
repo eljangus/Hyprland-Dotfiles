@@ -2,12 +2,14 @@
 ///////////////////////////
  "layer": "top",
  "position": "top",
+ "mode": "dock",
  "height": 0,
  "width": 2540,
  "spacing": 0,
  "margin-top": 10,
  "margin-bottom": 0,
  "output": "DP-3",
+ "reload_style_on-change": true,
 ///////////////////////////
  "modules-left": [
  "custom/System",
@@ -16,9 +18,15 @@
  "custom/right_div#1",
 ],
  "modules-center": [
+  "custom/left_div#3",
+  "custom/pacman",
+  "custom/left_inv#1",
   "custom/left_div#1",
   "clock",
   "custom/right_div#2",
+  "custom/right_inv#1",
+  "temperature",
+  "custom/right_div#3",
 ],
  "modules-right": [
   "custom/left_div#2",

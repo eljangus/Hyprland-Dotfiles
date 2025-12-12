@@ -156,7 +156,23 @@
 "status-icons": { 
   "paused": "",
                 },
-    },
+},
+"custom/pacman": {
+    "format": "{} ",
+    "interval": 3600,                     
+    "exec": "checkupdates | wc -l",       
+    "exec-if": "exit 0",                  
+    "on-click": "hyprctl dispatch exec \"[float; size 879 879] kitty bash -c \\\"figlet SYSTEMUPDATE! && yay -Syu && pkill -SIGRTMIN+8 waybar\\\"\"",
+    "signal": 8
+},
+
+ "temperature": {
+    "interval": 1,
+    "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
+    "critical-threshold": 80,
+    "format-critical": " {temperatureC}°C",
+    "format": " {temperatureC}°C",
+},
     "custom/left_div#1": {
 		"format": "",
 		"tooltip": false
@@ -225,5 +241,5 @@
 	"custom/right_inv#1": {
 		"format": "",
 		"tooltip": false
-	}
+	},
 }

@@ -350,5 +350,41 @@ tooltip label {
 #custom-left_div.1,
 #custom-left_div.2 {
  font-size: 36px;
- color: alpha(@backgroundD, 200);
+ color: @backgroundD;
+}
+#custom-left_div.3,
+#custom-left_inv.1,
+#custom-right_div.3 {
+ font-size: 36px;
+ color: @backgroundA;
+}
+#custom-right_inv.1 {
+ font-size: 36px;
+ color: @backgroundA;
+}
+#custom-pacman {
+ border-radius: 0px;
+ padding-right: 8px;
+ padding-left: 8px;
+ background-color: alpha(@backgroundA, 200);
+ color: @text;
+ border: 0px solid @border;
+ transition: 0.3s all ease;
+}
+#custom-pacman:hover {
+ border-radius: 0px;
+ color: @textselect;
+}
+#temperature {
+ border-radius: 0px;
+ padding-right: 8px;
+ padding-left: 8px;
+ background-color: alpha(@backgroundA, 200);
+ color: @text;
+ border: 0px solid @border;
+ transition: 0.3s all ease;
+}
+#temperature:hover {
+ border-radius: 0px;
+ color: @textselect;
 }
