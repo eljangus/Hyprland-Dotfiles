@@ -16,6 +16,7 @@
  "custom/notifications",
  "hyprland/workspaces",
  "custom/right_div#1",
+ "custom/right_div#4",
 ],
  "modules-center": [
   "custom/left_div#3",
@@ -27,6 +28,7 @@
   "custom/right_div#3",
 ],
  "modules-right": [
+  "custom/left_div#4",
   "custom/left_div#2",
   "group/volume",
   "idle_inhibitor",
