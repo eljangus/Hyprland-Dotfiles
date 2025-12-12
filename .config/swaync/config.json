@@ -22,7 +22,7 @@
     "hide-on-action": false,
     "text-empty": "Keine Benachrichtigungen",
     "control-center-width": 580,
-    "control-center-height": 1338,
+    "control-center-height": 1000,
     "widgets": [
       "mpris",
       "buttons-grid",

@@ -4,11 +4,12 @@
  "position": "top",
  "mode": "dock",
  "height": 0,
- "width": 2540,
  "spacing": 0,
  "margin-top": 10,
- "margin-bottom": 0,
+ "margin-left": 10,
+ "margin-right": 10,
  "output": "DP-3",
+ "margin-bottom": 0,
  "reload_style_on-change": true,
 ///////////////////////////
  "modules-left": [
