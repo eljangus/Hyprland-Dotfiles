@@ -17,6 +17,7 @@ themes=(
     "Jade"
     "Dunkel"
     "Hell"
+    "Catpuccin Mocha"
 )
 
 # Load last choice
@@ -47,5 +48,6 @@ case "$choice" in
    "Jade") ~/.config/ThemeSwitcher/Themes/ColorThemes/Jade/jade.sh ;;
    "Dunkel") ~/.config/ThemeSwitcher/Themes/ColorThemes/Dark/dark.sh ;;
    "Hell") ~/.config/ThemeSwitcher/Themes/ColorThemes/Hell/hell.sh ;;
+   "Catpuccin Mocha") ~/.config/ThemeSwitcher/Themes/ColorThemes/Catpuccin-Mocha/catmocha.sh ;;
 esac
 
