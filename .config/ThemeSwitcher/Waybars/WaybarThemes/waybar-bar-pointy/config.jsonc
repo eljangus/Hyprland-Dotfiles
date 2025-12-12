@@ -20,11 +20,9 @@
  "modules-center": [
   "custom/left_div#3",
   "custom/pacman",
-  "custom/left_inv#1",
   "custom/left_div#1",
   "clock",
   "custom/right_div#2",
-  "custom/right_inv#1",
   "temperature",
   "custom/right_div#3",
 ],

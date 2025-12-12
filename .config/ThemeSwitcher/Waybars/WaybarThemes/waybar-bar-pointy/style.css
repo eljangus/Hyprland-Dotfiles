@@ -1,390 +1,174 @@
-@import "../colors/waybarcolors.css";       
+@import "../colors/waybarcolors.css";
+
 * {
-    /* `otf-font-awesome` is required to be installed for icons */
     font-family: JetBrainsMono Nerd Font Propo;
-    font-size: 20px;   
+    font-size: 1.32375rem; 
     font-weight: bold;
     border: none;
     outline: none;
     box-shadow: none;
     text-shadow: none;
 }
+
 window#waybar {
- background: alpha(@background, 200);
- padding: 5px;
- background-image: none;
- box-shadow: none;
- border: 0px solid @border;
- border-radius: 0px;
+    background: @background;
+    padding: 0.25rem; 
+    background-image: none;
+    box-shadow: none;
+    border: 0 solid @border;
+    border-radius: 0;
 }
+
 #custom-System {
- background-color: alpha(@backgroundD, 200);
- font-size: 23px;
- padding-left: 16px;
- margin-left: 0px;
- padding-right: 8px;
- border-radius: 0px;
- color: @text;
- border: 0px solid @border;
- transition: 0.3s all ease;
+    background-color: @backgroundD;
+    font-size: 1.32375rem; 
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    color: @text;
+    border: 0 solid @border;
+    border-radius: 0;
+    transition: 0.3s all ease;
 }
-#custom-System:hover {
- border-radius: 0px;
- color: @textselect;
-}
+
+#custom-System:hover { color: @textselect; }
+
 #clock {
- background: alpha(@backgroundD, 200);
- font-size: 20px;
- font-weight: bold;
- border-radius: 0px;
- padding-right: 8px;
- padding-left: 8px; 
- color: @text;
- border: 0px solid @border;
- transition: 0.3s all ease;
+    background: @backgroundD;
+    font-size: 1.32375rem;
+    font-weight: bold;
+    border-radius: 0;
+    padding: 0.5rem;
+    color: @text;
+    border: 0 solid @border;
+    transition: 0.3s all ease;
 }
-#clock:hover {
- border-radius: 0px;
- color: @textselect;
-}
+
+#clock:hover { color: @textselect; }
+
 #tray {
- border-radius: 20px;
- padding-left: 0px;
- padding-right: 10px;
- background-color: transparent;
- color: @text;
- border: 0px solid @border;
- transition: 0.3s all ease;
+    border-radius: 1.32375rem; 
+    padding: 0 0.625rem; 
+    background-color: transparent;
+    color: @text;
+    border: 0 solid @border;
+    transition: 0.3s all ease;
 }
+
 #tray menu, menu {
- background-color: @backgroundD;
- color: @text;
- border-radius: 0px;
- border: 0px solid @border;
- padding: 0px;
+    background-color: @backgroundD;
+    color: @text;
+    border-radius: 0;
+    padding: 0;
+    border: 0 solid @border;
 }
-#tray menu menuitem {
- background-color: transparent;
- color: @text;
-}
-#tray menu menuitem:hover {
- background-color: @selection;
- color: @background;
-}
-#tray menu menuitem:last-child {
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-#tray menu menuitem:first-child {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-}
-#traywer {
- background-color: alpha(@backgroundD, 200);
- padding-left: 8px;
- padding-right: 8px;
- border-radius: 0px;
- color: @text;
- border: 0px solid @border;
- transition: 0.3s all ease;
-}
-#traywer:hover {
- color: @textselect;
-}
-#workspaces button.persistent label,
-#workspaces button.active label {
- font-size: 20px;
-}
+
+#tray menu menuitem:hover { background-color: @selection; color: @background; }
+
 #workspaces {
- margin: 0px;
- padding-left: 0px;
- padding-right: 0px;
- border-radius: 0px;
- background-color: alpha(@backgroundD, 200);
- border: 0px solid @border;
- transition: all 0.3s ease;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    background-color: @backgroundD;
+    border: 0 solid @border;
+    transition: all 0.3s ease;
 }
-#workspaces button:hover {
- box-shadow: none;
- text-shadow: none;
- min-width: 0px;
- margin-top: 10px;
- margin-bottom: 10px;
- margin-left: 3px;
- margin-right: 3px;
- border: 0px;
- background: transparent;
- border-radius: 2px;
- padding-top: 0px;
- padding-bottom: 0px;
- padding-right: 8px;
- padding-left: 8px;
- color: @buttonselect;
- transition: all 0.3s ease;
-}
-#workspaces:hover {
- margin: 0px;
- border-radius: 0px;
-}
+
 #workspaces button {
- box-shadow: none;
- text-shadow: none; 
- margin-top: 10px;
- margin-bottom: 10px;
- margin-left: 3px;
- margin-right: 3px;
- border: 0px;
- min-width: 0px;
- padding-top: 0px;
- padding-bottom: 0px;
- padding-right: 8px;
- padding-left: 8px;
- background-color: transparent;
- border-radius: 2px;
- color: @text; 
- transition: all 0.3s ease;
+    box-shadow: none;
+    text-shadow: none; 
+    margin: 0.625rem 0.1875rem; 
+    padding: 0 0.5rem; 
+    background-color: transparent;
+    border-radius: 1rem; 
+    color: @text; 
+    transition: all 0.3s ease;
 }
-#workspaces button.empty {
- color: alpha(@text, 0.5);
+
+#workspaces button.active { color: @selection; }
+#workspaces button:hover { color: @buttonselect; }
+
+#network, #bluetooth, #pulseaudio, #traywer {
+    border-radius: 0;
+    padding: 0 0.5rem;
+    background-color: @backgroundD;
+    color: @text;
+    border: 0 solid @border;
+    transition: 0.3s all ease;
 }
-#workspaces button.empty:hover {
- color: alpha(@buttonselect, 0.5);
+
+#network:hover, #bluetooth:hover, #pulseaudio:hover, #traywer:hover { color: @textselect; }
+
+#mpris, #custom-theme, #custom-bar, #custom-notifications {
+    font-size: 1.32375rem;
+    padding: 0.5rem;
+    border-radius: 0.125rem;
+    color: @text;
+    background-color: @backgroundD;
+    transition: 0.3s all ease;
 }
-#workspaces button.active:hover {
- color: @selection;
-}
-#workspaces button.active{
- margin-top: 10px;
- margin-bottom: 10px;
- margin-left: 3px;
- margin-right: 3px;
- background-color: transparent; 
- color: @selection;
- padding-right: 8px;
- padding-left: 8px;
- border: 0px;
- border-radius: 2px;
- transition: all 0.3s ease;
-}
-#network {
- border-radius: 0px;
- padding-right: 8px;
- padding-left: 8px;
- background-color: alpha(@backgroundD, 200);
- color: @text;
- border: 0px solid @border;
- transition: 0.3s all ease;
-}
-#network:hover {
- border-radius: 0px;
- color: @textselect;
-}
-#bluetooth {
- border-radius: 0px;
- font-size: 23px;
- padding-right: 8px;
- padding-left: 8px;
- background-color: alpha(@backgroundD, 200);
- color: @text;
- border: 0px solid @border;
- transition: 0.3s all ease;
-}
-#bluetooth:hover {
- border-radius: 0px;
- color: @textselect;
-}
-#pulseaudio {
- background: transparent;
- border-radius: 20px;
- padding-right: 8px;
- padding-left: 4px;
- font-size: 23px;
- color: @text;
- border: 0px solid @background;
- transition: 0.3s all ease;
-}
-#pulseaudio:hover {
- border-radius: 20px;
- color: @textselect;
-}
-#pulseaudio-slider {
- background: transparent;
- border-radius: 20px;
- padding-right: 14px;
- padding-left: 14px;
- margin-top: 2px;
- color: @text;
- border: 0px solid @background;
-}
-#pulseaudio-slider slider {
- background: @text;
- min-height: 0px;
- min-width: 0px;
- margin: -6px;
- box-shadow: none;
- border: 0px solid @background;
-}
-#pulseaudio-slider trough {
- background: alpha(@text, 0.3);
- min-width: 70px;
- min-height: 4px;
- box-shadow: none;
- border-radius: 20px;
- border: 0px solid @background;
-}
-#pulseaudio-slider highlight {
- background: @textselect;
- border-radius: 20px;
- margin: 0px;
- box-shadow: none;
- border: 0px solid @border;
- color: @textselect;
-}
-#volume {
- background-color: alpha(@backgroundD, 200);
- border-radius: 0px;
- transition: 0.3s all ease;
-}
-#mpris {
- background:  rgba( 0,0,0,0 );
- font-size: 20px;
- font-weight: bold;
- border-radius: 20px;
- padding-left: 10px;
- padding-right: 10px;
- color: @text;
- border: 0px solid @border;
- transition: 0.3s all ease;
-}
-#mpris:hover {
- border-radius: 20px;
- color: @textselect;
-}
+
 #custom-powermenu {
- border-radius: 0px;
- padding: 10px;
- margin-right: 0px;
- padding-right: 16px;
- padding-left: 8px;
- background-color: alpha(@backgroundD, 200);
- color: @text;
- border: 0px solid @border;
- transition: 0.3s all ease;
+    font-size: 1.32375rem;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    border-radius: 0.125rem;
+    color: @text;
+    background-color: @backgroundD;
+    transition: 0.3s all ease;
 }
-#custom-powermenu:hover {
- border-radius: 0px;
- color: @textselect;
+#mpris:hover, #custom-theme:hover, #custom-bar:hover, #custom-powermenu:hover, #custom-notifications:hover {
+    color: @textselect;
 }
-#custom-theme {
- background-color: rgba( 0,0,0,0 );
- font-size: 23px;
- padding-left: 8px;
- padding-right: 8px;
- border-radius: 20px;
- color: @text;
- border: 0px solid @border;
- transition: 0.3s all ease;
+
+#custom-pacman, #temperature {
+    font-size: 1.32375rem;
+    padding: 0.5rem;
+    border-radius: 0.125rem;
+    color: @text;
+    background-color: @backgroundA;
+    transition: 0.3s all ease;
 }
-#custom-bar {
- background-color: rgba( 0,0,0,0 );
- font-size: 23px;
- padding-left: 8px;
- padding-right: 8px;
- border-radius: 20px;
- color: @text;
- border: 0px solid @border;
- transition: 0.3s all ease;
-}
-#custom-theme:hover {
- border-radius: 20px;
- color: @textselect;
-}
-#custom-bar:hover {
- border-radius: 20px;
- color: @textselect;
-}
-#custom-notifications {
- background-color: alpha(@backgroundD, 200);
- font-size: 23px;
- padding-left: 8px;
- padding-right: 8px;
- border-radius: 0px;
- color: @text;
- border: 0px solid @border; 
- transition: 0.3s all ease;
-}
-#custom-notifications:hover {
- color: @textselect;
- border-radius: 0px;
-}
+#custom-pacman:hover, #temperature:hover { color: @textselect }
 tooltip {
- background-color: @background;
- padding: 5px; 
- color: @text;
- border-radius: 0px;
- border: 0px solid @border;
+    background-color: @background;
+    padding: 0.3125rem;
+    color: @text;
+    border-radius: 0;
+    border: 0 solid @border;
 }
+
 tooltip label {
- padding: 5px;
- border-radius: 20px;
- font-weight: bold;
- color: @text;
- text-shadow: none;
+    padding: 0.3125rem;
+    border-radius: 1.25rem; 
+    font-weight: bold;
+    color: @text;
 }
+
 #idle_inhibitor {
- background-color: alpha(@backgroundD, 200);
- font-size: 23px;
- padding-left: 8px;
- padding-right: 8px;
- border-radius: 0px;
- color: @text;
- border: 0px solid @border; 
- transition: 0.3s all ease;
+    background-color: @backgroundD;
+    font-size: 1.32375rem; 
+    padding: 0 0.5rem;
+    color: @text;
+    border-radius: 0;
+    transition: 0.3s all ease;
 }
-#idle_inhibitor:hover {
- color: @textselect;
- border-radius: 0px;
-}
+
+#idle_inhibitor:hover { color: @textselect; }
+
 #custom-right_div.1,
 #custom-right_div.2,
 #custom-left_div.1,
 #custom-left_div.2 {
- font-size: 36px;
- color: @backgroundD;
+    font-size: 2.25rem;
+    color: @backgroundD;
 }
+
 #custom-left_div.3,
 #custom-left_inv.1,
 #custom-right_div.3 {
- font-size: 36px;
- color: @backgroundA;
+    font-size: 2.25rem;
+    color: @backgroundA;
 }
+
 #custom-right_inv.1 {
- font-size: 36px;
- color: @backgroundA;
-}
-#custom-pacman {
- border-radius: 0px;
- padding-right: 8px;
- padding-left: 8px;
- background-color: alpha(@backgroundA, 200);
- color: @text;
- border: 0px solid @border;
- transition: 0.3s all ease;
-}
-#custom-pacman:hover {
- border-radius: 0px;
- color: @textselect;
-}
-#temperature {
- border-radius: 0px;
- padding-right: 8px;
- padding-left: 8px;
- background-color: alpha(@backgroundA, 200);
- color: @text;
- border: 0px solid @border;
- transition: 0.3s all ease;
-}
-#temperature:hover {
- border-radius: 0px;
- color: @textselect;
+    font-size: 2.25rem;
+    color: @backgroundA;
 }
