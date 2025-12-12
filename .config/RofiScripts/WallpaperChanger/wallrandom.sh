@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Gruvbox-Light/wallrandom.sh
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Gruvbox-Dark/wallrandom.sh
