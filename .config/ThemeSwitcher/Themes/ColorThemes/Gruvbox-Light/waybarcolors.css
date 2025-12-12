@@ -1,7 +1,7 @@
 @define-color border #587C87;
-@define-color backgroundD rgba(251, 241, 199, 1);
+@define-color background rgba(251, 241, 199, 1);
 @define-color backgroundA rgba(235, 219, 178, 1);
-@define-color background rgba(221, 198, 157, 1);
+@define-color backgroundD rgba(221, 198, 157, 1);
 @define-color text #3c3836;
 @define-color selection #587C87;
 @define-color textselect #587C87;
