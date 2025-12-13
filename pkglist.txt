@@ -51,13 +51,13 @@ hyprpicker
 hyprpolkitagent
 hyprshot
 imv
+joyutils
 kamera
 kdeconnect
 kitty
 libva-nvidia-driver
 linux
 linux-firmware
-linuxconsole
 lolcat
 man-db
 mangohud
@@ -77,7 +77,6 @@ nwg-look
 obs-studio
 openrgb-git
 openrgb-plugin-effects-git
-opentabletdriver
 otf-commit-mono-nerd
 otf-font-awesome
 pacman-contrib
@@ -123,6 +122,7 @@ xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-user-dirs
 yay
+yay-debug
 yazi
 zenity
 zram-generator

@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Catppuccin-Mocha/Walls/BG/Mayer
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Catppuccin-Mocha/Walls/BG/Pixel Erde
