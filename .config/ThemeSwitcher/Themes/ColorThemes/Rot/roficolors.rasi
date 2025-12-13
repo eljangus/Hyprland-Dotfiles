@@ -2,7 +2,7 @@
     border: #8C100700;
     background: rgba(41, 4, 2, 1);
     backgroundA: rgba(30, 3, 1, 1);
-    backgroundD: rgba(19, 2, 0, 1);
+    backgroundD: rgba(23, 2, 0, 1);
     textcolor: #FFF0C4;
     accent1: #cc241d;
     accent2: #98971a;
