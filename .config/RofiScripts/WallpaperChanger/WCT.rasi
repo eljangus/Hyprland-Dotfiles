@@ -213,7 +213,7 @@ element selected.active {
 }
 
 element-icon{
- size: 500;
+ size: 450;
  background-color: transparent;
  text-color: inherit;
 }
