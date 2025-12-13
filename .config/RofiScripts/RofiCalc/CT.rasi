@@ -18,7 +18,7 @@ message {
   border: 0;
   margin: 0 0 0 0;
   border-color: var(border);
-  padding: 10 30 0 30;
+  padding: 30 0 0 0;
   border-radius: 0;
   background-color: var(background);
 }
@@ -28,7 +28,7 @@ textbox {
   border: 0;
   border-color: var(border);
   padding: 15 20 15 20;
-  border-radius: 0;
+  border-radius: var(buttonradius);
   background-color: var(backgroundA);
 }
 textbox-custom {
@@ -105,8 +105,8 @@ entry {
   border: 0;
   border-color: var(border);
   padding: 15 20 15 20;
-  border-radius: 0;
-  background-color: var(backgroundD);
+  border-radius: var(buttonradius);
+  background-color: var(backgroundA);
 }
 
 listview {
@@ -133,7 +133,7 @@ mainbox {
 inputbar {
   padding: 0;
   background-color: var(background);
-  children: [ textbox-left-2, textbox-left, entry, textbox-right, textbox-right-2 ];
+  children: [ entry ];
   border: 0;
   border-color: var(border);
 }
