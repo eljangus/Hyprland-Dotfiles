@@ -172,10 +172,10 @@
   "paused": "",
                 },
 },
-"custom/pacman": {
+"custom/yay": {
     "format": "{} ",
     "interval": 3600,                     
-    "exec": "checkupdates | wc -l",       
+    "exec": "yay -Qu 2>/dev/null | wc -l",
     "exec-if": "exit 0",                  
     "on-click": "hyprctl dispatch exec \"[float; size 879 879] kitty bash -c \\\"figlet SYSTEMUPDATE! && yay -Syu && pkill -SIGRTMIN+8 waybar\\\"\"",
     "signal": 8,

@@ -20,7 +20,7 @@
 ],
  "modules-center": [
   "custom/left_div#3",
-  "custom/pacman",
+  "custom/yay",
   "custom/left_div#1",
   "clock",
   "custom/right_div#2",
