@@ -12,3 +12,4 @@ ln -sfn ~/.config/IconThemes/Papirus-White/Papirus-Dark ~/.local/share/icons/Pap
 ln -sfn ~/.config/IconThemes/Papirus-Yellow/Papirus-Dark ~/.local/share/icons/Papirus-Yellow
 ln -sfn ~/.config/IconThemes/Papirus-Teal/Papirus-Dark ~/.local/share/icons/Papirus-Teal
 ln -sfn ~/.config/IconThemes/Papirus-Brown/Papirus-Dark ~/.local/share/icons/Papirus-Brown
+ln -sfn ~/.config/IconThemes/Papirus-Indigo/Papirus-Dark ~/.local/share/icons/Papirus-Indigo

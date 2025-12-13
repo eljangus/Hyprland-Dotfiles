@@ -192,4 +192,4 @@ tooltip label {
 #custom-left_div.1 {
     background-color: @backgroundA;  
 }
-
+#custom-notifications, #custom-notifications:hover, #bluetooth, #bluetooth:hover, #idle_inhibitor, #idle_inhibitor:hover { font-size: 1.475rem }

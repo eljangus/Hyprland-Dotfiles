@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Dark/Walls/BG/IOS26 1
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Catppuccin-Mocha/Walls/BG/Wolken

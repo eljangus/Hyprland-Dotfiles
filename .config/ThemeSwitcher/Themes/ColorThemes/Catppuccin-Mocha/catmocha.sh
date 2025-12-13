@@ -2,8 +2,8 @@
 
 swww img ~/.config/ThemeSwitcher/Themes/ColorThemes/Catppuccin-Mocha/Walls/1 --transition-fps 240 --transition-step 255 --transition-duration 1 --transition-type any
 gsettings set org.gnome.desktop.interface color-scheme \'prefer-dark\'
-ln -sfn ~/.config/IconThemes/Papirus-Magenta/Papirus-Dark ~/.local/share/icons/Icons
-gsettings set org.gnome.desktop.interface icon-theme "'Papirus-Magenta'"
+ln -sfn ~/.config/IconThemes/Papirus-Indigo/Papirus-Dark ~/.local/share/icons/Icons
+gsettings set org.gnome.desktop.interface icon-theme "'Papirus-Indigo'"
 kitty +kitten themes --reload-in=all Catppuccin-Mocha
 ln -sf ~/.config/ThemeSwitcher/Themes/ColorThemes/Catppuccin-Mocha/Walls/1 ~/.config/ThemeSwitcher/Walls/Wall
 ln -sf ~/.config/ThemeSwitcher/Themes/ColorThemes/Catppuccin-Mocha/hyprcolors.conf ~/.config/colors/hyprcolors.conf

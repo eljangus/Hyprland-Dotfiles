@@ -10,10 +10,25 @@
   "on-click": "~/.config/RofiScripts/powermenu/powermenu.sh"
                     },
 "custom/notifications": {
-	"tooltip": false,
-	"format" : "",
-	"on-click": "swaync-client -t",
-	"on-click-right": "swaync-client -R; swaync-client -rs",
+    "tooltip": true,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "󱅫",
+      "none": "󰂜",
+      "dnd-notification": "󰂠",
+      "dnd-none": "󰪓",
+      "inhibited-notification": "󰂛",
+      "inhibited-none": "󰪑",
+      "dnd-inhibited-notification": "󰂛",
+      "dnd-inhibited-none": "󰪑"
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "on-click-middle": "swaync-client -R; swaync-client -rs",
+    "escape": true
 	                     }, 
 "hyprland/workspaces": {
  "disable-scroll": true,
