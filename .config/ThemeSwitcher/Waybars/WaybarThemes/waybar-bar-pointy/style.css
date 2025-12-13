@@ -46,7 +46,7 @@ window#waybar {
     transition: 0.3s all ease;
 }
 #tray menu, menu {
-    background-color: @backgroundD;
+    background-color: @backgroundA;
     color: @text;
     border-radius: 0;
     padding: 0;
@@ -151,7 +151,7 @@ window#waybar {
 #temperature { margin-left: 0; padding-left: 0.5rem; }
 #custom-pacman:hover, #temperature:hover { color: @textselect }
 tooltip {
-    background-color: @background;
+    background-color: @backgroundA;
     padding: 0.3125rem;
     color: @text;
     border-radius: 0;
