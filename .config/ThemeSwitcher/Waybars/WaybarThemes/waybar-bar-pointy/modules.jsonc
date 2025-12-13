@@ -164,7 +164,7 @@
     "exec-if": "exit 0",                  
     "on-click": "hyprctl dispatch exec \"[float; size 879 879] kitty bash -c \\\"figlet SYSTEMUPDATE! && yay -Syu && pkill -SIGRTMIN+8 waybar\\\"\"",
     "signal": 8,
-    "tooltip-format": "{} Systempakete sind bereit zur Aktualisierung"
+    "tooltip-format": "{}  Systempaket(e) bereit zur Aktualisierung" 
 },
 
  "temperature": {
