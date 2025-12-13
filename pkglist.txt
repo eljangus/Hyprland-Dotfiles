@@ -122,7 +122,6 @@ xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-user-dirs
 yay
-yay-debug
 yazi
 zenity
 zram-generator
