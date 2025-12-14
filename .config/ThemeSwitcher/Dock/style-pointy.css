@@ -101,6 +101,7 @@ tooltip label {
 
 menu, menu {
   background-color: @backgroundA;
+  padding: 0; 
   color: @text;
   border: 0rem solid @border;
   border-radius: 0.125rem;

@@ -87,13 +87,13 @@ tooltip {
   background-color: @background;
   padding: 0.3125rem; 
   color: @text;
-  border-radius: 0.125rem;
+  border-radius: 0.9375rem;
   border: 0rem solid @border;
 }
 
 tooltip label {
   padding: 0.3125rem;
-  border-radius: 0.125rem;
+  border-radius: 0.9375rem;
   font-weight: bold;
   color: @text;
   text-shadow: none;
@@ -102,28 +102,29 @@ tooltip label {
 menu, menu {
   background-color: @backgroundA;
   color: @text;
+  padding: 0; 
   border: 0rem solid @border;
-  border-radius: 0.125rem;
+  border-radius: 0.9375rem;
 }
 
 menu menuitem {
   background-color: transparent;
-  border-radius: 0.125rem;
+  border-radius: 0rem;
 }
 
 menu menuitem:hover {
   background-color: alpha(@selection, 0.5);
-  border-radius: 0.125rem;
+  border-radius: 0rem;
 }
 
 menu menuitem:last-child {
-  border-bottom-left-radius: 0rem;
-  border-bottom-right-radius: 0rem;
+  border-bottom-left-radius: 0.9375rem;
+  border-bottom-right-radius: 0.9375rem;
 }
 
 menu menuitem:first-child {
-  border-top-left-radius: 0rem;
-  border-top-right-radius: 0rem;
+  border-top-left-radius: 0.9375rem;
+  border-top-right-radius: 0.9375rem;
 }
 
 menu menuitem label {

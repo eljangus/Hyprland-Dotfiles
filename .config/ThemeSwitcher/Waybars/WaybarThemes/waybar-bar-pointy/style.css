@@ -49,10 +49,12 @@ window#waybar {
 #tray menu, menu {
     background-color: @backgroundA;
     color: @text;
-    border-radius: 0;
+    border-radius: 0rem;
     padding: 0;
     border: 0 solid @border;
 }
+#tray menu menuitem:hover:last-child { border-bottom-left-radius: 0rem; border-bottom-right-radius: 0rem }
+#tray menu menuitem:hover:first-child { border-top-left-radius: 0rem; border-top-right-radius: 0rem }
 #tray menu menuitem:hover { background-color: @selection; color: @background; }
 #workspaces {
     margin: 0;
