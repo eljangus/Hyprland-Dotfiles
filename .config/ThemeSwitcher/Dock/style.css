@@ -1,0 +1,144 @@
+@import "../colors/waybarcolors.css";
+
+window {
+  background: @background;
+  border-radius: 1.25rem;
+  box-shadow: none;
+  text-shadow: none;
+  border: 0rem solid @border;
+  outline: none;  
+}
+
+* {
+  background: none;
+  background-color: transparent;
+  color: @text;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 1.125rem;
+  box-shadow: none;
+  text-shadow: none;
+  border-style: none;
+  border-width: 0rem;
+  outline: none;  
+}
+
+#box {
+  padding: 0.4375rem;
+  margin: 0.3125rem;
+  border-style: none;
+  border-width: 0rem;
+  outline: none;  
+  box-shadow: none;
+  text-shadow: none;
+}
+
+#active {
+  border-bottom: solid 0rem @selection;
+  border-style: none;
+  border-width: 0rem;
+  outline: none;  
+  box-shadow: none;
+  text-shadow: none;
+}
+
+button image:hover,
+button image {
+  background: transparent;
+  border-style: none;
+  border-width: 0rem;
+  outline: none;  
+  box-shadow: none;
+  text-shadow: none;
+  color: @text;
+}
+
+button {
+  border: 0.125rem solid transparent;
+  padding: 0.625rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  color: @text;
+  border-radius: 0.9375rem;
+  background-color: @backgroundA;
+  transition: all 0.3s ease;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+button:hover {
+  background-color: @backgroundA;
+  border-radius: 0.9375rem;
+  color: inherit;
+  border: 0.125rem solid @selection;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+button:focus {
+  box-shadow: none;
+  text-shadow: none;
+  border-style: none;
+  border-width: 0rem;
+  outline: none;  
+  transition: all 0.3s ease;
+}
+
+tooltip {
+  background-color: @background;
+  padding: 0.3125rem; 
+  color: @text;
+  border-radius: 0.125rem;
+  border: 0rem solid @border;
+}
+
+tooltip label {
+  padding: 0.3125rem;
+  border-radius: 0.125rem;
+  font-weight: bold;
+  color: @text;
+  text-shadow: none;
+}
+
+menu, menu {
+  background-color: @backgroundA;
+  color: @text;
+  border: 0rem solid @border;
+  border-radius: 0.125rem;
+}
+
+menu menuitem {
+  background-color: transparent;
+  border-radius: 0.125rem;
+}
+
+menu menuitem:hover {
+  background-color: alpha(@selection, 0.5);
+  border-radius: 0.125rem;
+}
+
+menu menuitem:last-child {
+  border-bottom-left-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+}
+
+menu menuitem:first-child {
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+}
+
+menu menuitem label {
+  color: @text;
+}
+
+menu menuitem:hover label {
+  color: @text;
+}
+
+menu menu menuitem label {
+  color: @text; 
+}
+
+menu menu menuitem:hover label {
+  color: @text;
+}
+

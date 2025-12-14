@@ -7,5 +7,6 @@ ln -sf ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-pointy/config.jso
 ln -sf ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-pointy/style.css ~/.config/waybar/style.css
 ln -sf ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-pointy/modules.jsonc ~/.config/waybar/modules.jsonc
 ln -sf ~/.config/ThemeSwitcher/Dock/style-pointy.css ~/.config/nwg-dock-hyprland/style.css
+ln -sf ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-pointy/launch.sh ~/.config/nwg-dock-hyprland/launch.sh
 killall waybar
 waybar

@@ -9,7 +9,7 @@
     text-shadow: none;
 }
 window#waybar {
-    background: @background;
+    background: none;
     padding: 0.25rem; 
     background-image: none;
     box-shadow: none;
@@ -17,28 +17,30 @@ window#waybar {
     border-radius: 0;
 }
 #custom-System {
-    background-color: @backgroundD;
+    background-color: @background;
     font-size: 1.32375rem; 
-    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     color: @text;
     border: 0 solid @border;
-    border-radius: 0;
+    border-radius: 1.25rem;
     transition: 0.3s all ease;
 }
 #custom-System:hover { color: @textselect; }
 #clock {
-    background: @backgroundD;
+    background: @background;
     font-size: 1.32375rem;
     font-weight: bold;
-    border-radius: 0;
-    padding: 0.5rem;
+    border-radius: 1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     color: @text;
     border: 0 solid @border;
     transition: 0.3s all ease;
 }
 #clock:hover { color: @textselect; }
 #tray {
-    border-radius: 1.32375rem; 
+    border-radius: 1.25rem; 
     padding-left: 0rem;
     padding-right: 0.8rem;
     background-color: transparent;
@@ -47,18 +49,20 @@ window#waybar {
     transition: 0.3s all ease;
 }
 #tray menu, menu {
-    background-color: @backgroundA;
+    background-color: @background;
     color: @text;
-    border-radius: 0;
-    padding: 0;
+    border-radius: 1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     border: 0 solid @border;
 }
 #tray menu menuitem:hover { background-color: @selection; color: @background; }
 #workspaces {
     margin: 0;
-    padding: 0;
-    border-radius: 0;
-    background-color: @backgroundD;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-radius: 1.25rem;
+    background-color: @background;
     border: 0 solid @border;
     transition: all 0.3s ease;
 }
@@ -66,32 +70,41 @@ window#waybar {
     box-shadow: none;
     text-shadow: none; 
     margin: 0.625rem 0.1875rem; 
-    padding: 0 0.5rem; 
-    background-color: transparent;
-    border-radius: 1rem; 
-    color: @text; 
+    padding: 0 0.7rem; 
+    background: @backgroundA;
+    border-radius: 0.8rem; 
+    color: @backgroundA; 
     transition: all 0.3s ease;
 }
 #workspaces button.active.empty,
-#workspaces button.active { color: @selection; background: transparent }
+#workspaces button.active { color: @selection; background: @selection; padding: 0 2rem }
 #workspaces button.active.empty:hover,
-#workspaces button.active:hover { color: @selection; background: transparent }
-#workspaces button:hover { color: @buttonselect; background: transparent }
-#workspaces button.empty { color: alpha( @text , 0.5 ); background: transparent }
-#workspaces button.empty:hover { color: alpha( @buttonselect , 0.5 ) ; background: transparent }
+#workspaces button.active:hover { color: @selection; background: @selection }
+#workspaces button:hover { color: @buttonselect; background: @buttonselect }
+#workspaces button.empty { color: @backgroundA; background: @backgroundA }
+#workspaces button.empty:hover { color: @buttonselect ; background: @buttonselect }
 
 #network, #bluetooth, #pulseaudio, #traywer {
-    border-radius: 0;
-    padding: 0 0.5rem;
-    background-color: @backgroundD;
+    border-radius: 1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background-color: @background;
     color: @text;
     border: 0 solid @border;
     transition: 0.3s all ease;
 }
+#bluetooth { padding-left: 1.4rem; padding-right: 1.4rem }
+#pulseaudio { background: none; padding: 0 0 0 0.35rem; }
+#volume {
+    background: @background;
+    border-radius: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1.25rem;
+}
 #pulseaudio-slider {
-    background: @backgroundD; 
-    border-radius: 0; 
-    padding: 0 0.875rem; 
+    background: transparent; 
+    border-radius: 1.25rem; 
+    padding: 0 1rem 0 0.35rem; 
     color: @text;
     border: 0 solid @background; 
 }
@@ -124,18 +137,20 @@ window#waybar {
 #network:hover, #bluetooth:hover, #pulseaudio:hover, #traywer:hover { color: @textselect; }
 #mpris, #custom-theme, #custom-bar, #custom-notifications {
     font-size: 1.32375rem;
-    padding: 0.5rem;
-    border-radius: 0.125rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 1.25rem;
     color: @text;
-    background-color: @backgroundD;
+    background-color: @background;
     transition: 0.3s all ease;
 }
 #custom-powermenu {
     font-size: 1.32375rem;
-    padding: 0.5rem 1rem 0.5rem 0.5rem;
-    border-radius: 0.125rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 1.25rem;
     color: @text;
-    background-color: @backgroundD;
+    background-color: @background;
     transition: 0.3s all ease;
 }
 #mpris:hover, #custom-theme:hover, #custom-bar:hover, #custom-powermenu:hover, #custom-notifications:hover {
@@ -143,16 +158,16 @@ window#waybar {
 }
 #custom-yay, #temperature {
     font-size: 1.32375rem;
-    padding: 0.5rem;
-    border-radius: 0.125rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 1.25rem;
     color: @text;
-    background-color: @backgroundA;
+    background-color: @background;
     transition: 0.3s all ease;
 }
-#temperature { margin-left: 0; padding-left: 0.5rem; }
 #custom-yay:hover, #temperature:hover { color: @textselect }
 tooltip {
-    background-color: @backgroundA;
+    background-color: @background;
     padding: 0.3125rem;
     color: @text;
     border-radius: 0;
@@ -165,11 +180,12 @@ tooltip label {
     color: @text;
 }
 #idle_inhibitor {
-    background-color: @backgroundD;
+    background-color: @background;
     font-size: 1.32375rem; 
-    padding: 0 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     color: @text;
-    border-radius: 0;
+    border-radius: 1.25rem;
     transition: 0.3s all ease;
 }
 #idle_inhibitor:hover { color: @textselect; }
@@ -178,19 +194,19 @@ tooltip label {
 #custom-left_div.1,
 #custom-left_div.2 {
     font-size: 2.25rem;
-    color: @backgroundD;
+    color: @background;
 }
 #custom-left_div.4,
 #custom-right_div.4,
 #custom-left_div.3,
 #custom-right_div.3 {
     font-size: 2.25rem;
-    color: @backgroundA;
+    color: @background;
 }
 #custom-right_div.1,
 #custom-left_div.2,
 #custom-right_div.2,
 #custom-left_div.1 {
-    background-color: @backgroundA;  
+    background-color: @background;  
 }
 #custom-notifications, #custom-notifications:hover, #bluetooth, #bluetooth:hover, #idle_inhibitor, #idle_inhibitor:hover { font-size: 1.475rem }
