@@ -74,16 +74,16 @@ window#waybar {
     padding: 0 0.7rem; 
     background: @backgroundA;
     border-radius: 0.8rem; 
-    color: @backgroundA; 
+    color: transparent; 
     transition: all 0.3s ease;
 }
 #workspaces button.active.empty,
-#workspaces button.active { color: @selection; background: @selection; padding: 0 2rem }
+#workspaces button.active { color: transparent;  background: @selection; padding: 0 2rem }
 #workspaces button.active.empty:hover,
-#workspaces button.active:hover { color: @selection; background: @selection }
-#workspaces button:hover { color: @buttonselect; background: @buttonselect }
-#workspaces button.empty { color: @backgroundA; background: @backgroundA }
-#workspaces button.empty:hover { color: @buttonselect ; background: @buttonselect }
+#workspaces button.active:hover { color: transparent;  background: @selection }
+#workspaces button:hover { color: transparent;  background: @buttonselect }
+#workspaces button.empty { color: transparent;  background: @backgroundA }
+#workspaces button.empty:hover { color: transparent ; background: @buttonselect }
 
 #network, #bluetooth, #pulseaudio, #traywer {
     border-radius: 1.25rem;
