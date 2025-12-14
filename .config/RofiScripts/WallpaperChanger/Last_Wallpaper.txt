@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Catppuccin-Mocha/Walls/BG/Wolken
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Earth/Walls/BG/Mast
