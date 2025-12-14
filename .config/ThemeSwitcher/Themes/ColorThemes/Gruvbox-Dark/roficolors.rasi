@@ -1,14 +1,14 @@
 * {
     border: #b84b2100;
-    background: rgba(40, 40, 40, 1);
-    backgroundA: rgba(32, 32, 32, 1);
-    backgroundD: rgba(24, 24, 24, 1);
+    background: rgba(40, 40, 40, 0.8);
+    backgroundA: rgba(32, 32, 32, 0.3);
+    backgroundD: rgba(24, 24, 24, 0.3);
     textcolor: #ebdbb2;
     accent1: #cc241d;
     accent2: #98971a;
     accent3: #d79921;
     accent4: #458588;
-    selection: #98971A;
+    selection: #98971Acc;
     selectionborder: #98971A;
     myhigh: bold #D79921;
     high: #D79921;

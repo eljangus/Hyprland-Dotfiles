@@ -112,7 +112,7 @@ listview {
   padding: 30px 0px 0px 0px;
   columns: 3;
   fixed-columns: false;
-  background-color: var(background);
+  background-color: transparent;
   scrollbar: false;
   cycle: false;
   border: 0;
@@ -129,7 +129,7 @@ mainbox {
 
 inputbar {
   padding: 0;
-  background-color: var(background);
+  background-color: transparent;
   children: [ entry ];
   border: 0;
   border-color: var(border);

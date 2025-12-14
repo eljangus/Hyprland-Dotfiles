@@ -12,7 +12,7 @@
 }
 
 .notification {
-  background-color: @backgroundA;
+  background-color: alpha(@backgroundA, 0.3);
   padding: 20px;
   outline: none;
   border: none;
@@ -35,10 +35,10 @@
 }
 .close-button:hover {
   background-color: alpha(@text, 1);
-  color: @backgroundA;
+  color: alpha(@backgroundA, 0.3);
 }
 .close-button image {
-  color: @backgroundA;
+  color: alpha(@backgroundA, 0.3);
 }
 .notification-content {
   background-color: transparent;
@@ -50,7 +50,7 @@
   color: @textselect;  
 }
 .notification:hover {
-  background-color: @backgroundA;
+  background-color: alpha(@backgroundA, 0.3);
   color: @textselect;
 }
 .notification-group button {
@@ -65,12 +65,12 @@
 .notification-group button label,
 .notification-group button label:hover,
 .notification-group button image {
-  color: @backgroundA;
+  color: alpha(@backgroundA, 0.3);
 }
 .control-center {
   border-radius: var(--border-radius);
   color: @text;
-  background-color: @background;
+  background-color: alpha(@background, 0.8);
   outline: none; 
 }
 .widget-title {
@@ -118,7 +118,7 @@
   color: @text;
 }
 .widget-dnd>switch {
-  background: @backgroundA;
+  background: alpha(@backgroundA, 0.3);
   border-radius: 20px;
 }
 .widget-dnd>switch:checked {
@@ -206,7 +206,7 @@ scrollbar trough:hover {
 .widget-mpris {
   border-radius: var(--border-radius);
   color: @text;
-  background: @backgroundA;
+  background: alpha(@backgroundA, 0.3);
   padding: 10px;
   margin: 20px;
   margin-bottom: 10px;
@@ -250,7 +250,7 @@ scrollbar trough:hover {
   margin-top: 10px;
   margin-bottom: 10px;
     border-radius: var(--button-radius);
-    background: @backgroundA;
+    background: alpha(@backgroundA, 0.3);
 }
 .widget-buttons-grid:hover {
     padding: 10px;
@@ -259,7 +259,7 @@ scrollbar trough:hover {
   margin-top: 10px;
   margin-bottom: 10px;
     border-radius: var(--button-radius);
-    background: @backgroundA;
+    background: alpha(@backgroundA, 0.3);
 }
 .widget-buttons-grid>flowbox>flowboxchild>button {
     margin: 0px;
