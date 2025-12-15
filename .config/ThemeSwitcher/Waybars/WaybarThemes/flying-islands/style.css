@@ -157,7 +157,7 @@ window#waybar {
 #mpris:hover, #custom-theme:hover, #custom-bar:hover, #custom-powermenu:hover, #custom-notifications:hover {
     color: @textselect;
 }
-#custom-yay, #temperature {
+#custom-pacman, #temperature {
     font-size: 1.32375rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -166,7 +166,7 @@ window#waybar {
     background-color: alpha(@background, 0.8);
     transition: 0.3s all ease;
 }
-#custom-yay:hover, #temperature:hover { color: @textselect }
+#custom-pacman:hover, #temperature:hover { color: @textselect }
 tooltip {
     background-color: alpha(@background, 0.8);
     padding: 0.3125rem;

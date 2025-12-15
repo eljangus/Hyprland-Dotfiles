@@ -18,7 +18,7 @@
  
 ],
  "modules-center": [
-  "custom/yay",
+  "custom/pacman",
   "hyprland/workspaces",
   "temperature",
 ],
