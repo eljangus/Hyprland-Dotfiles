@@ -67,7 +67,8 @@
 "clock": {
   "timezone": "Europe/Berlin",
   "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-  "format" : "󰸗 {:L%a %d.%m.%y  %H:%M}",
+  "format" : " {:%H:%M}",
+  "format-alt" : "󰸗 {:L%a %d.%m.%y}", 
     "calendar": {
     "mode"          : "year",
 "mode-mon-col"  : 3,
