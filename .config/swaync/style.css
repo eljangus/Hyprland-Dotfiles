@@ -3,31 +3,31 @@
 
 * {
   font-family: "JetBrainsMono Nerd Font Propo";
-  font-size: 22px;
+  font-size: 1.5rem;
   text-shadow: none;
   color: @text;
-  box-shadow: 0px 0px 0px 0px transparent;
+  box-shadow: 0rem 0rem 0rem 0rem transparent;
   border: none;
   outline: none;
 }
 
 .notification {
   background-color: alpha(@backgroundA, 0.8);
-  padding: 20px;
+  padding: 1.25rem;
   outline: var(--outline);
   border: none;
   color: @text;
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 .notification button {
-   background-color: alpha(@text, 0.8);
+  background-color: alpha(@text, 0.8);
 }
 .notification button:hover {
-   background-color: alpha(@text, 1);
+  background-color: alpha(@text, 1);
 }
 .image {
-  border-radius: 0px;
-  margin-right: 20px;
+  border-radius: 0rem;
+  margin-right: 1.25rem;
 }
 .close-button {
   background-color: alpha(@text, 0.8);
@@ -42,7 +42,7 @@
 }
 .notification-content {
   background-color: transparent;
-  padding: 0px;
+  padding: 0rem;
   color: @text;
 }
 .notification-default-action:hover {
@@ -74,15 +74,15 @@
   outline: var(--outline); 
 }
 .widget-title {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  margin-top: 0.625rem;
+  margin-bottom: 0.3125rem;
   color: @text;
   border-radius: var(--button-radius);
 }
 .widget-title label {
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 .widget-title>button {
   background-color: transparent;
@@ -92,11 +92,8 @@
   background-color: alpha(@text, 0.2);
   color: @text;
   border-radius: var(--button-radius);
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 20px;
-  margin-right: -15px;
+  padding: 0.4rem 1.25rem 0.4rem 1.25rem;
+  margin-right: -0.9375rem;
 }
 .widget-title>button label:hover {
   color: @text;
@@ -106,10 +103,10 @@
   color: @text;
 }
 .widget-dnd {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  margin-bottom: 0.3125rem;
+  margin-top: 0.3125rem;
   background-color: transparent;
   color: @text;
   border-radius: var(--button-radius);
@@ -119,19 +116,19 @@
 }
 .widget-dnd>switch {
   background: alpha(@backgroundA, 0.3);
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 .widget-dnd>switch:checked {
   background: @textselect;
- }
+}
 .widget-dnd>switch slider {
   background-color: @text;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  margin: -1px;
-  border-radius: 20px;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  padding-top: 0.1875rem;
+  padding-bottom: 0.1875rem;
+  margin: -0.0625rem;
+  border-radius: 1.25rem;
 }
 .widget-dnd>switch:checked slider {
   background-color: alpha(@backgroundA, 5);
@@ -141,29 +138,29 @@ scrollbar {
   color: @text;
   border: none;
   outline: none;
-  padding: 3px;
-  margin: 0px;
-  border-radius: 20px;
-  min-width: 0;
-  min-height: 0;
+  padding: 0.1875rem;
+  margin: 0rem;
+  border-radius: 1.25rem;
+  min-width: 0rem;
+  min-height: 0rem;
   opacity: 1;
   transition: background-color 200ms ease, opacity 200ms ease;
 }
 scrollbar slider {
   background: @text;
-  border-radius: 20px;
-  margin: 0px;
-  padding: 3px;
+  border-radius: 1.25rem;
+  margin: 0rem;
+  padding: 0.1875rem;
   outline: none;
   border: none;
-  min-width: 0;
-  min-height: 0;
+  min-width: 0rem;
+  min-height: 0rem;
   opacity: 0.7;
   transition: background-color 200ms ease, opacity 200ms ease;
 }
 scrollbar trough {
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
   transition: background-color 200ms ease, opacity 200ms ease;
 }
 scrollbar:hover {
@@ -171,34 +168,34 @@ scrollbar:hover {
   color: @text;
   border: none;
   outline: none;
-  padding: 3px;
-  margin: 0px;
-  border-radius: 20px;
-  min-width: 0;
-  min-height: 0;
+  padding: 0.1875rem;
+  margin: 0rem;
+  border-radius: 1.25rem;
+  min-width: 0rem;
+  min-height: 0rem;
   opacity: 1;
 }
 scrollbar slider:hover {
   background: @text;
-  border-radius: 20px;
-  margin: 0px;
-  padding: 3px;
+  border-radius: 1.25rem;
+  margin: 0rem;
+  padding: 0.1875rem;
   border: none;
   outline: none;
-  min-width: 0;
-  min-height: 0;
+  min-width: 0rem;
+  min-height: 0rem;
   opacity: 0.7;
 }
 scrollbar trough:hover {
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
 }
 .notification-group {
   border-radius: var(--border-radius);
   background-color: transparent;
   border: none;
   color: @text;
-  padding: 0px;
+  padding: 0rem;
 }
 .mpris-overlay {
   background-color: alpha(@backgroundA, 0.5);
@@ -207,9 +204,9 @@ scrollbar trough:hover {
   border-radius: var(--border-radius);
   color: @text;
   background: alpha(@backgroundA, 0.3);
-  padding: 10px;
-  margin: 20px;
-  margin-bottom: 10px;
+  padding: 0.625rem;
+  margin: 1.25rem;
+  margin-bottom: 0.625rem;
   border-radius: var(--button-radius);
 }
 .widget-mpris button { 
@@ -222,14 +219,14 @@ scrollbar trough:hover {
 .widget-mpris>box>button {
   background-color: transparent;
   border-radius: var(--button-radius);
-  border: 2px solid transparent;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 0px;
-  margin-right: 0px;
+  border: 0.125rem solid transparent;
+  margin-top: 0.9375rem;
+  margin-bottom: 0.9375rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 .widget-mpris>box>button:hover {
-  border: 2px solid transparent;
+  border: 0.125rem solid transparent;
   background-color: alpha(@text, 0.3);
 } 
 .widget-mpris-player {
@@ -244,46 +241,30 @@ scrollbar trough:hover {
   color: @text;
 }
 .widget-buttons-grid {
-    padding: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-    border-radius: var(--button-radius);
-    background: alpha(@backgroundA, 0.3);
+  padding: 0.625rem;
+  margin: 0.625rem 1.25rem 0.625rem 1.25rem;
+  border-radius: var(--button-radius);
+  background: alpha(@backgroundA, 0.3);
 }
 .widget-buttons-grid:hover {
-    padding: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-    border-radius: var(--button-radius);
-    background: alpha(@backgroundA, 0.3);
+  padding: 0.625rem;
+  margin: 0.625rem 1.25rem 0.625rem 1.25rem;
+  border-radius: var(--button-radius);
+  background: alpha(@backgroundA, 0.3);
 }
 .widget-buttons-grid>flowbox>flowboxchild>button {
-    margin: 0px;
-    padding-right: 39px;
-    padding-left: 39px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: alpha(@text, 0.2);
-    border-radius: var(--button-radius);
+  margin: 0rem;
+  padding: 1.25rem 2.7954rem;
+  background: alpha(@text, 0.2);
+  border-radius: var(--button-radius);
 }
- 
 .widget-buttons-grid>flowbox>flowboxchild>button:hover {
-    background: alpha(@text, 0.3);
-    margin: 0px;
-    padding-right: 39px;
-    padding-left: 39px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  background: alpha(@text, 0.3);
+  margin: 0rem;
+  padding: 1.25rem 2.7954rem;
 }
 .widget-volume {
-  margin-left: 20px;
-  margin-right: 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 0.3125rem 0.9375rem 0.3125rem 1.25rem;
   background-color: transparent;
 }
 .widget-volume slider {
@@ -292,12 +273,12 @@ scrollbar trough:hover {
 .widget-volume label {
   background-color: transparent;
   color: @text;
-  font-size: 30px;
-  margin-right: 7px;
+  font-size: 1.875rem;
+  margin-right: 0.4375rem;
 }
 .widget-volume trough {
- background-color: alpha(@text, 0.3);
+  background-color: alpha(@text, 0.3);
 }
 .widget-volume trough highlight {
- background-color: @textselect;
+  background-color: @textselect;
 }

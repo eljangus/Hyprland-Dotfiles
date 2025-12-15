@@ -8,6 +8,7 @@
  "margin-left": 10,
  "margin-right": 10,
  "margin-bottom": 0,
+ "output": "DP-3",
  "reload_style_on-change": true,
 ///////////////////////////
  "modules-left": [

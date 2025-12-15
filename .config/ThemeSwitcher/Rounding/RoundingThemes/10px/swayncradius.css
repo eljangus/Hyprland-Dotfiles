@@ -2,5 +2,5 @@
   --border: 1px solid @border;
   --outline: 1px solid @border;
   --border-radius: 10px;
-  --button-radius: 7px;
+  --button-radius: 9px;
 }

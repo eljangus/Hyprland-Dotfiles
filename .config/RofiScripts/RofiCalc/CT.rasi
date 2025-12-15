@@ -2,243 +2,152 @@
 @import "~/.config/colors/rofiradius.rasi"
 
 window {
-  width: 800px;
-  padding: 0px;
-  border: 1;
+  width: 20em;
+  padding: 0em;
+  border: 1px;         
   border-color: var(border);
   border-radius: var(borderradius);
   transparency: "real";
   background-color: transparent;
-  x-offset: 0px;
-  y-offset: 0px;
+  x-offset: 0em;
+  y-offset: 0em;
 }
+
 message {
   hide-cursor-on-empty: true;
   text-color: var(textcolor);
   border: 0;
   margin: 0 0 0 0;
   border-color: var(border);
-  padding: 30 0 0 0;
+  padding: 0.8em 0 0 0;
   border-radius: 0;
   background-color: transparent;
 }
+
 textbox {
   hide-cursor-on-empty: true;
   text-color: var(textcolor);
   border: 0;
   border-color: var(border);
-  padding: 15 20 15 20;
+  padding: 0.4em 0.54em 0.4em 0.54em;
   border-radius: var(buttonradius);
   background-color: var(backgroundA);
-}
-textbox-custom {
-  enabled: true;
-  padding: 15 10 15 30;
-  margin: 0 -3 0 -3;
-  str: "";
-  expand: false;
-  text-color: var(textcolor);
-  background-color: var(backgroundD);
-  border: 0px;
-  border-radius: var(buttonradius);
-  border-color: var(border);
 }
 
-textbox-left {
+error-message {
   enabled: true;
-  padding: 0;
-  margin: 0 -2 0 0;
-  placeholder: "";
-  expand: false;
-  text-color: var(backgroundD);
-  background-color: var(backgroundA);
-  border: 0px;
-  font: "JetBrainsMono Nerd Font Propo 37";
-  border-radius: var(buttonradius);
+  padding: 0.54em;
+  background-color: var(background);
   border-color: var(border);
+  border-radius: var(borderradius);
 }
-textbox-left-2 {
+
+textbox {
   enabled: true;
-  padding: 0;
-  margin: 0 -2 0 0;
-  placeholder: "";
-  expand: false;
-  text-color: var(backgroundA);
-  background-color: transparent;
-  border: 0px;
-  font: "JetBrainsMono Nerd Font Propo 37";
+  padding: 0.4em 0.54em 0.4em 0.54em;
+  str: "Keine Ergebnisse!";
+  text-color: var(textcolor);
+  background-color: var(backgroundD);
   border-radius: var(buttonradius);
-  border-color: var(border);
-}
-textbox-right {
-  enabled: true;
-  padding: 0;
-  margin: 0 0 0 -2;
-  placeholder: "";
-  expand: false;
-  text-color: var(backgroundD);
-  background-color: var(backgroundA);
-  border: 0px;
-  font: "JetBrainsMono Nerd Font Propo 37";
-  border-radius: var(buttonradius);
-  border-color: var(border);
-}
-textbox-right-2 {
-  enabled: true;
-  padding: 0;
-  margin: 0 0 0 -2;
-  placeholder: "";
-  expand: false;
-  text-color: var(backgroundA);
-  background-color: transparent;
-  border: 0px;
-  font: "JetBrainsMono Nerd Font Propo 37";
-  border-radius: var(buttonradius);
-  border-color: var(border);
+  border-color: var(selectionborder);
 }
 
 entry {
   hide-cursor-on-empty: true;
-  placeholder: "󰍘 Rechnen...";
+  placeholder: " Suchen...";
   placeholder-color: var(searchcolor);
   text-color: var(textcolor);
-  border: 0;
+  border: 0em;
   border-color: var(border);
-  padding: 15 20 15 20;
+  padding: 0.4em 0.54em 0.4em 0.54em;
   border-radius: var(buttonradius);
   background-color: var(backgroundA);
 }
 
 listview {
-  lines: 8;
-  margin: 0 0 0 0;
-  padding: 30px 0px 0px 0px;
+  lines: 10;
+  margin: 0em;
+  padding: 0.8em 0em 0em 0em;
   columns: 1;
   fixed-columns: false;
   background-color: transparent;
   scrollbar: false;
   cycle: false;
-  border: 0;
+  border: 0em;
   border-color: var(border);
 }
 
 mainbox {
   background-color: var(background);
-  spacing: 0; 
-  padding: 30px;
+  spacing: 0em; 
+  padding: 0.8em;
   border-radius: var(borderradius);
   children: [ inputbar, message, listview ];
 }
 
 inputbar {
-  padding: 0;
+  padding: 0em;
   background-color: transparent;
   children: [ entry ];
-  border: 0;
+  border: 0em;
   border-color: var(border);
 }
 
-prompt{
- enabled: true;
- padding: 0;
- text-color: var(textcolor);
- border: 1;
- border-color: var(border);
- border-radius: 20;
- background-color: var(background);
+element {
+  padding: 0.4em 0.54em 0.4em 0.54em;
+  orientation: horizontal;
+  margin: 0.14em;
+  border-radius: var(buttonradius);
+  border: 0em;
 }
 
-element{
- padding: 15 20 15 20;
- orientation: horizontal;
- margin: 5;
- border-radius: var(buttonradius);
- border: 0;
+element normal.normal {
+  background-color: transparent;
+  text-color: var(textcolor);
 }
 
-element normal.normal{
- background-color: transparent;
- text-color: var(textcolor);
+element normal.active {
+  background-color: transparent;
+  text-color: var(textcolor);
 }
 
-element normal.active{
- background-color: transparent;
- text-color: var(textcolor);
+element normal.urgent {
+  background-color: transparent;
+  text-color: var(textcolor);
 }
 
-element normal.urgent{
- background-color: transparent;
- text-color: var(textcolor);
+element alternate.active {
+  background-color: transparent;
+  text-color: var(textcolor);
 }
 
-element alternate.active{
- background-color: transparent;
- text-color: var(textcolor);
+element alternate.normal {
+  background-color: transparent;
+  text-color: var(textcolor);
 }
 
-element alternate.normal{
- background-color: transparent;
- text-color: var(textcolor);
+element alternate.urgent {
+  background-color: transparent;
+  text-color: var(textcolor);
 }
 
-element alternate.urgent{
- background-color: transparent;
- text-color: var(textcolor);
-}
-
-element-text{
- background-color: #00000000;
- text-color: inherit;
- padding: 0;
- vertical-align: 0.5;
- highlight: bold underline;
+element-text {
+  background-color: #00000000;
+  text-color: inherit;
+  padding: 0em;
+  vertical-align: 0.5;
+  highlight: bold underline;
 }
 
 element selected.normal {
- background-color: var(selection);
- text-color: var(background);
- border: 0;
- border-color: var(selectionborder);
+  background-color: var(selection);
+  text-color: var(background);
+  border: 0em;
+  border-color: var(selectionborder);
 }
 
-element selected.urgent {
- background-color: transparent;
- text-color: var(selectionborder);
- border: 0;
- border-color: var(selectionborder);
-}
-
-element selected.active {
- background-color: transparent;
- text-color: var(selectionborder);
- border: 0;
- border-color: var(selectionborder);
-}
-
-element-icon{
- size: 64;
- background-color: transparent;
- text-color: inherit;
-}
-
-mode-switcher{
- padding: 0 0 0 0;
- background-color: var(background);
-  margin: 0;
- children: [ button ];
-}
-
-button{
- padding: 20;
- margin: -2px; 
- border: 0;
-  border-radius: 0px;
- border-color: var(border);
- background-color: var(backgroundD);
- text-color: var(textcolor);
-}
-
-button selected.normal {
- background-color: var(backgroundD);
- text-color: var(high);
+element-icon {
+  size: 1.6em;
+  background-color: transparent;
+  text-color: inherit;
 }
