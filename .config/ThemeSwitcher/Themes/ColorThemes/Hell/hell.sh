@@ -4,7 +4,7 @@ swww img ~/.config/ThemeSwitcher/Themes/ColorThemes/Hell/Walls/1 --transition-fp
 gsettings set org.gnome.desktop.interface color-scheme \'prefer-light\'
 ln -sfn ~/.config/IconThemes/Papirus-Black/Papirus-Light ~/.local/share/icons/Icons
 gsettings set org.gnome.desktop.interface icon-theme "'Papirus-Black-Light'"
-kitty +kitten themes --reload-in=all Adwaita Light
+kitty +kitten themes --reload-in=all Hell
 ln -sf ~/.config/ThemeSwitcher/Themes/ColorThemes/Hell/Walls/1 ~/.config/ThemeSwitcher/Walls/Wall
 ln -sf ~/.config/ThemeSwitcher/Themes/ColorThemes/Hell/hyprcolors.conf ~/.config/colors/hyprcolors.conf
 ln -sf ~/.config/ThemeSwitcher/Themes/ColorThemes/Hell/waybarcolors.css ~/.config/colors/waybarcolors.css

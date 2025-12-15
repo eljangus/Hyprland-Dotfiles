@@ -4,7 +4,7 @@ swww img ~/.config/ThemeSwitcher/Themes/ColorThemes/Dark/Walls/1 --transition-fp
 gsettings set org.gnome.desktop.interface color-scheme \'prefer-dark\'
 ln -sfn ~/.config/IconThemes/Papirus-White/Papirus-Dark ~/.local/share/icons/Icons
 gsettings set org.gnome.desktop.interface icon-theme "'Papirus-White'"
-kitty +kitten themes --reload-in=all Adwaita Dark
+kitty +kitten themes --reload-in=all Dunkel
 ln -sf ~/.config/ThemeSwitcher/Themes/ColorThemes/Dark/Walls/1 ~/.config/ThemeSwitcher/Walls/Wall
 ln -sf ~/.config/ThemeSwitcher/Themes/ColorThemes/Dark/hyprcolors.conf ~/.config/colors/hyprcolors.conf
 ln -sf ~/.config/ThemeSwitcher/Themes/ColorThemes/Dark/waybarcolors.css ~/.config/colors/waybarcolors.css
