@@ -4,7 +4,7 @@
 window {
   width: 1800px;
   padding: 0px;
-  border: 2;
+  border: 1;
   border-color: var(border);
   border-radius: var(borderradius);
   transparency: "real";
@@ -139,14 +139,14 @@ prompt{
  enabled: true;
  padding: 0;
  text-color: var(textcolor);
- border: 2;
+ border: 1;
  border-color: var(border);
  border-radius: 20;
  background-color: var(background);
 }
 
 element{
- padding: 0 10 0 10;
+ padding: 10 10 10 10;
  orientation: vertical;
  margin: 5;
  border-radius: var(buttonradius);

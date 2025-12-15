@@ -4,7 +4,7 @@
 window {
   width: 600px;
   padding: 0px;
-  border: 2;
+  border: 1;
   border-color: var(border);
   border-radius: var(borderradius);
   transparency: "real";
@@ -112,7 +112,7 @@ listview {
   padding: 30px 0px 0px 0px;
   columns: 1;
   fixed-columns: false;
-  background-color: transparent;
+  background-color: transparent; 
   scrollbar: false;
   cycle: false;
   border: 0;
@@ -139,7 +139,7 @@ prompt{
  enabled: true;
  padding: 0;
  text-color: var(textcolor);
- border: 2;
+ border: 1;
  border-color: var(border);
  border-radius: 20;
  background-color: var(background);

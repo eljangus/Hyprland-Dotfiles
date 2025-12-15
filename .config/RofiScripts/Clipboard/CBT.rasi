@@ -4,7 +4,7 @@
 window {
   width: 1200px;
   padding: 0px;
-  border: 2;
+  border: 1;
   border-color: var(border);
   border-radius: var(borderradius);
   transparency: "real";
@@ -139,7 +139,7 @@ prompt{
  enabled: true;
  padding: 0;
  text-color: var(textcolor);
- border: 2;
+ border: 1;
  border-color: var(border);
  border-radius: 20;
  background-color: var(background);

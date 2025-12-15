@@ -12,9 +12,9 @@
 }
 
 .notification {
-  background-color: alpha(@backgroundA, 0.3);
+  background-color: alpha(@backgroundA, 0.8);
   padding: 20px;
-  outline: none;
+  outline: var(--outline);
   border: none;
   color: @text;
   font-size: 10px;
@@ -50,7 +50,7 @@
   color: @textselect;  
 }
 .notification:hover {
-  background-color: alpha(@backgroundA, 0.3);
+  background-color: alpha(@backgroundA, 0.8);
   color: @textselect;
 }
 .notification-group button {
@@ -71,7 +71,7 @@
   border-radius: var(--border-radius);
   color: @text;
   background-color: alpha(@background, 0.8);
-  outline: none; 
+  outline: var(--outline); 
 }
 .widget-title {
   margin-left: 20px;
