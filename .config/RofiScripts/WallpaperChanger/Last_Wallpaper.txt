@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Catppuccin-Mocha/Walls/BG/Pixelauto
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Gruvbox-Light/Walls/BG/Satelliten
