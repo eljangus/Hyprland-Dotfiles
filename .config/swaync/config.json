@@ -13,6 +13,7 @@
     "timeout": 10,
     "timeout-low": 5,
     "timeout-critical": 0,
+    "control-center-preferred-output": "DP-3",
     "notification-window-width": 500,
     "notification-window-height": -1,
     "notification-grouping": true,
