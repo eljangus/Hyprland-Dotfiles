@@ -26,7 +26,7 @@ textbox {
   padding: 0.4em 0.54em 0.4em 0.54em;
   str: "Keine Ergebnisse!";
   text-color: var(textcolor);
-  background-color: var(backgroundD);
+  background-color: var(backgroundA);
   border-radius: var(buttonradius);
   border-color: var(selectionborder);
 }

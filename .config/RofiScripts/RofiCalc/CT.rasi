@@ -24,16 +24,6 @@ message {
   background-color: transparent;
 }
 
-textbox {
-  hide-cursor-on-empty: true;
-  text-color: var(textcolor);
-  border: 0;
-  border-color: var(border);
-  padding: 0.4em 0.54em 0.4em 0.54em;
-  border-radius: var(buttonradius);
-  background-color: var(backgroundA);
-}
-
 error-message {
   enabled: true;
   padding: 0.54em;
@@ -45,9 +35,8 @@ error-message {
 textbox {
   enabled: true;
   padding: 0.4em 0.54em 0.4em 0.54em;
-  str: "Keine Ergebnisse!";
   text-color: var(textcolor);
-  background-color: var(backgroundD);
+  background-color: var(backgroundA);
   border-radius: var(buttonradius);
   border-color: var(selectionborder);
 }
