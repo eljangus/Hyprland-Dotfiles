@@ -1,7 +1,7 @@
 @import "../colors/waybarcolors.css";
 
 window {
-  background: alpha(@background, 0.8);
+  background: @background;
   border-radius: 1.25rem;
   box-shadow: none;
   text-shadow: none;
@@ -59,14 +59,14 @@ button {
   margin-right: 0.25rem;
   color: @text;
   border-radius: 0.9375rem;
-  background-color: alpha(@backgroundA, 0.3);
+  background-color: @backgroundA;
   transition: all 0.3s ease;
   box-shadow: none;
   text-shadow: none;
 }
 
 button:hover {
-  background-color: alpha(@backgroundA, 0.3);
+  background-color: @backgroundA;
   border-radius: 0.9375rem;
   color: inherit;
   border: 1px solid @selection;
@@ -84,7 +84,7 @@ button:focus {
 }
 
 tooltip {
-  background-color: alpha(@background, 0.8);
+  background-color: @background;
   padding: 0.3125rem; 
   color: @text;
   border-radius: 0.9375rem;
@@ -100,7 +100,7 @@ tooltip label {
 }
 
 menu, menu {
-  background-color: alpha(@backgroundA, 0.3);
+  background-color: @backgroundA;
   color: @text;
   padding: 0; 
   border: 0rem solid @border;

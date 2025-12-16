@@ -12,7 +12,7 @@
 }
 
 .notification {
-  background-color: @backgroundA;
+  background-color: alpha(@backgroundA, 0.8);
   padding: 1.25rem;
   outline: var(--outline);
   border: none;
@@ -20,25 +20,25 @@
   font-size: 0.625rem;
 }
 .notification button {
-  background-color: @text;
+  background-color: alpha(@text, 0.8);
 }
 .notification button:hover {
-  background-color: @text;
+  background-color: alpha(@text, 1);
 }
 .image {
   border-radius: 0rem;
   margin-right: 1.25rem;
 }
 .close-button {
-  background-color: @text;
+  background-color: alpha(@text, 0.8);
   border-radius: var(--border-radius);
 }
 .close-button:hover {
-  background-color: @text;
-  color: @backgroundA;
+  background-color: alpha(@text, 1);
+  color: alpha(@backgroundA, 0.3);
 }
 .close-button image {
-  color: @backgroundA;
+  color: alpha(@backgroundA, 0.3);
 }
 .notification-content {
   background-color: transparent;
@@ -50,27 +50,27 @@
   color: @textselect;  
 }
 .notification:hover {
-  background-color: @backgroundA;
+  background-color: alpha(@backgroundA, 0.8);
   color: @textselect;
 }
 .notification-group button {
-  background-color: @text;
+  background-color: alpha(@text, 0.8);
   border-radius: var(--border-radius);
 }
 .notification-group button:hover {
-  background-color: @text;
+  background-color: alpha(@text, 1);
 }
 .notification button label,
 .notification button label:hover,
 .notification-group button label,
 .notification-group button label:hover,
 .notification-group button image {
-  color: @backgroundA;
+  color: alpha(@backgroundA, 0.3);
 }
 .control-center {
   border-radius: var(--border-radius);
   color: @text;
-  background-color: @background;
+  background-color: alpha(@background, 0.8);
   outline: var(--outline); 
 }
 .widget-title {
