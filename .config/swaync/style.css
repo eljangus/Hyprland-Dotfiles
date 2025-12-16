@@ -203,7 +203,7 @@ scrollbar trough:hover {
 .widget-mpris {
   border-radius: var(--border-radius);
   color: @text;
-  background: alpha(@backgroundA, 0.3);
+  background: @backgroundA;
   padding: 0.625rem;
   margin: 1.25rem;
   margin-bottom: 0.625rem;
@@ -244,7 +244,7 @@ scrollbar trough:hover {
   padding: 0.625rem;
   margin: 0.625rem 1.25rem 0.625rem 1.25rem;
   border-radius: var(--button-radius);
-  background: alpha(@backgroundA, 0.3);
+  background: @backgroundA;
 }
 .widget-buttons-grid:hover {
   padding: 0.625rem;
