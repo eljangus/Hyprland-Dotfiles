@@ -4,7 +4,7 @@
 window {
   width: 33em;
   padding: 0em;
-  border: 1px;         
+  border: 2px;         
   border-color: var(border);
   border-radius: var(borderradius);
   transparency: "real";

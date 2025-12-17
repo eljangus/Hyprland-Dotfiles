@@ -1,6 +1,6 @@
 :root {
-  --border: 1px solid @border;
-  --outline: 1px solid @border;
+  --border: 2px solid @border;
+  --outline: 2px solid @border;
   --border-radius: 0px;
   --button-radius: 2px;
 }
