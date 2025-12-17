@@ -263,6 +263,10 @@ scrollbar trough:hover {
   margin: 0rem;
   padding: 1.25rem 2.7954rem;
 }
+.widget-buttons-gird>flowbox>flowboxchild:hover,
+.widget-buttons-grid>flowbox>flowboxchild {
+	background: transparent;
+}
 .widget-volume {
   margin: 0.3125rem 0.9375rem 0.3125rem 1.25rem;
   background-color: transparent;
