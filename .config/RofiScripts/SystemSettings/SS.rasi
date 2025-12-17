@@ -8,7 +8,7 @@ window {
   border-color: var(border);
   border-radius: var(borderradius);
   transparency: "real";
-  background-color: transparent;
+  background-color: var(background);
   x-offset: 0em;
   y-offset: 0em;
 }
@@ -16,7 +16,7 @@ window {
 error-message {
   enabled: true;
   padding: 0.54em;
-  background-color: var(background);
+  background-color: transparent;
   border-color: var(border);
   border-radius: var(borderradius);
 }
@@ -56,7 +56,7 @@ listview {
 }
 
 mainbox {
-  background-color: var(background);
+  background-color: transparent;
   spacing: 0em; 
   padding: 0.8em;
   border-radius: var(borderradius);
