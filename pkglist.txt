@@ -2,6 +2,7 @@
 alsa-plugins
 amd-ucode
 ani-cli
+apple-fonts
 asciiquarium
 base
 base-devel
@@ -15,6 +16,7 @@ cbonsai
 chrono-date
 cliphist
 cmake
+code
 cowsay
 cpio
 dconf-editor
@@ -22,6 +24,7 @@ decibels
 discord
 downgrade
 efibootmgr
+evtest
 fastfetch
 figlet
 file-roller
@@ -36,7 +39,6 @@ gimp
 git
 gnome-boxes
 gnome-clocks
-gnome-text-editor
 gnome-themes-extra
 gobject-introspection
 grub
@@ -124,5 +126,6 @@ xdg-desktop-portal-hyprland
 xdg-user-dirs
 yay
 yazi
+zen-browser-bin
 zenity
 zram-generator
