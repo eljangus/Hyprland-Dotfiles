@@ -2,9 +2,9 @@
 @import "~/.config/colors/rofiradius.rasi"
 
 window {
-  width: 4.59546em;
+  width: 4.578em;
   padding: 0;
-  border: 2px;
+  border: 0px;
   border-color: var(border);
   border-radius: var(borderradius);
   transparency: "real";

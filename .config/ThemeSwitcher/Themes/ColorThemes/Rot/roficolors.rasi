@@ -1,5 +1,5 @@
 * {
-    border: rgba(82, 8, 4, 1);
+    border: #8C1007;
     background: rgba(41, 4, 2, 1);
     backgroundA: rgba(30, 3, 1, 1);
     backgroundD: rgba(23, 2, 0, 1);
