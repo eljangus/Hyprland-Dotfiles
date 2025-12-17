@@ -115,7 +115,7 @@
   color: @text;
 }
 .widget-dnd>switch {
-  background: alpha(@backgroundA, 0.3);
+  background: @backgroundA;
   border-radius: 1.25rem;
 }
 .widget-dnd>switch:checked {
@@ -250,7 +250,7 @@ scrollbar trough:hover {
   padding: 0.625rem;
   margin: 0.625rem 1.25rem 0.625rem 1.25rem;
   border-radius: var(--button-radius);
-  background: alpha(@backgroundA, 0.3);
+  background: @backgroundA;
 }
 .widget-buttons-grid>flowbox>flowboxchild>button {
   margin: 0rem;
