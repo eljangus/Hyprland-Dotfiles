@@ -1,4 +1,4 @@
-@define-color border #a7c080;
+@define-color border rgba(78, 92, 102, 1);
 @define-color background rgba(39, 46, 51, 1);
 @define-color backgroundA rgba(33, 39, 43, 1);
 @define-color backgroundD rgba(27, 33, 37, 1);

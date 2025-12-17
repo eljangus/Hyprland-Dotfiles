@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Gruvbox-Light/Walls/BG/Satelliten
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Rose-Pine/Walls/BG/Sichelmond
