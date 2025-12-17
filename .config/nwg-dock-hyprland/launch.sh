@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Waybars/WaybarThemes/flying-islands/launch.sh
+/home/elias/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-pointy/launch.sh
