@@ -2,7 +2,6 @@
 alsa-plugins
 amd-ucode
 ani-cli
-apple-fonts
 asciiquarium
 base
 base-devel
