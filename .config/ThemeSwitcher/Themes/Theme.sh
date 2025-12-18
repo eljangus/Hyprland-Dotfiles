@@ -1,9 +1,9 @@
 #! /bin/sh
 
-chosen=$(printf "Dunkel\nHell\nRosé Pine Moon Dark\nNord\nEarth\nEverforest\nNightfox\nTokyo Night\nGruvbox Hell\nGruvbox Dunkel\nPoetisch\nRot\nJade\nCatppuccin Mocha\n" | rofi -dmenu -i -m DP-3 -config '~/.config/ThemeSwitcher/Themes/TS.rasi')
+chosen=$(printf "Dunkel\nHell\nRosé Pine Moon\nNord\nEarth\nEverforest\nNightfox\nTokyo Night\nGruvbox Hell\nGruvbox Dunkel\nPoetisch\nRot\nJade\nCatppuccin Mocha\n" | rofi -dmenu -i -m DP-3 -config '~/.config/ThemeSwitcher/Themes/TS.rasi')
 
 case "$chosen" in
-   "Rosé Pine Moon Dark") ~/.config/ThemeSwitcher/Themes/ColorThemes/Rose-Pine/rose-pine.sh ;;
+   "Rosé Pine Moon") ~/.config/ThemeSwitcher/Themes/ColorThemes/Rose-Pine/rose-pine.sh ;;
    "Nord") ~/.config/ThemeSwitcher/Themes/ColorThemes/Nord/nord.sh ;;
    "Earth") ~/.config/ThemeSwitcher/Themes/ColorThemes/Earth/earth.sh ;;
    "Everforest") ~/.config/ThemeSwitcher/Themes/ColorThemes/Everforest/everforest.sh ;;
