@@ -198,8 +198,8 @@ tooltip label {
 #volume, #pulseaudio, #idle_inhibitor {
     background: none;
 }
-#volume { padding-right: 0.7rem }
-#idle_inhibitor { padding-left: 0.7rem }
+#volume { padding-right: 0.5rem }
+#idle_inhibitor { padding-left: 0.5rem }
 
 
 #idlevol {
@@ -210,8 +210,8 @@ tooltip label {
 #network, #bluetooth {
     background: none;    
 }
-#network { padding-right: 0.7rem }
-#bluetooth { padding-left: 0.7rem }
+#network { padding-right: 0.5rem }
+#bluetooth { padding-left: 0.5rem }
 #netblue {
     background: @background;
     border-radius: 1.5rem;
@@ -220,8 +220,8 @@ tooltip label {
 #traywer, #tray, #custom-powermenu {
     background: none;
 }
-#traywer { padding-right: 0.7rem }
-#custom-powermenu { padding-left: 0.7rem }
+#traywer { padding-right: 0.5rem }
+#custom-powermenu { padding-left: 0.5rem }
 #traywermen {
     background: @background;
     border-radius: 1.5rem;
