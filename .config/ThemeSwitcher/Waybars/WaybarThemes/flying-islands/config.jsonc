@@ -23,12 +23,9 @@
   "temperature",
 ],
  "modules-right": [
-  "group/volume",
-  "idle_inhibitor",
-  "network",
-  "bluetooth",
-  "group/traywer",
-  "custom/powermenu",
+  "group/idlevol",
+  "group/netblue",
+  "group/traywermen",
  ],
 ///////////////////////////
  "include": [

@@ -60,6 +60,27 @@
  "tray",
  ],
 },
+"group/idlevol": {
+ "orientation": "horizontal",
+ "modules": [
+"group/volume",
+"idle_inhibitor"
+ ]
+},
+"group/netblue": {
+ "orientation": "horizontal",
+ "modules": [
+"network",
+"bluetooth"
+ ]
+},
+"group/traywermen": {
+ "orientation": "horizontal",
+ "modules": [
+"group/traywer",
+"custom/powermenu"
+ ]
+},
 "custom/trayicon": {
 	 "format": "",
    "tooltip": false,

@@ -19,8 +19,8 @@ window#waybar {
 #custom-System {
     background-color: @background;
     font-size: 1.32375rem; 
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
     color: @text;
     border: 0 solid @border;
     border-radius: 1.5rem;
@@ -32,8 +32,8 @@ window#waybar {
     font-size: 1.32375rem;
     font-weight: bold;
     border-radius: 1.5rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
     color: @text;
     border: 0 solid @border;
     transition: 0.3s all ease;
@@ -87,20 +87,20 @@ window#waybar {
 
 #network, #bluetooth, #pulseaudio, #traywer {
     border-radius: 1.5rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
     background-color: @background;
     color: @text;
     border: 0 solid @border;
     transition: 0.3s all ease;
 }
-#bluetooth { padding-left: 1.4rem; padding-right: 1.4rem }
-#pulseaudio { background: none; padding: 0 0 0 0.35rem; }
+#bluetooth { padding-left: 1.55rem; padding-right: 1.55rem }
+#pulseaudio { background: none; padding: 0 0 0 0.25rem; }
 #volume {
     background: @background;
     border-radius: 1.5rem;
-    padding-left: 1rem;
-    padding-right: 1.25rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
 }
 #pulseaudio-slider {
     background: transparent; 
@@ -138,8 +138,8 @@ window#waybar {
 #network:hover, #bluetooth:hover, #pulseaudio:hover, #traywer:hover { color: @textselect; }
 #mpris, #custom-theme, #custom-bar, #custom-notifications {
     font-size: 1.32375rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
     border-radius: 1.5rem;
     color: @text;
     background-color: @background;
@@ -147,8 +147,8 @@ window#waybar {
 }
 #custom-powermenu {
     font-size: 1.32375rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
     border-radius: 1.5rem;
     color: @text;
     background-color: @background;
@@ -159,8 +159,8 @@ window#waybar {
 }
 #custom-pacman, #temperature {
     font-size: 1.32375rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
     border-radius: 1.5rem;
     color: @text;
     background-color: @background;
@@ -183,8 +183,8 @@ tooltip label {
 #idle_inhibitor {
     background-color: @background;
     font-size: 1.32375rem; 
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
     color: @text;
     border-radius: 1.5rem;
     transition: 0.3s all ease;
@@ -192,3 +192,37 @@ tooltip label {
 #idle_inhibitor:hover { color: @textselect; }
 #custom-notifications, #custom-notifications:hover, #bluetooth, #bluetooth:hover, #idle_inhibitor, #idle_inhibitor:hover { font-size: 1.475rem }
 #custom-System { font-size: 1.5rem }
+
+/* GROUP OVERRIDES */
+
+#volume, #pulseaudio, #idle_inhibitor {
+    background: none;
+}
+#volume { padding-right: 0.7rem }
+#idle_inhibitor { padding-left: 0.7rem }
+
+
+#idlevol {
+    background: @background;
+    border-radius: 1.5rem;
+}
+
+#network, #bluetooth {
+    background: none;    
+}
+#network { padding-right: 0.7rem }
+#bluetooth { padding-left: 0.7rem }
+#netblue {
+    background: @background;
+    border-radius: 1.5rem;
+}
+
+#traywer, #tray, #custom-powermenu {
+    background: none;
+}
+#traywer { padding-right: 0.7rem }
+#custom-powermenu { padding-left: 0.7rem }
+#traywermen {
+    background: @background;
+    border-radius: 1.5rem;
+}
