@@ -1,7 +1,7 @@
 {
 "custom/System": {
   "tooltip": false,
-  "format" : "",
+  "format" : "󰣇",
   "on-click": "~/.config/RofiScripts/Launcher/Launcher.sh"
                },
 "custom/powermenu": {
