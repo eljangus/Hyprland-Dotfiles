@@ -23,7 +23,7 @@ window#waybar {
     padding-right: 1.25rem;
     color: @text;
     border: 0 solid @border;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     transition: 0.3s all ease;
 }
 #custom-System:hover { color: @textselect; }
@@ -31,7 +31,7 @@ window#waybar {
     background: @background;
     font-size: 1.32375rem;
     font-weight: bold;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     color: @text;
@@ -40,7 +40,7 @@ window#waybar {
 }
 #clock:hover { color: @textselect; }
 #tray {
-    border-radius: 1.5rem; 
+    border-radius: 1.25rem; 
     padding-left: 0rem;
     padding-right: 0.8rem;
     background-color: transparent;
@@ -51,7 +51,7 @@ window#waybar {
 #tray menu, menu {
     background-color: @background;
     color: @text;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     padding: 0;
     border: 0 solid @border;
 }
@@ -62,7 +62,7 @@ window#waybar {
     margin: 0;
     padding-left: 0.75rem;
     padding-right: 0.75rem;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     background-color: @background;
     border: 0 solid @border;
     transition: all 0.3s ease;
@@ -73,7 +73,7 @@ window#waybar {
     margin: 0.625rem 0.1875rem; 
     padding: 0 0.7rem; 
     background: @backgroundA;
-    border-radius: 1rem; 
+    border-radius: 0.8rem; 
     color: transparent; 
     transition: all 0.3s ease;
 }
@@ -86,7 +86,7 @@ window#waybar {
 #workspaces button.empty:hover { color: transparent ; background: @buttonselect }
 
 #network, #bluetooth, #pulseaudio, #traywer {
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     background-color: @background;
@@ -98,13 +98,13 @@ window#waybar {
 #pulseaudio { background: none; padding: 0 0 0 0.35rem; }
 #volume {
     background: @background;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     padding-left: 1rem;
     padding-right: 1.25rem;
 }
 #pulseaudio-slider {
     background: transparent; 
-    border-radius: 1.5rem; 
+    border-radius: 1.25rem; 
     padding: 0 1rem 0 0.35rem; 
     color: @text;
     border: 0 solid @background; 
@@ -122,13 +122,13 @@ window#waybar {
     min-width: 4.375rem; 
     min-height: 0.25rem; 
     box-shadow: none;
-    border-radius: 1.5rem; 
+    border-radius: 1.25rem; 
     border: 0 solid @background;
 }
 
 #pulseaudio-slider highlight {
     background: @textselect;
-    border-radius: 1.5rem; 
+    border-radius: 1.25rem; 
     margin: 0;
     box-shadow: none;
     border: 0 solid @border;
@@ -140,7 +140,7 @@ window#waybar {
     font-size: 1.32375rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     color: @text;
     background-color: @background;
     transition: 0.3s all ease;
@@ -149,7 +149,7 @@ window#waybar {
     font-size: 1.32375rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     color: @text;
     background-color: @background;
     transition: 0.3s all ease;
@@ -161,7 +161,7 @@ window#waybar {
     font-size: 1.32375rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     color: @text;
     background-color: @background;
     transition: 0.3s all ease;
@@ -171,12 +171,12 @@ tooltip {
     background-color: @background;
     padding: 0.3125rem;
     color: @text;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     border: 0 solid @border;
 }
 tooltip label {
     padding: 0.3125rem;
-    border-radius: 1.5rem; 
+    border-radius: 1.25rem; 
     font-weight: bold;
     color: @text;
 }
@@ -186,7 +186,7 @@ tooltip label {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     color: @text;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     transition: 0.3s all ease;
 }
 #idle_inhibitor:hover { color: @textselect; }
