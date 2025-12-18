@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WhatsApp
+Comment=WhatsApp in Browser
+Exec=zen-browser --new-window https://whatsapp.com
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+Icon=/home/elias/.config/custom-icons/whatsapp.png
+Keywords=whatsapp;WhatsAPP;whatsApp;whatsAPP;WhatsApp;WhatsAPP;text;Text;Sms;sms;SMS

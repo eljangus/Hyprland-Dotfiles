@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ChatGPT
+Comment=ChatGPT in Browser
+Exec=zen-browser --new-window https://chatgpt.com
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+Icon=/home/elias/.config/custom-icons/chatgpt.png
+Keywords=AI;KI;chatgpt;ChatGPT;chatGPT;chatGpt;ChatGpt;ki;Ki;ai;Ai

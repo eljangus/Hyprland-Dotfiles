@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=YouTube
+Comment=Youtube in Firefox
+Exec=zen-browser --new-window https://www.youtube.com
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+Icon=/home/elias/.config/custom-icons/yt.png
+Keywords=youtube;YOUTUBE;YouTube;youTube;Youtube;yt;video
