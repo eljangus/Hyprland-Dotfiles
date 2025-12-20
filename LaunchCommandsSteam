@@ -1,0 +1,1 @@
+LD_PRELOAD="/usr/lib/libVkLayer_FROG_gamescope_wsi_x86_64.so:/usr/lib/mangohud/libMangoHud.so" XKB_DEFAULT_LAYOUT=de gamescope --force-grab-cursor --adaptive-sync -r 240 -h 1440 -w 2560 -- mangohud %command%
