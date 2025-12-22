@@ -69,7 +69,7 @@ window#waybar {
 #workspaces button {
     box-shadow: none;
     text-shadow: none; 
-    margin: 0.625rem 0.1875rem; 
+    margin: 0.2rem 0.1875rem; 
     padding: 0rem 0rem;
     background-color: transparent; 
     color: @backgroundA; 
@@ -78,11 +78,11 @@ window#waybar {
 }
 #workspaces button label {
     font-size: 0.7rem;
-    background: @backgroundD;
-    color: @backgroundD;
+    background: alpha(@selection, 0.5);
+    color: transparent;
     border-radius: 1.25rem;
     padding: 0rem;
-    margin: -0.4rem 0rem;
+    margin: 0.2rem 0rem;
     transition: all 0.3s ease;
 }
 #workspaces button.active label { 
@@ -94,11 +94,11 @@ window#waybar {
     transition: all 0.3s ease; 
 }
 #workspaces button.active.empty label,
-#workspaces button.active label { color: @selection }
+#workspaces button.active label { color: transparent }
 #workspaces button.active.empty:hover label,
-#workspaces button.active:hover label { color: @selection; background: @selection }
+#workspaces button.active:hover label { color: transparent; background: @selection }
 #workspaces button:hover label,
-#workspaces button.empty:hover label { background: @buttonselect; color: @buttonselect }
+#workspaces button.empty:hover label { background: @buttonselect; color: transparent }
 
 #workspaces button.active.empty,
 #workspaces button.active { color: @backgroundA; background: transparent }
