@@ -77,18 +77,20 @@ window#waybar {
     transition: all 0.3s ease;
 }
 #workspaces button label {
+    font-size: 0.7rem;
     background: @backgroundD;
     color: @backgroundD;
-    border-radius: 2px;
+    border-radius: 1.25rem;
     padding: 0rem;
     margin: -0.4rem 0rem;
     transition: all 0.3s ease;
 }
 #workspaces button.active label { 
+    font-size: 0.7rem;
     background: @selection;
     color: @selection;
-    border-radius: 2px;
-    padding: 2rem 0rem;
+    border-radius: 1.25rem;
+    padding: 3rem 0rem;
     transition: all 0.3s ease; 
 }
 #workspaces button.active.empty label,
