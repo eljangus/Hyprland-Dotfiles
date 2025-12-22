@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Nord/wall.sh
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Everforest/wall.sh
