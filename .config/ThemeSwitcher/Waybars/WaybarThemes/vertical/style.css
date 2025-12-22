@@ -93,7 +93,7 @@ window#waybar {
 }
 #workspaces button.active.empty label,
 #workspaces button.active label { color: @selection }
-#workspaces button.active.empty label:hover,
+#workspaces button.active.empty:hover label,
 #workspaces button.active:hover label { color: @selection; background: @selection }
 #workspaces button:hover label,
 #workspaces button.empty:hover label { background: @buttonselect; color: @buttonselect }
