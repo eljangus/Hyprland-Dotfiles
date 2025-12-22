@@ -78,7 +78,7 @@ window#waybar {
 }
 #workspaces button label {
     font-size: 0.7rem;
-    background: @backgroundD;
+    background: @text;
     color: transparent;
     border-radius: 1.25rem;
     padding: 0rem;
@@ -87,7 +87,7 @@ window#waybar {
 }
 #workspaces button.active label { 
     font-size: 0.7rem;
-    background: @selection;
+    background: @text;
     color: transparent;
     border-radius: 1.25rem;
     padding: 4rem 0rem;
