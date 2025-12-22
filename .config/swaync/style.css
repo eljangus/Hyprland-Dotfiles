@@ -14,7 +14,7 @@
 .notification {
   background-color: @backgroundA;
   padding: 1.25rem;
-  outline: var(--outline);
+  outline: none;
   border: none;
   color: @text;
   font-size: 0.625rem;
@@ -71,7 +71,7 @@
   border-radius: var(--border-radius);
   color: @text;
   background-color: @background;
-  outline: var(--outline); 
+  outline: none; 
 }
 .widget-title {
   margin-left: 1.25rem;

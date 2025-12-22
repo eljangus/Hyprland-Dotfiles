@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Catppuccin-Mocha/wall.sh
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Rose-Pine/wall.sh
