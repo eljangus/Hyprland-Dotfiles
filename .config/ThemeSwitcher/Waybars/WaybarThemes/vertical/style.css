@@ -78,7 +78,7 @@ window#waybar {
 }
 #workspaces button label {
     font-size: 0.7rem;
-    background: @selection;
+    background: @backgroundD;
     color: transparent;
     border-radius: 1.25rem;
     padding: 0rem;
