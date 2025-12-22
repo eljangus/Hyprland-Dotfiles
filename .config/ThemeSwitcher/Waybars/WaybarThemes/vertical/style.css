@@ -65,6 +65,7 @@ window#waybar {
     border: 0 solid @border;
     transition: all 0.3s ease;
     margin: 0.5rem;
+    margin-top: 0rem;
 }
 #workspaces button {
     box-shadow: none;

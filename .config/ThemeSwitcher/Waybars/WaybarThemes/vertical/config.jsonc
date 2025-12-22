@@ -15,9 +15,9 @@
  "custom/System",
  "custom/notifications",
  "clock",
+ "hyprland/workspaces",
 ],
  "modules-center": [
- "hyprland/workspaces",
 ],
  "modules-right": [
  "group/volume",
