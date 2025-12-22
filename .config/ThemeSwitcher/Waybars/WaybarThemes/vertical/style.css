@@ -121,7 +121,7 @@ window#waybar {
 #pulseaudio-slider {
     background: @backgroundA; 
     border-radius: 0; 
-    padding: 0.5rem 0rem;
+    padding: 0.5rem 1.25rem;
     padding-top: 1.25rem;
     color: @text;
     border: 0 solid @background;
@@ -130,14 +130,14 @@ window#waybar {
     background: @text;
     min-height: 0;
     min-width: 0;
-    margin: -0.4rem;
+    margin: -0.5rem;
     box-shadow: none;
     border: 0 solid @background;
 }
 #pulseaudio-slider trough {
     background: alpha(@text, 0.3); 
-    min-height: 4.375rem; 
-    min-width: 0.25rem; 
+    min-height: 8rem; 
+    min-width: 0.4rem; 
     box-shadow: none;
     border-radius: 1.25rem; 
     border: 0 solid @background;
