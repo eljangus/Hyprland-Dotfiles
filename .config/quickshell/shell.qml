@@ -8,13 +8,13 @@ PanelWindow {
     left: true
     right: true
   }
-
+  color: "#1e1e2e"
   implicitHeight: 30
 
   Text {
     id: clock
     anchors.centerIn: parent
-
+    color: "#cad3f0"
     Process {
       // give the process object an id so we can talk
       // about it from the timer
