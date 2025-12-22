@@ -96,9 +96,9 @@ window#waybar {
 #workspaces button.active.empty label,
 #workspaces button.active label { color: transparent }
 #workspaces button.active.empty:hover label,
-#workspaces button.active:hover label { color: transparent; background: @selection }
+#workspaces button.active:hover label { color: transparent; background: @text }
 #workspaces button:hover label,
-#workspaces button.empty:hover label { background: @buttonselect; color: transparent }
+#workspaces button.empty:hover label { background: @text; color: transparent }
 
 #workspaces button.active.empty,
 #workspaces button.active { color: @backgroundA; background: transparent }
