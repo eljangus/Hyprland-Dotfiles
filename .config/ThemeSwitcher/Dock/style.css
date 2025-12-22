@@ -30,6 +30,7 @@ window {
   outline: none;  
   box-shadow: none;
   text-shadow: none;
+  border-radius: 1.25rem;
 }
 
 #active {
