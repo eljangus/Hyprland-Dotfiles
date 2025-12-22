@@ -21,7 +21,7 @@ window#waybar {
     padding: 0.5rem 0.75rem;
     color: @text;
     border: 0 solid @border;
-    border-radius: 0;
+    border-radius: 2px;
     transition: 0.3s all ease;
     margin: 0.5rem;
 }
@@ -30,7 +30,7 @@ window#waybar {
     background: @backgroundA;
     font-size: 1.32375rem;
     font-weight: bold;
-    border-radius: 0;
+    border-radius: 2px;
     padding: 0.5rem 0.75rem;
     color: @text;
     border: 0 solid @border;
@@ -40,7 +40,7 @@ window#waybar {
 }
 #clock:hover { color: @textselect; }
 #tray {
-    border-radius: 1.32375rem; 
+    border-radius: 0; 
     padding: 0.5rem 0.75rem;
     background-color: transparent;
     color: @text;
@@ -50,7 +50,7 @@ window#waybar {
 #tray menu, menu {
     background-color: @backgroundA;
     color: @text;
-    border-radius: 0rem;
+    border-radius: 0;
     padding: 0;
     border: 0 solid @border;
 }
@@ -59,8 +59,8 @@ window#waybar {
 #tray menu menuitem:hover { background-color: @selection; color: @background; }
 #workspaces {
     margin: 0;
-    padding: 0.5rem 0.75rem;
-    border-radius: 0;
+    padding: 0.75rem 0.75rem;
+    border-radius: 2;
     background-color: @backgroundA;
     border: 0 solid @border;
     transition: all 0.3s ease;
@@ -73,13 +73,13 @@ window#waybar {
     padding: 0rem 0rem;
     background-color: transparent; 
     color: @backgroundA; 
-    border-radius: 0rem;
+    border-radius: 2px;
     transition: all 0.3s ease;
 }
 #workspaces button label {
     background: @backgroundD;
     color: @backgroundD;
-    border-radius: 0rem;
+    border-radius: 2px;
     padding: 0rem;
     margin: -0.4rem 0rem;
     transition: all 0.3s ease;
@@ -87,7 +87,7 @@ window#waybar {
 #workspaces button.active label { 
     background: @selection;
     color: @selection;
-    border-radius: 0rem;
+    border-radius: 2px;
     padding: 2rem 0rem;
     transition: all 0.3s ease; 
 }
@@ -107,7 +107,7 @@ window#waybar {
 #workspaces button.empty:hover { color: @backgroundA; background: transparent }
 
 #network, #bluetooth, #pulseaudio, #traywer {
-    border-radius: 0;
+    border-radius: 2px;
     padding: 0.5rem 0.75rem;
     background-color: @backgroundA;
     color: @text;
@@ -120,7 +120,7 @@ window#waybar {
 #traywer { padding: 0.5rem 0rem }
 #pulseaudio-slider {
     background: @backgroundA; 
-    border-radius: 0; 
+    border-radius: 2px; 
     padding: 0.5rem 1.25rem;
     padding-top: 1.25rem;
     color: @text;
@@ -156,7 +156,7 @@ window#waybar {
 #mpris, #custom-theme, #custom-bar, #custom-notifications {
     font-size: 1.32375rem;
     padding: 0.5rem 0.75rem;
-    border-radius: 0.125rem;
+    border-radius: 2px;
     color: @text;
     background-color: @backgroundA;
     transition: 0.3s all ease;
@@ -166,7 +166,7 @@ window#waybar {
 #custom-powermenu {
     font-size: 1.32375rem;
     padding: 0.5rem 0.75rem;
-    border-radius: 0.125rem;
+    border-radius: 2px;
     color: @text;
     background-color: @backgroundA;
     transition: 0.3s all ease;
@@ -179,7 +179,7 @@ window#waybar {
 #custom-pacman, #temperature {
     font-size: 1.32375rem;
     padding: 0.5rem 0.75rem;
-    border-radius: 0.125rem;
+    border-radius: 2px;
     color: @text;
     background-color: @backgroundA;
     transition: 0.3s all ease;
@@ -195,7 +195,7 @@ tooltip {
 }
 tooltip label {
     padding: 0.3125rem;
-    border-radius: 1.25rem; 
+    border-radius: 0; 
     font-weight: bold;
     color: @text;
 }
@@ -204,7 +204,7 @@ tooltip label {
     font-size: 1.32375rem; 
     padding: 0.5rem 0.75rem;
     color: @text;
-    border-radius: 0;
+    border-radius: 2px;
     transition: 0.3s all ease;
     margin: 0.5rem;
     margin-top: 0rem;

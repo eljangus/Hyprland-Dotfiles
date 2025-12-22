@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Rot/wallrandom.sh
+/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Catppuccin-Mocha/wallrandom.sh
