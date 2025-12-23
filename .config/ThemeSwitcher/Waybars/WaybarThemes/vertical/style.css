@@ -36,7 +36,6 @@ window#waybar {
     border: 0 solid @border;
     transition: 0.3s all ease;
     margin: 0.5rem;
-    margin-top: 0rem;
 }
 #clock:hover { color: @textselect; }
 #tray {
