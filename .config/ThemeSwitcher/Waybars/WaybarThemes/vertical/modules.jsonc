@@ -67,8 +67,7 @@
 "clock": {
   "timezone": "Europe/Berlin",
   "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-  "format" : "{:L%H\n%M}",
-  "format-alt" : "{:L%a\n%d\n%m\n%y}",
+  "format" : " 󰸗\n{:L%a\n%d\n%m\n%y\n\n \n%H\n%M}",
     "calendar": {
     "mode"          : "year",
 "mode-mon-col"  : 3,
@@ -174,6 +173,7 @@
                 },
 },
 "custom/pacman": {
+    "orientation": "vertical",
     "format": "{} ",
     "interval": 3600,                     
     "exec": "checkupdates | wc -l",

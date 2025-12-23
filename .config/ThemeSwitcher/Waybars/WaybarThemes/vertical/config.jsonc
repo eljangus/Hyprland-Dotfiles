@@ -14,10 +14,10 @@
  "modules-left": [
  "custom/System",
  "custom/notifications",
- "clock",
  "hyprland/workspaces",
 ],
  "modules-center": [
+ "clock",
 ],
  "modules-right": [
  "group/volume",
