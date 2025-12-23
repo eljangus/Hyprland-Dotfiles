@@ -24,7 +24,6 @@ discord
 downgrade
 efibootmgr
 evtest
-fastfetch
 figlet
 file-roller
 firefox

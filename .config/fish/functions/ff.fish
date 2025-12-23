@@ -1,3 +1,3 @@
-function ff --wraps=fastfetch --description 'alias ff=fastfetch'
-    fastfetch $argv
+function ff --wraps=fastfetch --wraps='~/.nitch/nitch/nitch' --description 'alias ff=~/.nitch/nitch/nitch'
+    ~/.nitch/nitch/nitch $argv
 end
