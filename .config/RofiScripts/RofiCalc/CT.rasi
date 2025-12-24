@@ -135,7 +135,7 @@ element-text {
   text-color: inherit;
   padding: 0em;
   vertical-align: 0.5;
-  highlight: bold underline;
+  highlight: none;
 }
 
 element selected.normal {
