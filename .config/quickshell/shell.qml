@@ -6,7 +6,7 @@ PanelWindow {
 	anchors.top: false
 	anchors.bottom: true
 	anchors.right: true
-	width: 520
+	width: 530
 	height: 100
         color: "#00000000"
 	Text {
