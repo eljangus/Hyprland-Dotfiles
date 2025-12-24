@@ -23,7 +23,8 @@ window#waybar {
     border: 0 solid @border;
     border-radius: 1.5rem;
     transition: 0.3s all ease;
-    margin: 0.3rem;
+    margin: 0.5rem 0.2rem;
+    margin-left: 0.6rem;
 }
 #custom-System:hover { color: @textselect; }
 #clock {
@@ -36,7 +37,7 @@ window#waybar {
     color: @text;
     border: 0 solid @border;
     transition: 0.3s all ease;
-    margin: 0.3rem;
+    margin: 0.5rem 0.2rem;
 }
 #clock:hover { color: @textselect; }
 #tray {
@@ -66,7 +67,7 @@ window#waybar {
     background-color: @backgroundA;
     border: 0 solid @border;
     transition: all 0.3s ease;
-    margin: 0.3rem;
+    margin: 0.5rem 0.2rem;
 }
 #workspaces button {
     box-shadow: none;
@@ -79,27 +80,27 @@ window#waybar {
     transition: all 0.3s ease;
 }
 #workspaces button label {
-    font-size: 1rem;
+    font-size: 0.8rem;
     background: @backgroundD;
     color: transparent;
     border-radius: 1.25rem;
     padding: 0rem 0.5rem;
-    margin: 0.7rem 0.2rem;
+    margin: 0.8rem 0.2rem;
     transition: all 0.3s ease;
 }
 #workspaces button.active label {
-    font-size: 1rem;
+    font-size: 0.8rem;
     background: @selection;
     color: transparent;
     border-radius: 1.25rem;
     padding: 0rem 2rem;
-    margin: 0.7rem 0.2rem;
+    margin: 0.8rem 0.2rem;
     transition: all 0.3s ease;
 }
 #workspaces button.active.empty label,
 #workspaces button.active label { color: transparent }
 #workspaces button.active.empty:hover label,
-#workspaces button.active:hover label { color: transparent; background: @buttonselect }
+#workspaces button.active:hover label { color: transparent; background: @selection }
 #workspaces button:hover label,
 #workspaces button.empty:hover label { background: @buttonselect; color: transparent }
 
@@ -170,7 +171,7 @@ window#waybar {
     color: @text;
     background-color: @backgroundA;
     transition: 0.3s all ease;
-    margin: 0.3rem;
+    margin: 0.5rem 0.2rem;
 }
 #custom-powermenu {
     font-size: 1.32375rem;
@@ -232,7 +233,7 @@ tooltip label {
 #idlevol {
     background: @backgroundA;
     border-radius: 1.5rem;
-    margin: 0.3rem;
+    margin: 0.5rem 0.2rem;
 }
 
 #network, #bluetooth {
@@ -243,7 +244,7 @@ tooltip label {
 #netblue {
     background: @backgroundA;
     border-radius: 1.5rem;
-    margin: 0.3rem;
+    margin: 0.5rem 0.2rem;
 }
 
 #traywer, #tray, #custom-powermenu {
@@ -254,5 +255,6 @@ tooltip label {
 #traywermen {
     background: @backgroundA;
     border-radius: 1.5rem;
-    margin: 0.3rem;
+    margin: 0.5rem 0.2rem;
+    margin-right: 0.6rem;
 }
