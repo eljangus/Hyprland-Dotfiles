@@ -17,7 +17,7 @@ done
 matugen image "$selected" -m light
 
 ln -sfn "$selected" ~/.config/RofiScripts/Walls-light/Wall
-
+ln -sfn "$selected" ~/.config/RofiScripts/WallpaperChanger/Wall
 echo "$selected" > "$LAST_WALLPAPER"
 
 ~/.config/nwg-dock-hyprland/launch.sh
