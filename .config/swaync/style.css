@@ -12,7 +12,7 @@
 }
 
 .notification {
-  background-color: @background;
+  background-color: @backgroundA;
   padding: 1.25rem;
   outline: none;
   border: none;
@@ -50,7 +50,7 @@
   color: @textselect;  
 }
 .notification:hover {
-  background-color: @background;
+  background-color: @backgroundA;
   color: @textselect;
 }
 .notification-group button {
@@ -206,7 +206,7 @@ scrollbar trough:hover {
   background: @backgroundA;
   padding: 0.625rem;
   margin: 1.25rem;
-  margin-bottom: 0.625rem;
+  margin-bottom: 0rem;
   border-radius: var(--button-radius);
 }
 .widget-mpris button { 
@@ -242,13 +242,13 @@ scrollbar trough:hover {
 }
 .widget-buttons-grid {
   padding: 0.625rem;
-  margin: 0.625rem 1.25rem 0.625rem 1.25rem;
+  margin: 1.25rem 1.25rem 0.625rem 1.25rem;
   border-radius: var(--button-radius);
   background: @backgroundA;
 }
 .widget-buttons-grid:hover {
   padding: 0.625rem;
-  margin: 0.625rem 1.25rem 0.625rem 1.25rem;
+  margin: 1.25rem 1.25rem 0.625rem 1.25rem;
   border-radius: var(--button-radius);
   background: @backgroundA;
 }
