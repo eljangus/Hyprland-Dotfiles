@@ -50,7 +50,7 @@ window#waybar {
     transition: 0.3s all ease;
 }
 #tray menu, menu {
-    background-color: @backgroundA;
+    background-color: @background;
     color: @text;
     border-radius: 1.5rem;
     padding: 0;
@@ -58,7 +58,7 @@ window#waybar {
 }
 #tray menu menuitem:hover:last-child { border-bottom-left-radius: 0.9375rem; border-bottom-right-radius: 0.9375rem }
 #tray menu menuitem:hover:first-child { border-top-left-radius: 0.9375rem; border-top-right-radius: 0.9375rem }
-#tray menu menuitem:hover { background-color: @selection; color: @backgroundA; }
+#tray menu menuitem:hover { background-color: @selection; color: @background; }
 #workspaces {
     margin: 0;
     padding-left: 0.75rem;
@@ -199,7 +199,7 @@ window#waybar.empty #window {
 }
 #custom-pacman:hover, #temperature:hover { color: @textselect }
 tooltip {
-    background-color: @backgroundA;
+    background-color: @background;
     padding: 0.3125rem;
     color: @text;
     border-radius: 1.5rem;
