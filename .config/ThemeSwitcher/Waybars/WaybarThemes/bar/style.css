@@ -49,7 +49,7 @@ window#waybar {
     transition: 0.3s all ease;
 }
 #tray menu, menu {
-    background-color: @background;
+    background-color: @backgroundA;
     color: @text;
     border-radius: 1.5rem;
     padding: 0;
@@ -57,7 +57,7 @@ window#waybar {
 }
 #tray menu menuitem:hover:last-child { border-bottom-left-radius: 0.9375rem; border-bottom-right-radius: 0.9375rem }
 #tray menu menuitem:hover:first-child { border-top-left-radius: 0.9375rem; border-top-right-radius: 0.9375rem }
-#tray menu menuitem:hover { background-color: @selection; color: @background; }
+#tray menu menuitem:hover { background-color: @selection; color: @backgroundA; }
 #workspaces {
     margin: 0;
     padding-left: 0.75rem;
@@ -75,33 +75,33 @@ window#waybar {
     background: @backgroundA;
     border-radius: 1rem; 
     color: transparent; 
-    margin: 0rem -0.4rem;
+    margin: 0rem;
     transition: all 0.3s ease;
 }
 #workspaces button label {
     font-size: 1rem;
     background: @backgroundD;
-    color: @text;
+    color: transparent;
     border-radius: 1.25rem;
-    padding: 0.1rem 1rem;
-    margin: 0.7rem 0.7rem;
+    padding: 0rem 0.5rem;
+    margin: 0.7rem 0.2rem;
     transition: all 0.3s ease;
 }
 #workspaces button.active label {
     font-size: 1rem;
     background: @selection;
-    color: @backgroundD;
+    color: transparent;
     border-radius: 1.25rem;
-    padding: 0.1rem 2rem;
-    margin: 0.7rem 0.7rem;
+    padding: 0rem 2rem;
+    margin: 0.7rem 0.2rem;
     transition: all 0.3s ease;
 }
 #workspaces button.active.empty label,
-#workspaces button.active label { color: @backgroundD }
+#workspaces button.active label { color: transparent }
 #workspaces button.active.empty:hover label,
-#workspaces button.active:hover label { color: @backgroundD; background: @buttonselect }
+#workspaces button.active:hover label { color: transparent; background: @buttonselect }
 #workspaces button:hover label,
-#workspaces button.empty:hover label { background: @buttonselect; color: @backgroundD }
+#workspaces button.empty:hover label { background: @buttonselect; color: transparent }
 
 #workspaces button.active.empty,
 #workspaces button.active { color: transparent;  background: @backgroundA; padding: 0rem }
@@ -195,7 +195,7 @@ window#waybar {
 }
 #custom-pacman:hover, #temperature:hover { color: @textselect }
 tooltip {
-    background-color: @background;
+    background-color: @backgroundA;
     padding: 0.3125rem;
     color: @text;
     border-radius: 1.5rem;
