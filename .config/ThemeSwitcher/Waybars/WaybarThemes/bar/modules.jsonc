@@ -30,6 +30,12 @@
     "on-click-middle": "swaync-client -R; swaync-client -rs",
     "escape": true
 	                     }, 
+"hyprland/window": {
+  "format": "{title}",
+  "max-length": 80,
+  "icon": true,
+  "icon-size": 24,
+},
 "hyprland/workspaces": {
  "disable-scroll": true,
   "all-outputs": false,

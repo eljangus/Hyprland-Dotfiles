@@ -19,7 +19,7 @@
  
 ],
  "modules-center": [
-  "mpris",
+  "hyprland/window",
 ],
  "modules-right": [
   "group/idlevol",
