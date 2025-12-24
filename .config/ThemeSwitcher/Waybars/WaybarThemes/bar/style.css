@@ -100,7 +100,7 @@ window#waybar {
 #workspaces button.active.empty label,
 #workspaces button.active label { color: transparent }
 #workspaces button.active.empty:hover label,
-#workspaces button.active:hover label { color: transparent; background: @source_color }
+#workspaces button.active:hover label { color: transparent; background: @primary }
 #workspaces button:hover label,
 #workspaces button.empty:hover label { background: @surface_container_highest; color: transparent }
 
