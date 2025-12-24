@@ -12,7 +12,7 @@
 }
 
 .notification {
-  background-color: @backgroundA;
+  background-color: @background;
   padding: 1.25rem;
   outline: none;
   border: none;
@@ -50,7 +50,7 @@
   color: @textselect;  
 }
 .notification:hover {
-  background-color: @backgroundA;
+  background-color: @background;
   color: @textselect;
 }
 .notification-group button {
