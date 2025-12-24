@@ -90,7 +90,7 @@ window#waybar {
 }
 #workspaces button.active label {
     font-size: 0.8rem;
-    background: @source_color;
+    background: @primary;
     color: transparent;
     border-radius: 1.25rem;
     padding: 0rem 2rem;

@@ -54,7 +54,7 @@ textbox {
 entry {
   hide-cursor-on-empty: true;
   placeholder: " Suchen...";
-  placeholder-color: var(surface-container-highest);
+  placeholder-color: var(secondary);
   text-color: var(secondary);
   border: 0em;
   border-color: var(primary);

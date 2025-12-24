@@ -9,3 +9,5 @@ done | rofi -dmenu -i -m DP-3 -config '~/.config/RofiScripts/WallpaperChanger/WC
 
 matugen image "$DIR/$selected" -m light
 ln -sfn "$DIR/$selected" ~/.config/RofiScripts/Walls-light/Wall
+
+~/.config/nwg-dock-hyprland/launch.sh
