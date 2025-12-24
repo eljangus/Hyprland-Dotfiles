@@ -73,7 +73,7 @@ window#waybar {
     box-shadow: none;
     text-shadow: none; 
     padding: 0rem; 
-    background: @backgroundA;
+    background: transparent;
     border-radius: 1rem; 
     color: transparent; 
     margin: 0rem;
@@ -105,12 +105,12 @@ window#waybar {
 #workspaces button.empty:hover label { background: @buttonselect; color: transparent }
 
 #workspaces button.active.empty,
-#workspaces button.active { color: transparent;  background: @backgroundA; padding: 0rem }
+#workspaces button.active { color: transparent;  background: transparent; padding: 0rem }
 #workspaces button.active.empty:hover,
-#workspaces button.active:hover { color: transparent;  background: @backgroundA }
-#workspaces button:hover { color: transparent;  background: @backgroundA }
-#workspaces button.empty { color: transparent;  background: @backgroundA}
-#workspaces button.empty:hover { color: transparent ; background: @backgroundA }
+#workspaces button.active:hover { color: transparent;  background: transparent }
+#workspaces button:hover { color: transparent;  background: transparent }
+#workspaces button.empty { color: transparent;  background: transparent }
+#workspaces button.empty:hover { color: transparent ; background: transparent }
 
 #network, #bluetooth, #pulseaudio, #traywer {
     border-radius: 1.5rem;

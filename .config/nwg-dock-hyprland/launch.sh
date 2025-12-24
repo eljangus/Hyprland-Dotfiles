@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Waybars/WaybarThemes/bar/launch.sh
+/home/elias/.config/ThemeSwitcher/Waybars/WaybarThemes/vertical/launch.sh

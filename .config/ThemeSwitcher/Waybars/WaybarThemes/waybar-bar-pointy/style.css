@@ -9,7 +9,7 @@
     text-shadow: none;
 }
 window#waybar {
-    background: @background;
+    background: alpha(@background, 500);
     padding: 0.25rem; 
     background-image: none;
     box-shadow: none;
@@ -17,7 +17,7 @@ window#waybar {
     border-radius: 0;
 }
 #custom-System {
-    background-color: @backgroundD;
+    background-color: alpha(@backgroundD, 500);
     font-size: 1.32375rem; 
     padding: 0.5rem 0.5rem 0.5rem 1rem;
     color: @text;
@@ -27,7 +27,7 @@ window#waybar {
 }
 #custom-System:hover { color: @textselect; }
 #clock {
-    background: @backgroundD;
+    background: alpha(@backgroundD, 500);
     font-size: 1.32375rem;
     font-weight: bold;
     border-radius: 0;
@@ -47,7 +47,7 @@ window#waybar {
     transition: 0.3s all ease;
 }
 #tray menu, menu {
-    background-color: @backgroundA;
+    background-color: alpha(@backgroundA, 500);
     color: @text;
     border-radius: 0rem;
     padding: 0;
@@ -55,12 +55,12 @@ window#waybar {
 }
 #tray menu menuitem:hover:last-child { border-bottom-left-radius: 0rem; border-bottom-right-radius: 0rem }
 #tray menu menuitem:hover:first-child { border-top-left-radius: 0rem; border-top-right-radius: 0rem }
-#tray menu menuitem:hover { background-color: @selection; color: @background; }
+#tray menu menuitem:hover { background-color: @selection; color: alpha(@background, 500); }
 #workspaces {
     margin: 0;
     padding: 0;
     border-radius: 0;
-    background-color: @backgroundD;
+    background-color: alpha(@backgroundD, 500);
     border: 0 solid @border;
     transition: all 0.3s ease;
 }
@@ -85,17 +85,17 @@ window#waybar {
 #network, #bluetooth, #pulseaudio, #traywer {
     border-radius: 0;
     padding: 0 0.5rem;
-    background-color: @backgroundD;
+    background-color: alpha(@backgroundD, 500);
     color: @text;
     border: 0 solid @border;
     transition: 0.3s all ease;
 }
 #pulseaudio-slider {
-    background: @backgroundD; 
+    background: alpha(@backgroundD, 500); 
     border-radius: 0; 
     padding: 0 0.875rem; 
     color: @text;
-    border: 0 solid @background; 
+    border: 0 solid alpha(@background, 500); 
 }
 #pulseaudio-slider slider {
     background: @text;
@@ -103,7 +103,7 @@ window#waybar {
     min-width: 0;
     margin: -0.4rem;
     box-shadow: none;
-    border: 0 solid @background;
+    border: 0 solid alpha(@background, 500);
 }
 #pulseaudio-slider trough {
     background: alpha(@text, 0.3); 
@@ -111,7 +111,7 @@ window#waybar {
     min-height: 0.25rem; 
     box-shadow: none;
     border-radius: 1.25rem; 
-    border: 0 solid @background;
+    border: 0 solid alpha(@background, 500);
 }
 
 #pulseaudio-slider highlight {
@@ -129,7 +129,7 @@ window#waybar {
     padding: 0.5rem;
     border-radius: 0.125rem;
     color: @text;
-    background-color: @backgroundD;
+    background-color: alpha(@backgroundD, 500);
     transition: 0.3s all ease;
 }
 #custom-powermenu {
@@ -137,7 +137,7 @@ window#waybar {
     padding: 0.5rem 1rem 0.5rem 0.5rem;
     border-radius: 0.125rem;
     color: @text;
-    background-color: @backgroundD;
+    background-color: alpha(@backgroundD, 500);
     transition: 0.3s all ease;
 }
 #mpris:hover, #custom-theme:hover, #custom-bar:hover, #custom-powermenu:hover, #custom-notifications:hover {
@@ -148,13 +148,13 @@ window#waybar {
     padding: 0.5rem;
     border-radius: 0.125rem;
     color: @text;
-    background-color: @backgroundA;
+    background-color: alpha(@backgroundA, 500);
     transition: 0.3s all ease;
 }
 #temperature { margin-left: 0; padding-left: 0.5rem; }
 #custom-pacman:hover, #temperature:hover { color: @textselect }
 tooltip {
-    background-color: @backgroundA;
+    background-color: alpha(@backgroundA, 500);
     padding: 0.3125rem;
     color: @text;
     border-radius: 0;
@@ -167,7 +167,7 @@ tooltip label {
     color: @text;
 }
 #idle_inhibitor {
-    background-color: @backgroundD;
+    background-color: alpha(@backgroundD, 500);
     font-size: 1.32375rem; 
     padding: 0 0.5rem;
     color: @text;
@@ -180,20 +180,20 @@ tooltip label {
 #custom-left_div.1,
 #custom-left_div.2 {
     font-size: 2.25rem;
-    color: @backgroundD;
+    color: alpha(@backgroundD, 500);
 }
 #custom-left_div.4,
 #custom-right_div.4,
 #custom-left_div.3,
 #custom-right_div.3 {
     font-size: 2.25rem;
-    color: @backgroundA;
+    color: alpha(@backgroundA, 500);
 }
 #custom-right_div.1,
 #custom-left_div.2,
 #custom-right_div.2,
 #custom-left_div.1 {
-    background-color: @backgroundA;  
+    background-color: alpha(@backgroundA, 500);  
 }
 #custom-notifications, #custom-notifications:hover, #bluetooth, #bluetooth:hover, #idle_inhibitor, #idle_inhibitor:hover { font-size: 1.475rem }
 #custom-System { font-size: 1.5rem }

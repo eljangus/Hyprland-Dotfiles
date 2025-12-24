@@ -1,7 +1,7 @@
 @define-color border #8C1007;
-@define-color background rgba(41, 4, 2, 1);
-@define-color backgroundA rgba(30, 3, 1, 1);
-@define-color backgroundD rgba(23, 2, 0, 1);
+@define-color background rgba(41, 4, 2, 0.8);
+@define-color backgroundA rgba(30, 3, 1, 0.3);
+@define-color backgroundD rgba(23, 2, 0, 0.3);
 @define-color text #FFF0C4;
 @define-color selection #FF8C60;
 @define-color textselect #FF8C60;
