@@ -56,8 +56,8 @@ window#waybar {
     padding: 0;
     border: 0 solid @border;
 }
-#tray menu menuitem:hover:last-child { border-bottom-left-radius: 0.9375rem; border-bottom-right-radius: 0.9375rem }
-#tray menu menuitem:hover:first-child { border-top-left-radius: 0.9375rem; border-top-right-radius: 0.9375rem }
+#tray menu menuitem:hover:last-child { border-bottom-left-radius: 1.5rem; border-bottom-right-radius: 1.5rem }
+#tray menu menuitem:hover:first-child { border-top-left-radius: 1.5rem; border-top-right-radius: 1.5rem }
 #tray menu menuitem:hover { background-color: @surface_container_highest; color: @on_surface_variant; }
 #workspaces {
     margin: 0;
