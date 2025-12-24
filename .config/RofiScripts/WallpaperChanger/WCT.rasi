@@ -1,14 +1,14 @@
-@import "~/.config/colors/roficolors.rasi"
+@import "~/.config/colors/colors.rasi"
 @import "~/.config/colors/rofiradius.rasi"
 
 window {
   width: 48em;
   padding: 0em;
   border: 0px;         
-  border-color: var(border);
+  border-color: var(primary);
   border-radius: var(borderradius);
   transparency: "real";
-  background-color: var(background);
+  background-color: var(surface);
   x-offset: 0em;
   y-offset: 0em;
 }
@@ -17,7 +17,7 @@ error-message {
   enabled: true;
   padding: 0.54em;
   background-color: transparent;
-  border-color: var(border);
+  border-color: var(primary);
   border-radius: var(borderradius);
 }
 
@@ -25,22 +25,22 @@ textbox {
   enabled: true;
   padding: 0.4em 0.54em 0.4em 0.54em;
   str: "Keine Ergebnisse!";
-  text-color: var(textcolor);
-  background-color: var(backgroundA);
+  text-color: var(secondary);
+  background-color: var(surface-container);
   border-radius: var(buttonradius);
-  border-color: var(selectionborder);
+  border-color: var(primary);
 }
 
 entry {
   hide-cursor-on-empty: true;
   placeholder: " Suchen...";
-  placeholder-color: var(searchcolor);
-  text-color: var(textcolor);
+  placeholder-color: var(surface-container-highest);
+  text-color: var(secondary);
   border: 0em;
-  border-color: var(border);
+  border-color: var(primary);
   padding: 0.4em 0.54em 0.4em 0.54em;
   border-radius: var(buttonradius);
-  background-color: var(backgroundA);
+  background-color: var(surface-container);
 }
 
 listview {
@@ -53,7 +53,7 @@ listview {
   scrollbar: false;
   cycle: false;
   border: 0em;
-  border-color: var(border);
+  border-color: var(primary);
 }
 
 mainbox {
@@ -69,7 +69,7 @@ inputbar {
   background-color: transparent;
   children: [ entry ];
   border: 0em;
-  border-color: var(border);
+  border-color: var(primary);
 }
 
 element {
@@ -82,32 +82,32 @@ element {
 
 element normal.normal {
   background-color: transparent;
-  text-color: var(textcolor);
+  text-color: var(secondary);
 }
 
 element normal.active {
   background-color: transparent;
-  text-color: var(textcolor);
+  text-color: var(secondary);
 }
 
 element normal.urgent {
   background-color: transparent;
-  text-color: var(textcolor);
+  text-color: var(secondary);
 }
 
 element alternate.active {
   background-color: transparent;
-  text-color: var(textcolor);
+  text-color: var(secondary);
 }
 
 element alternate.normal {
   background-color: transparent;
-  text-color: var(textcolor);
+  text-color: var(secondary);
 }
 
 element alternate.urgent {
   background-color: transparent;
-  text-color: var(textcolor);
+  text-color: var(secondary);
 }
 
 element-text {
@@ -119,14 +119,14 @@ element-text {
 }
 
 element selected.normal {
-  background-color: var(selection);
-  text-color: var(background);
+  background-color: var(surface-container-highest);
+  text-color: var(on-surface-variant);
   border: 0em;
-  border-color: var(selectionborder);
+  border-color: var(primary);
 }
 
 element-icon {
-  size: 12em;
+  size: 13em; 
   background-color: transparent;
   text-color: inherit;
 }

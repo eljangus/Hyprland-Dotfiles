@@ -1,0 +1,33 @@
+{
+///////////////////////////
+ "layer": "top",
+ "position": "top",
+ "height": 0,
+ "spacing": 0,
+ "margin-top": 10,
+ "margin-left": 10,
+ "margin-right": 10,
+ "margin-bottom": 0,
+ "output": "DP-3",
+ "reload_style_on-change": true,
+///////////////////////////
+ "modules-left": [
+ "custom/System",
+ "custom/notifications",
+ "hyprland/workspaces",
+ "clock",
+ 
+],
+ "modules-center": [
+  "hyprland/window",
+],
+ "modules-right": [
+  "group/idlevol",
+  "group/netblue",
+  "group/traywermen",
+ ],
+///////////////////////////
+ "include": [
+  "/home/elias/.config/waybar/modules.jsonc",
+],
+}

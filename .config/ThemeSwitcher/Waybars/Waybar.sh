@@ -1,6 +1,6 @@
 #! /bin/sh
 
-chosen=$(printf "Zacken\nFliegende Inseln\nVertikal\nBalken\n" | rofi -dmenu -i -m DP-3 -config '~/.config/ThemeSwitcher/Waybars/WB.rasi')
+chosen=$(printf "Balken\n" | rofi -dmenu -i -m DP-3 -config '~/.config/ThemeSwitcher/Waybars/WB.rasi')
 
 case "$chosen" in
    "Zacken") ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-pointy/barpointy.sh & ~/.config/ThemeSwitcher/Waybars/WaybarThemes/waybar-bar-pointy/launch.sh ;;

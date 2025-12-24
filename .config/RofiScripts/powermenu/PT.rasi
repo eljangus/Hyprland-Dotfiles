@@ -1,14 +1,14 @@
-@import "~/.config/colors/roficolors.rasi"
+@import "~/.config/colors/colors.rasi"
 @import "~/.config/colors/rofiradius.rasi"
 
 window {
   width: 4.578em;
   padding: 0;
   border: 0px;
-  border-color: var(border);
+  border-color: var(primary);
   border-radius: var(borderradius);
   transparency: "real";
-  background-color: var(background);
+  background-color: var(surface);
   x-offset: -10px;
   y-offset: 10px;
 }
@@ -27,7 +27,7 @@ listview {
   cycle: false;
   border: 0;
   border-radius: 0px;
-  border-color: var(border);
+  border-color: var(primary);
 }
 
 mainbox {
@@ -46,37 +46,37 @@ element{
 }
 
 element normal.normal{
- background-color: var(nul);
- text-color: var(textcolor);
+ background-color: transparent;
+ text-color: var(secondary);
 }
 
 element normal.active{
- background-color: var(nul);
- text-color: var(textcolor);
+ background-color: transparent;
+ text-color: var(secondary);
 }
 
 element normal.urgent{
- background-color: var(nul);
- text-color: var(textcolor);
+ background-color: transparent;
+ text-color: var(secondary);
 }
 
 element alternate.active{
- background-color: var(nul);
- text-color: var(textcolor);
+ background-color: transparent;
+ text-color: var(secondary);
 }
 
 element alternate.normal{
- background-color: var(nul);
- text-color: var(textcolor);
+ background-color: transparent;
+ text-color: var(secondary);
 }
 
 element alternate.urgent{
- background-color: var(nul);
- text-color: var(textcolor);
+ background-color: transparent;
+ text-color: var(secondary);
 }
 
 element-text{
- background-color: #00000000;
+ background-color: transparent;
  text-color: inherit;
  padding: 0;
  vertical-align: 0.5;
@@ -84,22 +84,22 @@ element-text{
 }
 
 element selected.normal {
- background-color: var(selection);
- text-color: var(background);
+ background-color: var(surface-container-highest);
+ text-color: var(on-surface-variant);
  border: 0;
- border-color: var(selectionborder);
+ border-color: var(primary);
 }
 
 element selected.urgent {
  background-color: transparent;
- text-color: var(selectionborder);
+ text-color: var(on-surface-variant);
  border: 0;
- border-color: var(selectionborder);
+ border-color: var(primary);
 }
 
 element selected.active {
  background-color: transparent;
- text-color: var(selectionborder);
+ text-color: var(on-surface-variant);
  border: 0;
- border-color: var(selectionborder);
+ border-color: var(primary);
 }

@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Dark/wall.sh
+/home/elias/.config/RofiScripts/Walls/wall.sh

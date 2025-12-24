@@ -1,1 +1,1 @@
-/home/elias/.config/ThemeSwitcher/Themes/ColorThemes/Dark/wallrandom.sh
+/home/elias/.config/RofiScripts/Walls/wallrandom.sh
