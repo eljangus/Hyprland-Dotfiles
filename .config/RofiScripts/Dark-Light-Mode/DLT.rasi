@@ -15,7 +15,7 @@ window {
 
 error-message {
   enabled: true;
-  padding: 0.54em;
+  padding: 0.8em;
   background-color: transparent;
   border-color: var(primary);
   border-radius: var(borderradius);
@@ -25,7 +25,7 @@ textbox {
   enabled: true;
   padding: 0.4em 0.54em 0.4em 0.54em;
   str: "Keine Ergebnisse!";
-  text-color: var(secondary);
+  text-color: var(error);
   background-color: var(surface-container);
   border-radius: var(buttonradius);
   border-color: var(primary);
