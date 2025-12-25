@@ -70,7 +70,7 @@ button:hover {
   background-color: @surface_container;
   border-radius: 0.9375rem;
   color: inherit;
-  border: 2px solid @selection;
+  border: 2px solid @primary;
   box-shadow: none;
   text-shadow: none;
 }
