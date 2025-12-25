@@ -1,4 +1,5 @@
 7zip
+adw-gtk-theme
 alsa-plugins
 amd-ucode
 ani-cli
@@ -106,6 +107,7 @@ stress-ng
 sudo
 swaync
 swww
+thunar
 translate-shell
 ttf-cascadia-code-nerd
 ttf-firacode-nerd
