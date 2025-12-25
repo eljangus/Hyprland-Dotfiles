@@ -7,7 +7,7 @@ done | rofi -dmenu -i -m DP-3 -config '~/.config/RofiScripts/WallpaperChanger/WC
 
 [ -z "$selected" ] && exit 0
 
-matugen image "$DIR/$selected" -m light
+matugen image "$DIR/$selected" -m light -t scheme-tonal-spot
 ln -sfn "$DIR/$selected" ~/.config/RofiScripts/Walls-light/Wall
 ln -sfn "$DIR/$selected" ~/.config/RofiScripts/WallpaperChanger/Wall
 ~/.config/nwg-dock-hyprland/launch.sh

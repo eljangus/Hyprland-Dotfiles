@@ -14,7 +14,7 @@ while true; do
     [ "$selected" != "$last" ] && break
 done
 
-matugen image "$selected" -m light
+matugen image "$selected" -m light -t scheme-tonal-spot
 
 ln -sfn "$selected" ~/.config/RofiScripts/Walls-light/Wall
 ln -sfn "$selected" ~/.config/RofiScripts/WallpaperChanger/Wall
