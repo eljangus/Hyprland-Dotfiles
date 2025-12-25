@@ -58,7 +58,7 @@ window#waybar {
 }
 #tray menu menuitem:hover:last-child { border-bottom-left-radius: 1.5rem; border-bottom-right-radius: 1.5rem }
 #tray menu menuitem:hover:first-child { border-top-left-radius: 1.5rem; border-top-right-radius: 1.5rem }
-#tray menu menuitem:hover { background-color: @surface_container_highest; color: @on_surface_variant; }
+#tray menu menuitem:hover { background-color: @surface_container_highest; color: @on_surface_variant; border-radius: 0; }
 #workspaces {
     margin: 0;
     padding-left: 0.75rem;
