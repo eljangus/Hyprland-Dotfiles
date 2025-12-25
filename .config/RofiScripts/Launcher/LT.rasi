@@ -119,7 +119,7 @@ element-text {
 
 element selected.normal {
   background-color: var(surface-container-highest);
-  text-color: var(on-surface-variant);
+  text-color: var(secondary);
   border: 0em;
   border-color: var(primary);
 }

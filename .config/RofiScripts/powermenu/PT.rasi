@@ -85,21 +85,21 @@ element-text{
 
 element selected.normal {
  background-color: var(surface-container-highest);
- text-color: var(on-surface-variant);
+ text-color: var(secondary);
  border: 0;
  border-color: var(primary);
 }
 
 element selected.urgent {
  background-color: transparent;
- text-color: var(on-surface-variant);
+ text-color: var(secondary);
  border: 0;
  border-color: var(primary);
 }
 
 element selected.active {
  background-color: transparent;
- text-color: var(on-surface-variant);
+ text-color: var(secondary);
  border: 0;
  border-color: var(primary);
 }

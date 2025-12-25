@@ -26,7 +26,7 @@ window#waybar {
     margin: 0.5rem 0.2rem;
     margin-left: 0.6rem;
 }
-#custom-System:hover { color: @secondary_fixed; }
+#custom-System:hover { color: @primary; }
 #clock {
     background: @surface_container;
     font-size: 1.32375rem;
@@ -39,7 +39,7 @@ window#waybar {
     transition: 0.3s all ease;
     margin: 0.5rem 0.2rem;
 }
-#clock:hover { color: @secondary_fixed; }
+#clock:hover { color: @primary; }
 #tray {
     border-radius: 1.5rem; 
     padding-left: 0rem;
@@ -154,15 +154,15 @@ window#waybar {
 }
 
 #pulseaudio-slider highlight {
-    background: @source_color;
+    background: @primary;
     border-radius: 1.5rem; 
     margin: 0;
     box-shadow: none;
     border: 0 solid @border;
-    color: @secondary_fixed;
+    color: @primary;
 }
 
-#network:hover, #bluetooth:hover, #pulseaudio:hover, #traywer:hover { color: @secondary_fixed; }
+#network:hover, #bluetooth:hover, #pulseaudio:hover, #traywer:hover { color: @primary; }
 #mpris, #custom-theme, #custom-bar, #custom-notifications, #window {
     font-size: 1.32375rem;
     padding-left: 1.2rem;
@@ -186,7 +186,7 @@ window#waybar.empty #window {
     transition: 0.3s all ease;
 }
 #mpris:hover, #custom-theme:hover, #custom-bar:hover, #custom-powermenu:hover, #custom-notifications:hover, #window:hover {
-    color: @secondary_fixed;
+    color: @primary;
 }
 #custom-pacman, #temperature {
     font-size: 1.32375rem;
@@ -220,7 +220,7 @@ tooltip label {
     border-radius: 1.5rem;
     transition: 0.3s all ease;
 }
-#idle_inhibitor:hover { color: @secondary_fixed; }
+#idle_inhibitor:hover { color: @primary; }
 #custom-notifications, #custom-notifications:hover, #bluetooth, #bluetooth:hover, #idle_inhibitor, #idle_inhibitor:hover { font-size: 1.475rem }
 #custom-System { font-size: 1.5rem }
 

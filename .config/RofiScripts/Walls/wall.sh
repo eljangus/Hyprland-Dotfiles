@@ -7,7 +7,7 @@ done | rofi -dmenu -i -m DP-3 -config '~/.config/RofiScripts/WallpaperChanger/WC
 
 [ -z "$selected" ] && exit 0
 
-matugen image "$DIR/$selected" -m dark -t scheme-content --fallback-color grey
+matugen image "$DIR/$selected" -m dark -t scheme-tonal-spot
 ln -sfn "$DIR/$selected" ~/.config/RofiScripts/Walls/Wall
 ln -sfn "$DIR/$selected" ~/.config/RofiScripts/WallpaperChanger/Wall
 ~/.config/nwg-dock-hyprland/launch.sh

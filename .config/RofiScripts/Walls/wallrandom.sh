@@ -14,7 +14,7 @@ while true; do
     [ "$selected" != "$last" ] && break
 done
 
-matugen image "$selected" -m dark -t scheme-content --fallback-color grey
+matugen image "$selected" -m dark -t scheme-tonal-spot
 
 ln -sfn "$selected" ~/.config/RofiScripts/Walls/Wall
 ln -sfn "$selected" ~/.config/RofiScripts/WallpaperChanger/Wall
