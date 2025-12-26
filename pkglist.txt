@@ -85,7 +85,6 @@ otf-font-awesome
 pacman-contrib
 pamixer
 pavucontrol
-pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
@@ -126,7 +125,7 @@ xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-user-dirs
 yay
+yay-debug
 yazi
-zen-browser-bin
 zenity
 zram-generator

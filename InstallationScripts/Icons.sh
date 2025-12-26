@@ -1,15 +1,4 @@
+#! /bin/bash
+
 ln -sfn ~/.config/IconThemes/Papirus-Black/Papirus-Dark ~/.local/share/icons/Papirus-Black
-ln -sfn ~/.config/IconThemes/Papirus-White/Papirus-Dark ~/.local/share/icons/Papirus-White
-ln -sfn ~/.config/IconThemes/Papirus-Blue/Papirus-Dark ~/.local/share/icons/Papirus-Blue
-ln -sfn ~/.config/IconThemes/Papirus-Green/Papirus-Dark ~/.local/share/icons/Papirus-Green
-ln -sfn ~/.config/IconThemes/Papirus-Magenta/Papirus-Dark ~/.local/share/icons/Papirus-Magenta
-ln -sfn ~/.config/IconThemes/Papirus-Black/Papirus-Light ~/.local/share/icons/Papirus-Black-Light
-ln -sfn ~/.config/IconThemes/Papirus-Nord/Papirus-Dark ~/.local/share/icons/Papirus-Nord
-ln -sfn ~/.config/IconThemes/Papirus-Palebrown/Papirus-Dark ~/.local/share/icons/Papirus-Palebrown
-ln -sfn ~/.config/IconThemes/Papirus-Palebrown/Papirus-Light ~/.local/share/icons/Papirus-Palebrown-Light
-ln -sfn ~/.config/IconThemes/Papirus-Red/Papirus-Dark ~/.local/share/icons/Papirus-Red
-ln -sfn ~/.config/IconThemes/Papirus-White/Papirus-Dark ~/.local/share/icons/Papirus-White
-ln -sfn ~/.config/IconThemes/Papirus-Yellow/Papirus-Dark ~/.local/share/icons/Papirus-Yellow
-ln -sfn ~/.config/IconThemes/Papirus-Teal/Papirus-Dark ~/.local/share/icons/Papirus-Teal
-ln -sfn ~/.config/IconThemes/Papirus-Brown/Papirus-Dark ~/.local/share/icons/Papirus-Brown
-ln -sfn ~/.config/IconThemes/Papirus-Indigo/Papirus-Dark ~/.local/share/icons/Papirus-Indigo
+ln -sfn ~/.config/IconThemes/Papirus-Black/Papirus-Dark ~/.local/share/icons/Icons
