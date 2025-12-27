@@ -56,7 +56,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.elias = {
     isNormalUser = true;
-    description = "Elias Schlosser";
+    description = "Elias";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [];
   };
@@ -158,10 +158,7 @@
     adwaita-fonts
     nerd-fonts.jetbrains-mono 
     noto-fonts-cjk-sans
-    nerd-fonts.commit-mono
-    nerd-fonts.fira-code
   ];
-  
   
   hardware.cpu.amd.updateMicrocode = true;
 
