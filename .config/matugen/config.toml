@@ -1,6 +1,6 @@
 [config.wallpaper]
 command = "swww"
-arguments = ["img", "--transition-type", "wipe", "--transition-fps", "240", "--transition-step", "255", "--transition-duration", "1" ]
+arguments = ["img", "--transition-type", "wipe", "--transition-fps", "240", "--transition-step", "255", "--transition-duration", "1", "--transition-angle", "225" ]
 set = true
 
 [templates.waybar]
