@@ -63,7 +63,7 @@
    "actions" : [
         {
           "active": false,
-          "command": "~/.config/swaync/scripts/changetheme.sh",
+          "command": "~/.config/swaync/scripts/changetheme.sh && ~/.config/nwg-dock-hyprland/launch.sh",
           "label": "",
           "type": "button"
         },
