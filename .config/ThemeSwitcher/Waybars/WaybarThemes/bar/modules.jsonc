@@ -2,12 +2,12 @@
 "custom/System": {
   "tooltip": false,
   "format" : "󰣇",
-  "on-click": "~/.config/RofiScripts/Launcher/Launcher.sh"
+  "on-click": "setsid ~/.config/RofiScripts/Launcher/Launcher.sh"
                },
 "custom/powermenu": {
   "tooltip": false,
   "format" : "",
-  "on-click": "~/.config/RofiScripts/powermenu/powermenu.sh"
+  "on-click": "setsid ~/.config/RofiScripts/powermenu/powermenu.sh"
                     },
 "custom/notifications": {
     "tooltip": true,
@@ -125,7 +125,7 @@
   "tooltip-format-disconnected": "󰤦 Verbindung getrennt!",
   "tooltip-format-disabled": "󰤦 Verbindung ausgeschalten!",
   "on-click": "hyprctl dispatch exec '[float; size 879 879] kitty nmtui'",
-  "on-click-right": "~/.config/swaync/scripts/netzwerk.sh",
+  "on-click-right": "setsid ~/.config/swaync/scripts/netzwerk.sh",
           },
 "bluetooth": {
   "format-on": "󰂯",
@@ -137,14 +137,14 @@
   "tooltip-format-enumerate-connected": "{device_alias}",
   "tooltip-format-enumerate-connected-battery": "{device_alias}\t󰥄 {device_battery_percentage}%",
   "on-click": "hyprctl dispatch exec '[float; size 879 879] blueman-manager'",
-  "on-click-right": "~/.config/swaync/scripts/bluetooth.sh",
+  "on-click-right": "setsid ~/.config/swaync/scripts/bluetooth.sh",
 },
 "custom/theme": {
   "tooltip": false,
   "format" : "",
-  "on-click" : "~/.config/ThemeSwitcher/Themes/Theme.sh",
-  "on-click-right" : "~/.config/ThemeSwitcher/Rounding/Rounding.sh",
-  "on-click-middle": "~/.config/ThemeSwitcher/Animations/Animations.sh"
+  "on-click" : "setsid ~/.config/ThemeSwitcher/Themes/Theme.sh",
+  "on-click-right" : "setsid ~/.config/ThemeSwitcher/Rounding/Rounding.sh",
+  "on-click-middle": "setsid ~/.config/ThemeSwitcher/Animations/Animations.sh"
                 },
 "custom/bar": {
   "tooltip": false,

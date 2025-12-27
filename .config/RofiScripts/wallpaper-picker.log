@@ -1,0 +1,93 @@
+=== Wallpaper Picker Log - Sa 27. Dez 17:03:09 CET 2025 ===
+PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+HYPRLAND_INSTANCE_SIGNATURE: 386376400119dd46a767c9f8c8791fd22c7b6e61_1766843708_279519111
+USER: elias
+HOME: /home/elias
+Wallpaper directory: /home/elias/.config/RofiScripts/Walls/Walls
+Selected wallpaper: Abend.png
+Running matugen...
+CSS reload success: true
+ok
+[31m✖[0m Failed executing command: "pkill -USR1 cava"
+Matugen exit code: 0
+Creating symlinks...
+Launching nwg-dock...
+time="2025-12-27T17:03:11+01:00" level=info msg="Starting in autohiDe mode"
+time="2025-12-27T17:03:11+01:00" level=info msg="Ignored workspaces: -98\n"
+time="2025-12-27T17:03:11+01:00" level=info msg="Using style: /home/elias/.config/nwg-dock-hyprland/style.css\n"
+time="2025-12-27T17:03:11+01:00" level=info msg="Optional '/home/elias/.config/nwg-dock-hyprland/hotspot.css' file not found, using internal definition"
+=== Wallpaper Picker Log - Sa 27. Dez 17:03:14 CET 2025 ===
+PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+HYPRLAND_INSTANCE_SIGNATURE: 386376400119dd46a767c9f8c8791fd22c7b6e61_1766843708_279519111
+USER: elias
+HOME: /home/elias
+Wallpaper directory: /home/elias/.config/RofiScripts/Walls/Walls
+Selected wallpaper: Abgrund.png
+Running matugen...
+Format error decoding Png: Invalid PNG signature.
+CSS reload success: true
+ok
+[31m✖[0m Failed executing command: "pkill -USR1 cava"
+Matugen exit code: 0
+Creating symlinks...
+=== Wallpaper Picker Log - Sa 27. Dez 17:03:55 CET 2025 ===
+PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+HYPRLAND_INSTANCE_SIGNATURE: 386376400119dd46a767c9f8c8791fd22c7b6e61_1766843708_279519111
+USER: elias
+HOME: /home/elias
+Wallpaper directory: /home/elias/.config/RofiScripts/Walls/Walls
+Selected wallpaper: 
+No wallpaper selected, exiting
+=== Wallpaper Picker Log - Sa 27. Dez 17:03:58 CET 2025 ===
+PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+HYPRLAND_INSTANCE_SIGNATURE: 386376400119dd46a767c9f8c8791fd22c7b6e61_1766843708_279519111
+USER: elias
+HOME: /home/elias
+Wallpaper directory: /home/elias/.config/RofiScripts/Walls/Walls
+Selected wallpaper: Abgrund.png
+Running matugen...
+Checking swww-daemon status before matugen:
+1227 swww-daemon
+SWWW_TRANSITION_FPS: 
+SWWW_TRANSITION_STEP: 
+Format error decoding Png: Invalid PNG signature.
+=== Wallpaper Picker Log - Sa 27. Dez 17:05:23 CET 2025 ===
+PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+HYPRLAND_INSTANCE_SIGNATURE: 386376400119dd46a767c9f8c8791fd22c7b6e61_1766843708_279519111
+USER: elias
+HOME: /home/elias
+Wallpaper directory: /home/elias/.config/RofiScripts/Walls/Walls
+Selected wallpaper: 'Alptraum'
+Running matugen...
+Checking swww-daemon status before matugen:
+1227 swww-daemon
+SWWW_TRANSITION_FPS: 
+SWWW_TRANSITION_STEP: 
+The image format could not be determined
+[31m✖[0m Failed executing command: "pkill -USR1 cava"
+CSS reload success: true
+=== Wallpaper Picker Log - Sa 27. Dez 17:08:53 CET 2025 ===
+PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+HYPRLAND_INSTANCE_SIGNATURE: 386376400119dd46a767c9f8c8791fd22c7b6e61_1766843708_279519111
+USER: elias
+HOME: /home/elias
+Wallpaper directory: /home/elias/.config/RofiScripts/Walls/Walls
+Selected wallpaper: ''
+No wallpaper selected, exiting
+time="2025-12-27T17:08:56+01:00" level=info msg="SIGTERM received, bye bye!"
+/home/elias/.config/RofiScripts/WallpaperChanger/wall.sh: Zeile 56: Dateiende beim Suchen nach »"« erreicht.
+=== Wallpaper Picker Log - Sa 27. Dez 17:08:59 CET 2025 ===
+PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+HYPRLAND_INSTANCE_SIGNATURE: 386376400119dd46a767c9f8c8791fd22c7b6e61_1766843708_279519111
+USER: elias
+HOME: /home/elias
+Wallpaper directory: /home/elias/.config/RofiScripts/Walls/Walls
+Selected wallpaper: 'Ahorn'
+Running matugen...
+Checking swww-daemon status before matugen:
+1227 swww-daemon
+SWWW_TRANSITION_FPS: 
+SWWW_TRANSITION_STEP: 
+The image format could not be determined
+CSS reload success: true
+[31m✖[0m Failed executing command: "pkill -USR1 cava"

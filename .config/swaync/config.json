@@ -63,13 +63,13 @@
    "actions" : [
         {
           "active": false,
-          "command": "~/.config/swaync/scripts/changetheme.sh && ~/.config/nwg-dock-hyprland/launch.sh",
+          "command": "setsid ~/.config/swaync/scripts/changetheme.sh && setsid ~/.config/nwg-dock-hyprland/launch.sh",
           "label": "",
           "type": "button"
         },
         {
           "active": false,
-          "command": "hyprlock",
+          "command": "swaync-client -t && hyprlock",
           "label": "󰌾",
           "type": "button"
         },
@@ -87,7 +87,7 @@
         },
         {
           "active": false,
-          "command": "swaync-client -t && ~/.config/RofiScripts/powermenu/powermenu.sh",
+          "command": "swaync-client -t && setsid ~/.config/RofiScripts/powermenu/powermenu.sh",
           "label": "",
           "type": "toggle"
         }
