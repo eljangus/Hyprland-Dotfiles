@@ -63,14 +63,14 @@
    "actions" : [
         {
           "active": false,
-          "command": "~/.config/waybar/scripts/netzwerk.sh",
-          "label": "󰤨",
+          "command": "~/.config/swaync/scripts/changetheme.sh",
+          "label": "",
           "type": "button"
         },
         {
           "active": false,
-          "command": "~/.config/waybar/scripts/bluetooth.sh",
-          "label": "󰂯",
+          "command": "hyprlock",
+          "label": "󰌾",
           "type": "button"
         },
         {

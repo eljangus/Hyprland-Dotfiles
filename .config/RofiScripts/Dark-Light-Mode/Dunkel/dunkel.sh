@@ -5,3 +5,5 @@ ln -sfn ~/.config/RofiScripts/Walls/wall.sh ~/.config/RofiScripts/WallpaperChang
 ln -sfn ~/.config/RofiScripts/Walls/wallrandom.sh ~/.config/RofiScripts/WallpaperChanger/wallrandom.sh
 matugen image ~/.config/RofiScripts/Walls/Wall -m dark -t scheme-tonal-spot
 ln -sfn ~/.config/RofiScripts/Walls/Wall ~/.config/RofiScripts/WallpaperChanger/Wall
+
+ln -sfn ~/.config/RofiScripts/Dark-Light-Mode/Hell/hell.sh ~/.config/swaync/scripts/changetheme.sh
