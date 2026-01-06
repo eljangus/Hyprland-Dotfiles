@@ -16,6 +16,7 @@ For example, I use NVIDIA drivers, which you may not need. Keep that in mind!
 ## How to Install
 
 - Clone this repo into your home directory
+- copy `/etc/nixos/hardware-configuration.nix` from your machine into `~/Hyprland-Dotfiles/NixOS/`
 - Build NixOS using my flake. Change your machine's hostname to `nix-btw` or change the hostname within `~/Hyprland-Dotfiles/NixOS` to match your machine.  
 
   Example command (only if your hostname is `nix-btw`):
