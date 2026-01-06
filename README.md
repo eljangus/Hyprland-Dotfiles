@@ -22,10 +22,10 @@ For example, I use NVIDIA drivers, which you may not need. Keep that in mind!
   Example command (only if your hostname is `nix-btw`):
 
   ```bash
-  sudo nixos-rebuild switch ~/Hyprland-Dotfiles#nix-btw --impure
+  sudo nixos-rebuild switch ~/Hyprland-Dotfiles#nix-btw
   ```
 
-  The `--impure` flag is used because I import `/etc/nixos/hardware-configuration.nix` as an absolute path to ensure my dotfiles work on every machine. Post-install, this will be aliased to `nrs`. If you change the hostname, you'll also need to change the aliases.
+  Post-install, this will be aliased to `nrs`. If you change the hostname, you'll also need to change the aliases.
 
 - Navigate into `~/Hyprland-Dotfiles` if not already there and run:
 
