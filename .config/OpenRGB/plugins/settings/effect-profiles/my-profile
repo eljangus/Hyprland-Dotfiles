@@ -1,0 +1,141 @@
+{
+    "Effects": [
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": true,
+            "Brightness": 100,
+            "ControllerZones": [
+                {
+                    "description": "Corsair Lighting Node Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw8",
+                    "name": "Corsair Lighting Node Core",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "1A500204248988AF62451960031C00F5",
+                    "vendor": "Corsair",
+                    "version": "0.9.16",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "Corsair Lighting Node Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw8",
+                    "name": "Corsair Lighting Node Core",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "1A500204248988AF62451960031C00F5",
+                    "vendor": "Corsair",
+                    "version": "0.9.16",
+                    "zone_idx": 1
+                },
+                {
+                    "description": "Corsair Lighting Node Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw2",
+                    "name": "Corsair Lighting Node Core",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "0EA002022219AEAF08738062001C00F5",
+                    "vendor": "Corsair",
+                    "version": "0.9.16",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "Corsair Lighting Node Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw2",
+                    "name": "Corsair Lighting Node Core",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "0EA002022219AEAF08738062001C00F5",
+                    "vendor": "Corsair",
+                    "version": "0.9.16",
+                    "zone_idx": 1
+                },
+                {
+                    "description": "IT5711-GIGABYTE V1.0.21.6",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw1",
+                    "name": "X870E AORUS ELITE WIFI7 ICE",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "0x5711C000",
+                    "vendor": "Gigabyte",
+                    "version": "1.0.21.6",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "IT5711-GIGABYTE V1.0.21.6",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw1",
+                    "name": "X870E AORUS ELITE WIFI7 ICE",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "0x5711C000",
+                    "vendor": "Gigabyte",
+                    "version": "1.0.21.6",
+                    "zone_idx": 1
+                },
+                {
+                    "description": "IT5711-GIGABYTE V1.0.21.6",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw1",
+                    "name": "X870E AORUS ELITE WIFI7 ICE",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "0x5711C000",
+                    "vendor": "Gigabyte",
+                    "version": "1.0.21.6",
+                    "zone_idx": 2
+                },
+                {
+                    "description": "IT5711-GIGABYTE V1.0.21.6",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw1",
+                    "name": "X870E AORUS ELITE WIFI7 ICE",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "0x5711C000",
+                    "vendor": "Gigabyte",
+                    "version": "1.0.21.6",
+                    "zone_idx": 3
+                },
+                {
+                    "description": "IT5711-GIGABYTE V1.0.21.6",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw1",
+                    "name": "X870E AORUS ELITE WIFI7 ICE",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "0x5711C000",
+                    "vendor": "Gigabyte",
+                    "version": "1.0.21.6",
+                    "zone_idx": 4
+                }
+            ],
+            "CustomName": "",
+            "EffectClassName": "GradientWave",
+            "FPS": 60,
+            "RandomColors": false,
+            "Slider2Val": 1,
+            "Speed": 10,
+            "Temperature": 0,
+            "Tint": 0,
+            "UserColors": [
+                4718847,
+                16711875
+            ]
+        }
+    ],
+    "version": 2
+}

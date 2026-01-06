@@ -1,0 +1,1 @@
+/home/elias/.config/RofiScripts/Walls/wall.sh

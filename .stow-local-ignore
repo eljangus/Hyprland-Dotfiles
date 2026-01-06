@@ -1,0 +1,15 @@
+InstallationScripts
+.git
+README.md
+pkglist.txt
+mimeapps.list
+.face.icon
+LaunchCommandsSteam
+.local
+misc
+configuration.nix
+home.nix
+flake.nix
+flake.lock
+NixOS
+.gitignore

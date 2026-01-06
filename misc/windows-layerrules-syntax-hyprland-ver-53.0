@@ -1,0 +1,177 @@
+# Ignore maximize requests from apps. You'll probably like this. 
+windowrule {
+  name = windowrule-1
+  suppress_event = maximize
+  idle_inhibit = fullscreen
+  float = off
+  match:class = .*
+}
+
+
+# Fix some dragging issues with XWayland
+windowrule {
+  name = windowrule-2
+  no_focus = on
+  match:class = ^$
+  match:title = ^$
+  match:xwayland = 1
+  match:float = 1
+  match:fullscreen = 0
+  match:pin = 0
+}
+
+windowrule {
+  name = windowrule-3
+  float = on
+  center = on
+  size = 1000 700
+  match:class = org.kde.kdeconnect.app
+}
+
+windowrule {
+  name = windowrule-4
+  float = on
+  center = on
+  size = 1000 700
+  match:class = org.kde.kdeconnect.sms
+}
+
+windowrule {
+  name = windowrule-5
+  float = on
+  center = on
+  size = 1000 700
+  match:class = org.kde.kdeconnect-indicator
+}
+
+windowrule {
+  name = windowrule-6
+  float = on
+  center = on
+  size = 879 879
+  opacity = 0.80 0.75
+  match:class = org.pulseaudio.pavucontrol
+}
+
+windowrule {
+  name = windowrule-7
+  float = on
+  center = on
+  size = 879 879
+  match:class = blueman-manager
+}
+
+windowrule {
+  name = windowrule-8
+  opacity = 0.80 0.75
+  match:class = thunar
+}
+
+windowrule {
+  name = windowrule-9
+  opacity = 0.80 0.75
+  match:class = Thunar
+}
+
+windowrule {
+  name = windowrule-10
+  opacity = 0.80 0.75
+  match:class = org.gnome.Nautilus
+}
+
+windowrule {
+  name = windowrule-11
+  opacity = 0.90 0.85
+  match:class = org.gnome.TextEditor
+}
+
+windowrule {
+  name = windowrule-12
+  opacity = 0.90 0.85
+  match:class = VSCodium
+}
+
+windowrule {
+  name = windowrule-13
+  workspace = special:OpenRGB silent
+  match:class = openrgb
+}
+
+windowrule {
+  name = windowrule-14
+  workspace = special:Discord silent
+  match:class = discord
+}
+
+windowrule {
+  name = windowrule-15
+  workspace = name:Steam silent
+  match:class = steam
+}
+
+
+windowrule {
+  name = windowrule-16
+  fullscreen = on
+  match:class = ^(gamescope)$
+}
+
+layerrule {
+  name = layerrule-1
+#  blur = on
+#  xray = on
+#  ignore_alpha = 0.7
+#  blur_popups = on
+  animation = slide
+  match:namespace = waybar
+}
+
+layerrule {
+  name = layerrule-2
+#  blur = on
+#  ignore_alpha = 0.7
+  match:namespace = rofi
+}
+
+layerrule {
+  name = layerrule-3
+#  blur = on
+#  ignore_alpha = 0.7
+  match:namespace = notifications
+}
+
+layerrule {
+  name = layerrule-4
+#  blur = on
+#  ignore_alpha = 0.7
+  match:namespace = swaync-notification-window
+}
+
+layerrule {
+  name = layerrule-5
+  animation = fade
+  match:namespace = selection
+}
+
+layerrule {
+  name = layerrule-6
+  animation = fade
+  match:namespace = hyprpicker
+}
+
+layerrule {
+  name = layerrule-7
+#  blur = on
+#  ignore_alpha = 0.7
+# animation = slide left
+  match:namespace = swaync-control-center
+}
+
+layerrule {
+  name = layerrule-8
+#  blur = on
+#  ignore_alpha = 0.7
+#  blur_popups = on
+  animation = slide
+  match:namespace = nwg-dock
+}
