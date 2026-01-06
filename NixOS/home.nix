@@ -73,8 +73,8 @@
       '';
     };
     shellAliases = {
-      nrs = "sudo nixos-rebuild switch --flake ~/Hyprland-Dotfiles/NixOS#nix-btw";
-      nrb = "sudo nixos-rebuild boot --flake ~/Hyprland-Dotfiles/NixOS#nix-btw";
+      nrs = "sudo nixos-rebuild switch --flake ~/Hyprland-Dotfiles/NixOS#nix-btw --impure";
+      nrb = "sudo nixos-rebuild boot --flake ~/Hyprland-Dotfiles/NixOS#nix-btw --impure";
       nfu = "nix flake update";
       nce = "vim ~/Hyprland-Dotfiles/NixOS/configuration.nix";
       nhe = "vim ~/Hyprland-Dotfiles/NixOS/home.nix";
