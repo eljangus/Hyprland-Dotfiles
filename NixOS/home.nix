@@ -186,7 +186,6 @@
     wl-clip-persist
     pamixer
     pavucontrol
-    translate-shell
     eza
     pywalfox-native
     swaynotificationcenter
