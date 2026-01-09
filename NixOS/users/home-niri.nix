@@ -2,8 +2,8 @@
 
 {
   home.stateVersion = "25.11";
-  home.username = "elias";
-  home.homeDirectory = "/home/elias";
+  home.username = "elias-niri";
+  home.homeDirectory = "/home/elias-niri";
 
   # mimeApps
   xdg.mimeApps.enable = true;
@@ -166,8 +166,7 @@
     configPath = ".config/rofi/.hm-config.rasi";
   };
 
-  # Hyprland
-  programs.hyprland.enable = true;
+  # Niri
 
   # User-specific packages
   home.packages = with pkgs; [
@@ -193,11 +192,10 @@
     pywalfox-native
     swaynotificationcenter
     nwg-look
-    nwg-dock-hyprland
+    nwg-dock
     adw-gtk3
     hypridle
     hyprlock
-    hyprpolkitagent
     discord
     nautilus
     file-roller
@@ -216,3 +214,4 @@
     nitch
   ];
 }
+

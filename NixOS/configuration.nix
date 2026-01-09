@@ -62,7 +62,6 @@
   zramSwap.enable = true;
 
   # Desktop Environment
-  programs.hyprland.enable = true;
   programs.dconf.enable = true;
   
   # Shell (required for user shell)
