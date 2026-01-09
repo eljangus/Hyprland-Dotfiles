@@ -17,7 +17,6 @@
         home-manager.nixosModules.home-manager
         {
           home-manager.users.elias = import ./home.nix;
-          home-manager.users.elias-niri = import ./users/home-niri.nix;
         }
          ];
     };

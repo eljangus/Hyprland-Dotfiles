@@ -166,9 +166,6 @@
     configPath = ".config/rofi/.hm-config.rasi";
   };
 
-  # Hyprland
-  programs.hyprland.enable = true;
-
   # User-specific packages
   home.packages = with pkgs; [
     yazi
