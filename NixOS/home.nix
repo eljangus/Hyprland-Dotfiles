@@ -168,6 +168,7 @@
 
   # User-specific packages
   home.packages = with pkgs; [
+    prismlauncher
     yazi
     vscodium
     git

@@ -80,6 +80,9 @@
     package = pkgs.gamescope;
   };
 
+  # Flatpak
+  services.flatpak.enable = false;
+
   # Hardware
   hardware.bluetooth.enable = true;
   hardware.cpu.amd.updateMicrocode = true;
