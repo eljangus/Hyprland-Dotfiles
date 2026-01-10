@@ -91,6 +91,9 @@
       nvidia-vaapi-driver
     ];
   };
+  hardware.opentabletdriver = {
+    enable = false;
+  };
 
   # NVIDIA
   services.xserver.videoDrivers = ["nvidia"];
