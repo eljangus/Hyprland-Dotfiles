@@ -1,3 +1,6 @@
+# !! SEVERELY DEPRECATED USE AT YOUR OWN RISK !!
+
+
 # Hyprland-Dotfiles (NixOS)
 
 <p align="center"><img width="2560" height="1440" alt="2026-01-02-014611_hyprshot" src="https://github.com/user-attachments/assets/401bc502-230c-4e68-9ad6-5cd44aac5bf5" /></p>
